@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="col-md-12 product-wrapper">
+    <div class="col-md-12">
+      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Назад</a>
+        <hr>
+      </div>
+
+    </div>
+
+    <div ng-repeat="item in items | filter: { id : aboutItem} | limitTo: 1">
+      <div class="col-md-12">
+        <div class="col-md-6" ng-repeat="material in item.materials | filter: { name: currentMaterial} | limitTo :1">
+          <a ng-repeat="image in item.materials[$index].images" ng-href="{{image.link}}" data-lightbox="roadtrip"><img ng-src="{{image.link}}"></a>
+        </div>
+        <div class="col-md-6">
+          <p class="product-mat" ng-show="item.materials.oak">Дуб</p>
+          <p class="product-mat" ng-show="item.beech">Бук</p>
+          <p class="product-mat" ng-show="item.birch">Береза</p>
+          <p class="product-mat" ng-show="item.pine">Сосна</p>
+          <small>Артикул товара</small>
+          <h1>{{item.item}}{{item.matdef}}</h1>
+          <h4>Размеры:</h4>
+          <div class="product-sizes">
+            <div ng-show="item.radius_top">
+              <p>Верхний диаметр</p>
+              <p>{{item.radius_top}}&#8202;mm</p>
+              <hr>
+            </div>
+            <div ng-show="item.r">
+              <p>Нижний диаметр</p>
+              <p>{{item.r}}&#8202;mm</p>
+              <hr>
+            </div>
+            <div ng-show="item.a">
+              <p>Длина</p>
+              <p>{{item.a}}&#8202;mm</p>
+              <hr>
+            </div>
+            <div ng-show="item.b">
+              <p>Ширина</p>
+              <p>{{item.b}}&#8202;mm</p>
+              <hr>
+            </div>
+            <div ng-show="item.h">
+              <p>Высота</p>
+              <p>{{item.h}}&#8202;mm</p>
+              <hr>
+            </div>
+          </div>
+          <h3><strong>Покрытие:</strong> {{item.coveroakru}}</h3>
+          <h2>Уточнять о наличии данного товара и условия заказа вы можете у наших менеджеров по эл. почте: <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
+          <h2>Мы работаем только с живым деревом, оттенок и фактура могут различаться, возможны попадания сучков на изделия.</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

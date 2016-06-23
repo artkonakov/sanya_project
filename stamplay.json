@@ -1,0 +1,10 @@
+{
+  "appId": "kolobashkin",
+  "apiKey": "4a9d7c2869fc813448a557ae286fad4a48f9c30893b6297f2c504b4d77326841",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
