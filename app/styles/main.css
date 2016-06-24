@@ -231,9 +231,7 @@ img {
 .image_gallery li:first-child {
   width: 100%;
 }
-.active {
-  border-bottom: 3px solid red:
-}
+
 .item_description a {
   color: #333;
 }

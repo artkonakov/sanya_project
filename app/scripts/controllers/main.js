@@ -15,5 +15,5 @@ angular.module('kolobashkinApp')
       $scope.items = response;
       console.log($scope.items);
     });
-;
+
   }]);

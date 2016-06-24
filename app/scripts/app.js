@@ -1,6 +1,8 @@
 
 'use strict';
-
+lightbox.option({
+    'showImageNumberLabel': false
+  });
 /**
  * @ngdoc overview
  * @name kolobashkinApp

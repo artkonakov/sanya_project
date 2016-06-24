@@ -1,4 +1,1 @@
-lightbox.option({
-    'showImageNumberLabel': false
 
-  })
