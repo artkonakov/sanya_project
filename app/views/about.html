@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-12 product-wrapper">
+  <div class="container product-wrapper">
     <div class="col-md-12">
       <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Назад</a>
         <hr>
@@ -9,16 +9,28 @@
 
     <div ng-repeat="item in items | filter: { id : aboutItem} | limitTo: 1">
       <div class="col-md-12">
-        <div class="col-md-6" ng-repeat="material in item.materials | filter: { name: currentMaterial} | limitTo :1">
-          <a ng-repeat="image in item.materials[$index].images" ng-href="{{image.link}}" data-lightbox="roadtrip"><img ng-src="{{image.link}}"></a>
+        <div class="col-md-6 image_gallery" ng-repeat="material in item.materials | filter: { name: currentMaterial} | limitTo :1">
+          <ul>
+            <li ng-repeat="image in item.materials[index].images">
+              <a href="{{image.link}}" data-lightbox="kolobashkin_images"><img ng-src="{{image.link}}"></a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6">
-          <p class="product-mat" ng-show="item.materials.oak">Дуб</p>
-          <p class="product-mat" ng-show="item.beech">Бук</p>
-          <p class="product-mat" ng-show="item.birch">Береза</p>
-          <p class="product-mat" ng-show="item.pine">Сосна</p>
+        <div class="col-md-6 item_description">
+          <a href="/#/{{item.id}}/{{item.materials[0].name}}">
+          <p class="product-mat" ng-class="{active : currentMaterial == 'oak'}" ng-show="item.materials[0].isShown">Дуб</p>
+          </a>
+          <a href="/#/{{item.id}}/{{item.materials[1].name}}">
+            <p class="product-mat" ng-class="{active : currentMaterial == 'beech'}" ng-show="item.materials[1].isShown">Бук</p>
+          </a>
+          <a href="/#/{{item.id}}/{{item.materials[2].name}}">
+            <p class="product-mat" ng-class="{active : currentMaterial == 'birch'}" ng-show="item.materials[2].isShown">Береза</p>
+          </a>
+          <a href="/#/{{item.id}}/{{item.materials[3].name}}">
+            <p class="product-mat" ng-class="{active : currentMaterial == 'pine'}" ng-show="item.materials[3].isShown">Сосна</p>
+          </a>
           <small>Артикул товара</small>
-          <h1>{{item.item}}{{item.matdef}}</h1>
+          <h1>{{item.materials[index].vendor_code}}</h1>
           <h4>Размеры:</h4>
           <div class="product-sizes">
             <div ng-show="item.radius_top">
@@ -26,31 +38,31 @@
               <p>{{item.radius_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.r">
+            <div ng-show="item.radius_bottom">
               <p>Нижний диаметр</p>
-              <p>{{item.r}}&#8202;mm</p>
+              <p>{{item.radius_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.a">
+            <div ng-show="item.length_top">
               <p>Длина</p>
-              <p>{{item.a}}&#8202;mm</p>
+              <p>{{item.length_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.b">
+            <div ng-show="item.width_top">
               <p>Ширина</p>
-              <p>{{item.b}}&#8202;mm</p>
+              <p>{{item.width_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.h">
+            <div ng-show="item.height">
               <p>Высота</p>
-              <p>{{item.h}}&#8202;mm</p>
+              <p>{{item.height}}&#8202;mm</p>
               <hr>
             </div>
           </div>
-          <h3><strong>Покрытие:</strong> {{item.coveroakru}}</h3>
-          <h2>Уточнять о наличии данного товара и условия заказа вы можете у наших менеджеров по эл. почте: <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
+          <h3><strong>Покрытие:</strong> {{item.materials[index].cover}}</h3>
+          <h2>Уточнить о наличии данного товара и условиях заказа вы можете у наших менеджеров по эл. почте: <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
           <h2>Мы работаем только с живым деревом, оттенок и фактура могут различаться, возможны попадания сучков на изделия.</h2>
-
+          <h1>{{item.materials[index].price}} &#8381;<h1>
         </div>
       </div>
     </div>

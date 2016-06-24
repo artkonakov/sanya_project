@@ -152,7 +152,7 @@ img {
   color: #444;
 }
 .product-wrapper {
-  width:100%;
+  width: 100%;
   height: 100%;
   background: #fff;
   margin-left: 15px;
@@ -209,4 +209,34 @@ img {
   padding: 0;
   width: 100%;
   height: auto;
+}
+.image_gallery ul {
+  display: inline-block;
+  margin: 0;
+  margin-left: -10px;
+  padding: 0;
+  direction: none;
+}
+.image_gallery li {
+  display: inline-block;
+  width: 64px;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.image_gallery li img {
+  border: 1px solid #444;
+}
+.image_gallery li:first-child {
+  width: 100%;
+}
+.active {
+  border-bottom: 3px solid red:
+}
+.item_description a {
+  color: #333;
+}
+.item_description a:hover {
+  text-decoration: none;
 }

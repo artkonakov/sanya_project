@@ -17,6 +17,21 @@ angular.module('kolobashkinApp')
     });
 
     $scope.aboutItem = $routeParams.item;
+
     $scope.currentMaterial = $routeParams.material;
+
+
+    //Проверяем параметр url чтобы установить текущее положение материала в массиве
+    switch ($scope.currentMaterial) {
+      case 'oak': $scope.index = 0
+      break
+      case 'beech': $scope.index = 1
+      break
+      case 'birch': $scope.index = 2
+      break
+      case 'pine': $scope.index = 3
+      break
+    };
+
 
   }]);
