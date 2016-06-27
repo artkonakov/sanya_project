@@ -1,5 +1,5 @@
 <div class="row">
-  <div ng-repeat="item in items | orderBy: '-a'">
+  <div ng-repeat="item in items | orderBy: '-sortCount'">
 
     <div class="col-md-3">
       <a href="/#/{{item.id}}/{{item.default_settings.material}}">
@@ -9,7 +9,7 @@
             <p>{{item.default_settings.price}} &#8381;</p>
           </div>
           <div class="item-action">
-            <a href="/#/{{item.id}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+            <a href="/#/{{item.id}}/{{item.default_settings.material}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
           </div>
           <div class="item-sizes">
             <p>

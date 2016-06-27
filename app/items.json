@@ -1,20 +1,20 @@
 [{
   "id": "P560",
-  "width_top": null,
-  "length_top": null,
+  "width_top": 450,
+  "length_top": 90,
   "radius_top": 60,
-  "width_bottom": null,
-  "length_bottom": null,
+  "width_bottom": 750,
+  "length_bottom": 999,
   "radius_bottom": 160,
   "height": 65,
   "type": "circle",
-  "promo": null,
+  "promo": "Новинка",
   "sortCount": 0,
   "isShown": true,
   "default_settings": {
     "material": "birch",
     "image": "http://kolobashkin.ru/images/items/P560D@3x.jpg",
-    "price": 300,
+    "price": 1000,
     "weight": 100
   },
   "materials": [

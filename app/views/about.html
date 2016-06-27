@@ -1,7 +1,7 @@
 <div class="row">
   <div class="container product-wrapper">
     <div class="col-md-12">
-      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Назад</a>
+      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a>
         <hr>
       </div>
 
@@ -18,51 +18,75 @@
         </div>
         <div class="col-md-6 item_description">
           <a href="/#/{{item.id}}/{{item.materials[0].name}}">
-          <p class="product-mat" ng-class="{active : currentMaterial == 'oak'}" ng-show="item.materials[0].isShown">Дуб</p>
+            <p class="product-mat" ng-class="{active : currentMaterial == 'oak'}" ng-show="item.materials[0].isShown">{{globals.materials[0]}}</p>
           </a>
           <a href="/#/{{item.id}}/{{item.materials[1].name}}">
-            <p class="product-mat" ng-class="{active : currentMaterial == 'beech'}" ng-show="item.materials[1].isShown">Бук</p>
+            <p class="product-mat" ng-class="{active : currentMaterial == 'beech'}" ng-show="item.materials[1].isShown">{{globals.materials[1]}}</p>
           </a>
           <a href="/#/{{item.id}}/{{item.materials[2].name}}">
-            <p class="product-mat" ng-class="{active : currentMaterial == 'birch'}" ng-show="item.materials[2].isShown">Береза</p>
+            <p class="product-mat" ng-class="{active : currentMaterial == 'birch'}" ng-show="item.materials[2].isShown">{{globals.materials[2]}}</p>
           </a>
           <a href="/#/{{item.id}}/{{item.materials[3].name}}">
-            <p class="product-mat" ng-class="{active : currentMaterial == 'pine'}" ng-show="item.materials[3].isShown">Сосна</p>
+            <p class="product-mat" ng-class="{active : currentMaterial == 'pine'}" ng-show="item.materials[3].isShown">{{globals.materials[3]}}</p>
           </a>
-          <small>Артикул товара</small>
+          <small>{{globals.text_vendor_code}}</small>
           <h1>{{item.materials[index].vendor_code}}</h1>
-          <h4>Размеры:</h4>
+          <h4>{{globals.text_sizes}}</h4>
           <div class="product-sizes">
             <div ng-show="item.radius_top">
-              <p>Верхний диаметр</p>
+              <p>{{globals.text_radius_top}}</p>
               <p>{{item.radius_top}}&#8202;mm</p>
               <hr>
             </div>
             <div ng-show="item.radius_bottom">
-              <p>Нижний диаметр</p>
+              <p>{{globals.text_radius_bottom}}</p>
               <p>{{item.radius_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.length_top">
-              <p>Длина</p>
-              <p>{{item.length_top}}&#8202;mm</p>
+            <div ng-show="item.length_bottom">
+              <p>{{globals.text_length_bottom}}</p>
+              <p>{{item.length_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.width_top">
-              <p>Ширина</p>
-              <p>{{item.width_top}}&#8202;mm</p>
+            <div ng-show="item.width_bottom">
+              <p>{{globals.text_width_bottom}}</p>
+              <p>{{item.width_bottom}}&#8202;mm</p>
               <hr>
             </div>
             <div ng-show="item.height">
-              <p>Высота</p>
+              <p>{{globals.text_height}}</p>
               <p>{{item.height}}&#8202;mm</p>
               <hr>
             </div>
           </div>
-          <h3><strong>Покрытие:</strong> {{item.materials[index].cover}}</h3>
-          <h2>Уточнить о наличии данного товара и условиях заказа вы можете у наших менеджеров по эл. почте: <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
-          <h2>Мы работаем только с живым деревом, оттенок и фактура могут различаться, возможны попадания сучков на изделия.</h2>
-          <h1>{{item.materials[index].price}} &#8381;<h1>
+
+          <h4 ng-show="item.length_top && item.width_top">{{globals.text_surface}}</h4>
+          <div class="product-sizes">
+            <div ng-show="item.length_top">
+              <p>{{globals.text_lenght_top}}</p>
+              <p>{{item.length_top}}&#8202;mm</p>
+              <hr>
+            </div>
+            <div ng-show="item.width_top">
+              <p>{{globals.text_width_top}}</p>
+              <p>{{item.width_top}}&#8202;mm</p>
+              <hr>
+            </div>
+          </div>
+
+          <h4 ng-show="{{item.materials[index].weight}}">{{globals.text_mass}}</h4>
+          <div class="product-sizes">
+            <div ng-show="item.length_top">
+              <p>{{globals.text_weight}}</p>
+              <p>{{item.materials[index].weight}}&#8202;g</p>
+              <hr>
+            </div>
+          </div>
+
+          <h3><strong>{{globals.text_cover}}</strong> {{item.materials[index].cover}}</h3>
+          <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
+          <h2>{{globals.text_product_2}}</h2>
+          <h1><currency ng-if="(globals.currency == '$')">$</currency>{{item.materials[index].price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>
         </div>
       </div>
     </div>

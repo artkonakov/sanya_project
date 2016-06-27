@@ -16,10 +16,15 @@ angular.module('kolobashkinApp')
       console.log($scope.items);
     });
 
+  
+    getItems.getUrl('/globals.json').success(function(response) {
+      $scope.globals = response;
+      console.log($scope.globals);
+    });
+
     $scope.aboutItem = $routeParams.item;
 
     $scope.currentMaterial = $routeParams.material;
-
 
     //Проверяем параметр url чтобы установить текущее положение материала в массиве
     switch ($scope.currentMaterial) {
