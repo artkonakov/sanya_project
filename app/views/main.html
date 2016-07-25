@@ -13,7 +13,7 @@
           </div>
           <div class="item-sizes">
             <p>
-              <span ng-show="item.radius_top">&Oslash;&#8202;{{item.radius_top}} x</span>
+              <span ng-show="item.diameter_top">&Oslash;&#8202;{{item.diameter_top}} x</span>
               <span ng-show="item.width_top">{{item.width_top}} x</span>
               <span ng-show="item.length_top">{{item.length_top}} x</span>
               <span ng-show="item.height">{{item.height}}</span>&#8202;mm
@@ -21,10 +21,10 @@
           </div>
           <div class="item-materials">
             <p>
-              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="item.materials[0]"></img>
-              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="item.materials[1]"></img>
-              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="item.materials[2]"></img>
-              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="item.materials[3]"></img>
+              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="item.materials[0].name == 'oak'"></img>
+              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="item.materials[1].name == 'beech'"></img>
+              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="item.materials[2].name == 'birch'"></img>
+              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="item.materials[3].name == 'pine'"></img>
             </p>
           </div>
           <div class="item-new" ng-show="item.promo">

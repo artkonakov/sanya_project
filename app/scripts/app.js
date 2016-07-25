@@ -18,7 +18,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngCart'
   ])
   .config(function($routeProvider) {
     $routeProvider
@@ -31,6 +32,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/cart', {
+        templateUrl: 'views/cart.html',
+        controller: 'CartCtrl',
+        controllerAs: 'cart'
       })
       .otherwise({
         redirectTo: '/'
@@ -47,5 +53,17 @@ angular
   };
 
 
+}])
+
+.factory('Cart', ['$scope', function($scope) {
+
+  return {
+    getCart: function() {
+
+    },
+    addToCart: function() {
+
+    }
+  };
 
 }]);

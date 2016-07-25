@@ -1,0 +1,171 @@
+[{
+  "id": "P560",
+  "width_top": 450,
+  "length_top": 90,
+  "radius_top": 60,
+  "width_bottom": 750,
+  "length_bottom": 999,
+  "radius_bottom": 160,
+  "height": 65,
+  "type": "circle",
+  "promo": "Новинка",
+  "sortCount": 0,
+  "isShown": true,
+  "default_settings": {
+    "material": "birch",
+    "image": "http://kolobashkin.ru/images/items/P560D@3x.jpg",
+    "price": 1000,
+    "weight": 100
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 300,
+      "weight": 100,
+      "cover": "oak",
+      "description": "Подходит для моделей средних размеров",
+      "vendor_code": "P560A",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/P560D@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/P560D_2@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170B@3x.jpg"
+      },
+      {
+        "link": "http://kolobashkin.ru/images/items/R170B_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 400,
+      "weight": 100,
+      "cover": "beech",
+      "description": "string",
+      "vendor_code": "P560B",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170B@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/P560D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "birch",
+      "price": 1000,
+      "weight": 100,
+      "cover": "birch",
+      "description": "string",
+      "description": "Подходит для моделей средних размеров",
+      "vendor_code": "P560C",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170D_2@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170D@3x.jpg"
+      }]
+    },
+    {
+      "name": "pine",
+      "price": 500,
+      "weight": 100,
+      "cover": "pine",
+      "description": "string",
+      "vendor_code": "P560D",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170S@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170S_2@3x.jpg"
+      }]
+    }
+  ]
+},
+{
+  "id": "P560",
+  "width_top": 450,
+  "length_top": 90,
+  "radius_top": 60,
+  "width_bottom": 750,
+  "length_bottom": 999,
+  "radius_bottom": 160,
+  "height": 65,
+  "type": "circle",
+  "promo": "Новинка",
+  "sortCount": 0,
+  "isShown": true,
+  "default_settings": {
+    "material": "birch",
+    "image": "http://kolobashkin.ru/images/items/P560D@3x.jpg",
+    "price": 1000,
+    "weight": 100
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 300,
+      "weight": 100,
+      "cover": "oak",
+      "description": "Подходит для моделей средних размеров",
+      "vendor_code": "P560A",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/P560D@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/P560D_2@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170B@3x.jpg"
+      },
+      {
+        "link": "http://kolobashkin.ru/images/items/R170B_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 400,
+      "weight": 100,
+      "cover": "beech",
+      "description": "string",
+      "vendor_code": "P560B",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170B@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/P560D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "birch",
+      "price": 1000,
+      "weight": 100,
+      "cover": "birch",
+      "description": "string",
+      "description": "Подходит для моделей средних размеров",
+      "vendor_code": "P560C",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170D_2@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170D@3x.jpg"
+      }]
+    },
+    {
+      "name": "pine",
+      "price": 500,
+      "weight": 100,
+      "cover": "pine",
+      "description": "string",
+      "vendor_code": "P560D",
+      "isShown": true,
+      "images": [{
+        "link": "http://kolobashkin.ru/images/items/R170S@3x.jpg"
+      }, {
+        "link": "http://kolobashkin.ru/images/items/R170S_2@3x.jpg"
+      }]
+    }
+  ]
+}
+
+
+]

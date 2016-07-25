@@ -4,11 +4,11 @@
  * @ngdoc function
  * @name kolobashkinApp.controller:MainCtrl
  * @description
- * # MainCtrl
+ * # CartCtrl
  * Controller of the kolobashkinApp
  */
 angular.module('kolobashkinApp')
-  .controller("MainCtrl", ['$scope', 'getItems', function($scope, getItems) {
+  .controller("MainCtrl", ['$scope', 'getItems', '$rootScope', function($scope, getItems, $rootScope) {
 
     //Делаем запрос к серверу через фабрику
     getItems.getUrl('/items.json').success(function(response) {
@@ -19,4 +19,5 @@ angular.module('kolobashkinApp')
       $scope.globals = response;
       console.log($scope.globals);
     });
+    $rootScope.cart = [];
   }]);

@@ -1,7 +1,7 @@
 <div class="row">
   <div class="container product-wrapper">
     <div class="col-md-12">
-      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a>
+      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a> <ngcart-summary></ngcart-summary>
         <hr>
       </div>
 
@@ -31,16 +31,17 @@
           </a>
           <small>{{globals.text_vendor_code}}</small>
           <h1>{{item.materials[index].vendor_code}}</h1>
+          <h1><currency ng-if="(globals.currency == '$')">$</currency>{{item.materials[index].price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>
           <h4>{{globals.text_sizes}}</h4>
           <div class="product-sizes">
-            <div ng-show="item.radius_top">
-              <p>{{globals.text_radius_top}}</p>
-              <p>{{item.radius_top}}&#8202;mm</p>
+            <div ng-show="item.diameters_top">
+              <p>{{globals.text_diameter_top}}</p>
+              <p>{{item.diameter_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.radius_bottom">
-              <p>{{globals.text_radius_bottom}}</p>
-              <p>{{item.radius_bottom}}&#8202;mm</p>
+            <div ng-show="item.diameter_bottom">
+              <p>{{globals.text_diameter_bottom}}</p>
+              <p>{{item.diameter_bottom}}&#8202;mm</p>
               <hr>
             </div>
             <div ng-show="item.length_bottom">
@@ -86,7 +87,8 @@
           <h3><strong>{{globals.text_cover}}</strong> {{item.materials[index].cover}}</h3>
           <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
           <h2>{{globals.text_product_2}}</h2>
-          <h1><currency ng-if="(globals.currency == '$')">$</currency>{{item.materials[index].price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>
+          <ngcart-addtocart id="{{item.materials[index].vendor_code}}" name="{{item.materials[index].vendor_code}}" price="{{item.materials[index].price}}" quantity="1" quantity-max="30">Добавить</ngcart-addtocart>
+
         </div>
       </div>
     </div>
