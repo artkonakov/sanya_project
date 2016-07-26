@@ -13,7 +13,9 @@
   "sortCount": 0,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P560D@3x.jpg",
+    "price": 450
   },
   "materials": [
     {
@@ -49,7 +51,9 @@
   "sortCount": 10,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P560CD@3x.jpg",
+    "price": 450
   },
   "materials": [
     {
@@ -85,7 +89,9 @@
   "sortCount": 20,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P460D@3x.jpg",
+    "price": 450
   },
   "materials": [
     {
@@ -121,7 +127,9 @@
   "sortCount": 30,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P460CD@3x.jpg",
+    "price": 450
   },
   "materials": [
     {
@@ -157,7 +165,9 @@
   "sortCount": 40,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R160D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -209,7 +219,9 @@
   "sortCount": 50,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R260B@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -245,7 +257,9 @@
   "sortCount": 60,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R360B@3x.jpg",
+    "price": 170
   },
   "materials": [
     {
@@ -281,7 +295,9 @@
   "sortCount": 70,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R460D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -333,7 +349,9 @@
   "sortCount": 80,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R560D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -385,7 +403,9 @@
   "sortCount": 90,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R170D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -437,7 +457,9 @@
   "sortCount": 100,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R270B@3x.jpg",
+    "price": 240
   },
   "materials": [
     {
@@ -473,7 +495,9 @@
   "sortCount": 110,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R370B@3x.jpg",
+    "price": 200
   },
   "materials": [
     {
@@ -509,7 +533,9 @@
   "sortCount": 120,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R470B@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -545,7 +571,9 @@
   "sortCount": 130,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R570B@3x.jpg",
+    "price": 200
   },
   "materials": [
     {
@@ -581,7 +609,9 @@
   "sortCount": 140,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R180D@3x.jpg",
+    "price": 380
   },
   "materials": [
     {
@@ -633,7 +663,9 @@
   "sortCount": 150,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R280B@3x.jpg",
+    "price": 290
   },
   "materials": [
     {
@@ -669,7 +701,9 @@
   "sortCount": 160,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R380B@3x.jpg",
+    "price": 250
   },
   "materials": [
     {
@@ -705,7 +739,9 @@
   "sortCount": 170,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R480B@3x.jpg",
+    "price": 250
   },
   "materials": [
     {
@@ -741,7 +777,9 @@
   "sortCount": 180,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R580B@3x.jpg",
+    "price": 250
   },
   "materials": [
     {
@@ -777,7 +815,9 @@
   "sortCount": 190,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R1120D@3x.jpg",
+    "price": 790
   },
   "materials": [
     {
@@ -829,7 +869,9 @@
   "sortCount": 200,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/R2120D@3x.jpg",
+    "price": 850
   },
   "materials": [
     {
@@ -881,7 +923,9 @@
   "sortCount": 210,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R3120B@3x.jpg",
+    "price": 420
   },
   "materials": [
     {
@@ -917,7 +961,9 @@
   "sortCount": 220,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R4120B@3x.jpg",
+    "price": 420
   },
   "materials": [
     {
@@ -953,7 +999,9 @@
   "sortCount": 230,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/R5120B@3x.jpg",
+    "price": 420
   },
   "materials": [
     {
@@ -989,7 +1037,9 @@
   "sortCount": 240,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P130D@3x.jpg",
+    "price": 180
   },
   "materials": [
     {
@@ -1041,7 +1091,9 @@
   "sortCount": 250,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P248D@3x.jpg",
+    "price": 320
   },
   "materials": [
     {
@@ -1093,7 +1145,9 @@
   "sortCount": 260,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/P370B@3x.jpg",
+    "price": 460
   },
   "materials": [
     {
@@ -1150,7 +1204,9 @@
   "sortCount": 270,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S16D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -1206,7 +1262,9 @@
   "sortCount": 280,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S112B@3x.jpg",
+    "price": 200
   },
   "materials": [
     {
@@ -1243,7 +1301,9 @@
   "sortCount": 290,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S115B@3x.jpg",
+    "price": 240
   },
   "materials": [
     {
@@ -1281,7 +1341,9 @@
   "sortCount": 300,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S118D@3x.jpg",
+    "price": 560
   },
   "materials": [
     {
@@ -1334,7 +1396,9 @@
   "sortCount": 310,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S125B@3x.jpg",
+    "price": 400
   },
   "materials": [
     {
@@ -1371,7 +1435,9 @@
   "sortCount": 320,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S130D@3x.jpg",
+    "price": 1000
   },
   "materials": [
     {
@@ -1424,7 +1490,9 @@
   "sortCount": 330,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S135B@3x.jpg",
+    "price": 800
   },
   "materials": [
     {
@@ -1461,7 +1529,9 @@
   "sortCount": 340,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S24D@3x.jpg",
+    "price": 180
   },
   "materials": [
     {
@@ -1515,7 +1585,9 @@
   "sortCount": 350,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S26D@3x.jpg",
+    "price": 210
   },
   "materials": [
     {
@@ -1569,7 +1641,9 @@
   "sortCount": 360,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S210B@3x.jpg",
+    "price": 250
   },
   "materials": [
     {
@@ -1607,7 +1681,9 @@
   "sortCount": 370,
   "isShown": true,
   "default_settings": {
-    "material": "oak"
+    "material": "oak",
+    "image": "http://kolobashkin.ru/images/items/S212D@3x.jpg",
+    "price": 430
   },
   "materials": [
     {
@@ -1660,7 +1736,9 @@
   "sortCount": 380,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S215B@3x.jpg",
+    "price": 240
   },
   "materials": [
     {
@@ -1697,7 +1775,9 @@
   "sortCount": 390,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S218B@3x.jpg",
+    "price": 300
   },
   "materials": [
     {
@@ -1735,7 +1815,9 @@
   "sortCount": 400,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S220B@3x.jpg",
+    "price": 470
   },
   "materials": [
     {
@@ -1773,7 +1855,9 @@
   "sortCount": 410,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S225B@3x.jpg",
+    "price": 400
   },
   "materials": [
     {
@@ -1810,7 +1894,9 @@
   "sortCount": 420,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S230UB@3x.jpg",
+    "price": 500
   },
   "materials": [
     {
@@ -1847,7 +1933,9 @@
   "sortCount": 430,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S230B@3x.jpg",
+    "price": 680
   },
   "materials": [
     {
@@ -1884,7 +1972,9 @@
   "sortCount": 440,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S235B@3x.jpg",
+    "price": 800
   },
   "materials": [
     {
@@ -1921,7 +2011,9 @@
   "sortCount": 450,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S255B@3x.jpg",
+    "price": 1000
   },
   "materials": [
     {
@@ -1959,7 +2051,9 @@
   "sortCount": 460,
   "isShown": true,
   "default_settings": {
-    "material": "beech"
+    "material": "beech",
+    "image": "http://kolobashkin.ru/images/items/S275B@3x.jpg",
+    "price": 1400
   },
   "materials": [
     {
