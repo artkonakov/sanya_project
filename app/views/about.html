@@ -11,12 +11,16 @@
       <div class="col-md-12">
         <div class="col-md-6 image_gallery" ng-repeat="material in item.materials | filter: { name: currentMaterial} | limitTo :1">
           <ul>
-            <li ng-repeat="image in item.materials[index].images">
+            <li ng-repeat="image in material.images">
               <a href="{{image.link}}" data-lightbox="kolobashkin_images"><img ng-src="{{image.link}}"></a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 item_description">
+          <div ng-repeat="material in item.materials">
+            <a href="/#/{{item.id}}/{{item.materials[$index].name}}">{{item.materials[$index].name}}</a>
+          </div>
+          <!--
           <a href="/#/{{item.id}}/{{item.materials[0].name}}">
             <p class="product-mat" ng-class="{active : currentMaterial == 'oak'}" ng-show="item.materials[0].isShown">{{globals.materials[0]}}</p>
           </a>
@@ -29,6 +33,8 @@
           <a href="/#/{{item.id}}/{{item.materials[3].name}}">
             <p class="product-mat" ng-class="{active : currentMaterial == 'pine'}" ng-show="item.materials[3].isShown">{{globals.materials[3]}}</p>
           </a>
+        -->
+
           <small>{{globals.text_vendor_code}}</small>
           <h1>{{item.materials[index].vendor_code}}</h1>
           <h1><currency ng-if="(globals.currency == '$')">$</currency>{{item.materials[index].price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>

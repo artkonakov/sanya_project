@@ -29,15 +29,30 @@ angular.module('kolobashkinApp')
 
     //Проверяем параметр url чтобы установить текущее положение материала в массиве
     switch ($scope.currentMaterial) {
-      case 'oak': $scope.index = 0;
-      break;
-      case 'beech': $scope.index = 1;
-      break;
-      case 'birch': $scope.index = 2;
-      break;
-      case 'pine': $scope.index = 3;
-      break;
-    }
+      case 'oak':
+        $scope.index = 0;
+        break;
+      case 'beech':
+        $scope.index = 1;
+        break;
+      case 'birch':
+        $scope.index = 2;
+        break;
+      case 'pine':
+        $scope.index = 3;
+        break;
+    };
+
+
+    function find(array, value) {
+
+      for (var i = 0; i < array.length; i++) {
+        if (array[i] == value) return i;
+      }
+
+      return -1;
+    };
+    
 
 
   }]);
