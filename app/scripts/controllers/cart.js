@@ -8,7 +8,7 @@
  * Controller of the kolobashkinApp
  */
 angular.module('kolobashkinApp')
-  .controller("CartCtrl", ['$scope', 'getItems', '$rootScope', function($scope, getItems, $rootScope) {
+  .controller("CartCtrl", [function() {
 
 
   }]);

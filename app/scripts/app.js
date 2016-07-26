@@ -1,8 +1,6 @@
 
 'use strict';
-lightbox.option({
-    'showImageNumberLabel': false
-  });
+
 /**
  * @ngdoc overview
  * @name kolobashkinApp
@@ -21,6 +19,13 @@ angular
     'ngTouch',
     'ngCart'
   ])
+
+  .run(function(){
+
+    lightbox.option({
+        'showImageNumberLabel': false
+      });
+  })
   .config(function($routeProvider) {
     $routeProvider
       .when('/', {
@@ -52,18 +57,5 @@ angular
     }
   };
 
-
-}])
-
-.factory('Cart', ['$scope', function($scope) {
-
-  return {
-    getCart: function() {
-
-    },
-    addToCart: function() {
-
-    }
-  };
 
 }]);

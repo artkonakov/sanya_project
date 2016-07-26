@@ -4,7 +4,7 @@
     <div class="col-md-3">
       <a href="/#/{{item.id}}/{{item.default_settings.material}}">
         <div class="wrapper">
-          <img ng-src="{{item.default_settings.image}}">
+        <img ng-src="{{item.default_settings.image}}">
           <div class="item-description">
             <p>{{item.default_settings.price}} &#8381;</p>
           </div>
@@ -21,10 +21,12 @@
           </div>
           <div class="item-materials">
             <p>
-              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="item.materials[0].name == 'oak'"></img>
-              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="item.materials[1].name == 'beech'"></img>
-              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="item.materials[2].name == 'birch'"></img>
-              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="item.materials[3].name == 'pine'"></img>
+              <span ng-repeat="material in item.materials">
+              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="material.name == 'oak'"></img>
+              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="material.name == 'beech'"></img>
+              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="material.name == 'birch'"></img>
+              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="material.name == 'pine'"></img>
+            </span>
             </p>
           </div>
           <div class="item-new" ng-show="item.promo">
