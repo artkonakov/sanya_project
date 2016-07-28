@@ -1,8 +1,8 @@
 <?
 // ----------------------------конфигурация-------------------------- //
 
-$adminemail="info@kolobashkin.ru";  // e-mail админа
-
+//$adminemail="info@kolobashkin.ru";  // e-mail админа
+$adminemail=$_POST['adminemail']; // e-mail для теста
 
 $date=date("d.m.y"); // число.месяц.год
 

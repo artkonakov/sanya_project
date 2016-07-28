@@ -4,6 +4,10 @@
 
     <p>{{ngCart.getCart()}}</p>
     <form action="post.php" method="POST">
+      <p>Email для теста: </p>
+      <p>
+        <input type="text" name="adminemail" value=info@kolobashkin.ru>
+      </p>
 
       <p>Имя: </p>
       <p>
@@ -26,7 +30,7 @@
           <input type="text" value="<h1>{{item._id}}</h1><h2>{{item._quantity}}</h2>" name="{{$index}}"></input>
         </div>
         <input type="text" value="{{ngCart.getCart().items.length}}" name="count"></input>
-        
+
       </p>
 
       <input type="submit" value="Отправить"> </form>
