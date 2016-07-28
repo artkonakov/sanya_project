@@ -82,8 +82,8 @@ fclose($f);
 
 // Выводим сообщение пользователю
 
-print "<script language='Javascript'><!--
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000);
+#print "<script language='Javascript'><!--
+#function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000);
 //--></script>
 
 $msg
