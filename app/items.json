@@ -1,14 +1,14 @@
 [{
   "id": "P560",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 65,
-  "diameter_top": 40,
+  "height": 65,    
+  "diameter_top": 40,  
   "diameter_bottom": 60,
-  "promo": "Самая популярная",
+  "promo": "",
   "promo_en": "",
   "sortCount": 0,
   "isShown": true,
@@ -25,7 +25,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "",      
       "vendor_code": "P560D",
       "isShown": true,
       "images": [{
@@ -38,13 +38,13 @@
 },
 {
   "id": "P560C",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 85,
-  "diameter_top": 55,
+  "height": 85,    
+  "diameter_top": 55,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -63,7 +63,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P560CD",
       "isShown": true,
       "images": [{
@@ -76,13 +76,13 @@
 },
 {
   "id": "P460",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": 40,
   "width_top": 40,
-  "length_bottom": 60,
+  "length_bottom": 60,  
   "width_bottom": 60,
-  "height": 65,
-  "diameter_top": null,
+  "height": 65,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -101,7 +101,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P460D",
       "isShown": true,
       "images": [{
@@ -114,13 +114,13 @@
 },
 {
   "id": "P460C",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": 57,
   "width_top": 39,
-  "length_bottom": 60,
+  "length_bottom": 60,  
   "width_bottom": 60,
-  "height": 85,
-  "diameter_top": null,
+  "height": 85,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -139,7 +139,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P460CD",
       "isShown": true,
       "images": [{
@@ -152,13 +152,13 @@
 },
 {
   "id": "R160",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 14,
-  "diameter_top": 50,
+  "height": 14,    
+  "diameter_top": 50,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -177,7 +177,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R160D",
       "isShown": true,
       "images": [{
@@ -193,7 +193,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R160B",
       "isShown": true,
       "images": [{
@@ -201,18 +201,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R160B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R260",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 14,
-  "diameter_top": 50,
+  "height": 14,    
+  "diameter_top": 50,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -231,7 +231,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R260B",
       "isShown": true,
       "images": [{
@@ -244,13 +244,13 @@
 },
 {
   "id": "R360",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 14,
-  "diameter_top": 50,
+  "height": 14,    
+  "diameter_top": 50,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -269,7 +269,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R360B",
       "isShown": true,
       "images": [{
@@ -282,13 +282,13 @@
 },
 {
   "id": "R460",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 14,
-  "diameter_top": 50,
+  "height": 14,    
+  "diameter_top": 50,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -307,7 +307,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R460D",
       "isShown": true,
       "images": [{
@@ -323,7 +323,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R460B",
       "isShown": true,
       "images": [{
@@ -331,18 +331,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R460B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R560",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 14,
-  "diameter_top": 45,
+  "height": 14,    
+  "diameter_top": 45,  
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
@@ -361,7 +361,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R560D",
       "isShown": true,
       "images": [{
@@ -377,7 +377,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R560B",
       "isShown": true,
       "images": [{
@@ -385,18 +385,19 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R560B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
+
 {
   "id": "R170",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 17,
-  "diameter_top": 60,
+  "height": 17,    
+  "diameter_top": 60,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -415,7 +416,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R170D",
       "isShown": true,
       "images": [{
@@ -431,7 +432,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R170B",
       "isShown": true,
       "images": [{
@@ -439,18 +440,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R170B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R270",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 18,
-  "diameter_top": 60,
+  "height": 18,    
+  "diameter_top": 60,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -469,7 +470,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R270B",
       "isShown": true,
       "images": [{
@@ -482,13 +483,13 @@
 },
 {
   "id": "R370",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 17,
-  "diameter_top": 60,
+  "height": 17,    
+  "diameter_top": 60,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -507,7 +508,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R370B",
       "isShown": true,
       "images": [{
@@ -520,13 +521,13 @@
 },
 {
   "id": "R470",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 17,
-  "diameter_top": 60,
+  "height": 17,    
+  "diameter_top": 60,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -545,7 +546,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R470B",
       "isShown": true,
       "images": [{
@@ -558,13 +559,13 @@
 },
 {
   "id": "R570",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 17,
-  "diameter_top": 50,
+  "height": 17,    
+  "diameter_top": 50,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -583,7 +584,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R570B",
       "isShown": true,
       "images": [{
@@ -596,13 +597,13 @@
 },
 {
   "id": "R180",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 19,
-  "diameter_top": 70,
+  "height": 19,    
+  "diameter_top": 70,  
   "diameter_bottom": 80,
   "promo": "",
   "promo_en": "",
@@ -621,7 +622,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R180D",
       "isShown": true,
       "images": [{
@@ -637,7 +638,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R180B",
       "isShown": true,
       "images": [{
@@ -645,18 +646,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R180B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R280",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 20,
-  "diameter_top": 70,
+  "height": 20,    
+  "diameter_top": 70,  
   "diameter_bottom": 80,
   "promo": "",
   "promo_en": "",
@@ -675,7 +676,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R280B",
       "isShown": true,
       "images": [{
@@ -688,13 +689,13 @@
 },
 {
   "id": "R380",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 19,
-  "diameter_top": 70,
+  "height": 19,    
+  "diameter_top": 70,  
   "diameter_bottom": 80,
   "promo": "",
   "promo_en": "",
@@ -713,7 +714,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R380B",
       "isShown": true,
       "images": [{
@@ -726,13 +727,13 @@
 },
 {
   "id": "R480",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 19,
-  "diameter_top": 70,
+  "height": 19,    
+  "diameter_top": 70,  
   "diameter_bottom": 80,
   "promo": "",
   "promo_en": "",
@@ -751,7 +752,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R480B",
       "isShown": true,
       "images": [{
@@ -764,13 +765,13 @@
 },
 {
   "id": "R580",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 17,
-  "diameter_top": 60,
+  "height": 17,    
+  "diameter_top": 60,  
   "diameter_bottom": 80,
   "promo": "",
   "promo_en": "",
@@ -789,7 +790,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R580B",
       "isShown": true,
       "images": [{
@@ -802,13 +803,13 @@
 },
 {
   "id": "R1120",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 23,
-  "diameter_top": 110,
+  "height": 23,    
+  "diameter_top": 110,  
   "diameter_bottom": 120,
   "promo": "",
   "promo_en": "",
@@ -827,7 +828,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R1120D",
       "isShown": true,
       "images": [{
@@ -843,7 +844,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R1120B",
       "isShown": true,
       "images": [{
@@ -851,18 +852,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R1120B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R2120",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 24,
-  "diameter_top": 110,
+  "height": 24,    
+  "diameter_top": 110,  
   "diameter_bottom": 120,
   "promo": "",
   "promo_en": "",
@@ -881,7 +882,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R1120D",
       "isShown": true,
       "images": [{
@@ -897,7 +898,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R2120B",
       "isShown": true,
       "images": [{
@@ -905,22 +906,22 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R2120B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "R3120",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 23,
-  "diameter_top": 110,
+  "height": 23,    
+  "diameter_top": 110,  
   "diameter_bottom": 120,
-  "promo": "РАСПРОДАЖА",
+  "promo": "",
   "promo_en": "",
-  "sortCount": 1,
+  "sortCount": 210,
   "isShown": true,
   "default_settings": {
     "material": "beech",
@@ -935,7 +936,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R3120B",
       "isShown": true,
       "images": [{
@@ -948,13 +949,13 @@
 },
 {
   "id": "R4120",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 23,
-  "diameter_top": 110,
+  "height": 23,    
+  "diameter_top": 110,  
   "diameter_bottom": 120,
   "promo": "",
   "promo_en": "",
@@ -973,7 +974,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R4120B",
       "isShown": true,
       "images": [{
@@ -986,13 +987,13 @@
 },
 {
   "id": "R5120",
-  "type": "round",
+  "type": "round",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 22,
-  "diameter_top": 110,
+  "height": 22,    
+  "diameter_top": 110,  
   "diameter_bottom": 120,
   "promo": "",
   "promo_en": "",
@@ -1011,7 +1012,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "R5120B",
       "isShown": true,
       "images": [{
@@ -1024,13 +1025,13 @@
 },
 {
   "id": "P130",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 20,
-  "diameter_top": 25,
+  "height": 20,    
+  "diameter_top": 25,  
   "diameter_bottom": 30,
   "promo": "",
   "promo_en": "",
@@ -1049,7 +1050,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P130D",
       "isShown": true,
       "images": [{
@@ -1065,7 +1066,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P130B",
       "isShown": true,
       "images": [{
@@ -1073,18 +1074,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/R130B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "P248",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 32,
-  "diameter_top": 40,
+  "height": 32,    
+  "diameter_top": 40,  
   "diameter_bottom": 48,
   "promo": "",
   "promo_en": "",
@@ -1103,7 +1104,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P248D",
       "isShown": true,
       "images": [{
@@ -1119,7 +1120,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P248B",
       "isShown": true,
       "images": [{
@@ -1127,18 +1128,18 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/P248B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 {
   "id": "P370",
-  "type": "plinth",
+  "type": "plinth",  
   "length_top": null,
   "width_top": null,
-  "length_bottom": null,
+  "length_bottom": null,  
   "width_bottom": null,
-  "height": 45,
-  "diameter_top": 60,
+  "height": 45,    
+  "diameter_top": 60,  
   "diameter_bottom": 70,
   "promo": "",
   "promo_en": "",
@@ -1157,7 +1158,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P370D",
       "isShown": true,
       "images": [{
@@ -1173,7 +1174,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "P370B",
       "isShown": true,
       "images": [{
@@ -1181,7 +1182,7 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/P370B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
@@ -1191,13 +1192,13 @@
 
 {
   "id": "S16",
-  "type": "square",
+  "type": "square",  
   "length_top": 65,
   "width_top": 65,
-  "length_bottom": 80,
+  "length_bottom": 80,  
   "width_bottom": 80,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1216,7 +1217,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S16D",
       "isShown": true,
       "images": [{
@@ -1232,7 +1233,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S16B",
       "isShown": true,
       "images": [{
@@ -1240,7 +1241,7 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S16B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
@@ -1249,13 +1250,13 @@
 
 {
   "id": "S112",
-  "type": "square",
+  "type": "square",  
   "length_top": 125,
   "width_top": 85,
-  "length_bottom": 140,
+  "length_bottom": 140,  
   "width_bottom": 100,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1274,7 +1275,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S112B",
       "isShown": true,
       "images": [{
@@ -1288,13 +1289,13 @@
 
 {
   "id": "S115",
-  "type": "square",
+  "type": "square",  
   "length_top": 155,
   "width_top": 105,
-  "length_bottom": 170,
+  "length_bottom": 170,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1313,7 +1314,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S115B",
       "isShown": true,
       "images": [{
@@ -1328,13 +1329,13 @@
 
 {
   "id": "S118",
-  "type": "square",
+  "type": "square",  
   "length_top": 185,
   "width_top": 105,
-  "length_bottom": 200,
+  "length_bottom": 200,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1353,7 +1354,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S118D",
       "isShown": true,
       "images": [{
@@ -1369,7 +1370,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S118B",
       "isShown": true,
       "images": [{
@@ -1377,19 +1378,19 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S118B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
 {
   "id": "S125",
-  "type": "square",
+  "type": "square",  
   "length_top": 255,
   "width_top": 125,
-  "length_bottom": 270,
+  "length_bottom": 270,  
   "width_bottom": 140,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1408,7 +1409,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S125B",
       "isShown": true,
       "images": [{
@@ -1422,13 +1423,13 @@
 
 {
   "id": "S130",
-  "type": "square",
+  "type": "square",  
   "length_top": 305,
   "width_top": 155,
-  "length_bottom": 320,
+  "length_bottom": 320,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1447,7 +1448,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S130D",
       "isShown": true,
       "images": [{
@@ -1463,7 +1464,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S130B",
       "isShown": true,
       "images": [{
@@ -1471,19 +1472,19 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S130B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
 {
   "id": "S135",
-  "type": "square",
+  "type": "square",  
   "length_top": 355,
   "width_top": 155,
-  "length_bottom": 370,
+  "length_bottom": 370,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1502,7 +1503,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S135B",
       "isShown": true,
       "images": [{
@@ -1516,13 +1517,13 @@
 
 {
   "id": "S24",
-  "type": "square",
+  "type": "square",  
   "length_top": 40,
   "width_top": 40,
-  "length_bottom": 60,
+  "length_bottom": 60,  
   "width_bottom": 60,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1541,7 +1542,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S24D",
       "isShown": true,
       "images": [{
@@ -1557,7 +1558,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S24B",
       "isShown": true,
       "images": [{
@@ -1565,20 +1566,20 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S24B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
 
 {
   "id": "S26",
-  "type": "square",
+  "type": "square",  
   "length_top": 60,
   "width_top": 60,
-  "length_bottom": 80,
+  "length_bottom": 80,  
   "width_bottom": 80,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1597,7 +1598,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S26D",
       "isShown": true,
       "images": [{
@@ -1613,7 +1614,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S26B",
       "isShown": true,
       "images": [{
@@ -1621,20 +1622,20 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S26B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
 
 {
   "id": "S210",
-  "type": "square",
+  "type": "square",  
   "length_top": 100,
   "width_top": 100,
-  "length_bottom": 120,
+  "length_bottom": 120,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1653,7 +1654,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S210B",
       "isShown": true,
       "images": [{
@@ -1668,13 +1669,13 @@
 
 {
   "id": "S212",
-  "type": "square",
+  "type": "square",  
   "length_top": 120,
   "width_top": 80,
-  "length_bottom": 140,
+  "length_bottom": 140,  
   "width_bottom": 100,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1693,7 +1694,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S212D",
       "isShown": true,
       "images": [{
@@ -1709,7 +1710,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S212B",
       "isShown": true,
       "images": [{
@@ -1717,19 +1718,19 @@
       }, {
         "link": "http://kolobashkin.ru/images/items/S212B_2@3x.jpg"
       }]
-    }
+    }    
   ]
 },
 
 {
   "id": "S215",
-  "type": "square",
+  "type": "square",  
   "length_top": 150,
   "width_top": 100,
-  "length_bottom": 170,
+  "length_bottom": 170,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1748,7 +1749,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S215B",
       "isShown": true,
       "images": [{
@@ -1762,13 +1763,13 @@
 
 {
   "id": "S218",
-  "type": "square",
+  "type": "square",  
   "length_top": 180,
   "width_top": 100,
-  "length_bottom": 200,
+  "length_bottom": 200,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1787,7 +1788,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S218B",
       "isShown": true,
       "images": [{
@@ -1802,13 +1803,13 @@
 
 {
   "id": "S220",
-  "type": "square",
+  "type": "square",  
   "length_top": 200,
   "width_top": 150,
-  "length_bottom": 220,
+  "length_bottom": 220,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1827,7 +1828,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S220B",
       "isShown": true,
       "images": [{
@@ -1842,13 +1843,13 @@
 
 {
   "id": "S225",
-  "type": "square",
+  "type": "square",  
   "length_top": 250,
   "width_top": 120,
-  "length_bottom": 270,
+  "length_bottom": 270,  
   "width_bottom": 140,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1867,7 +1868,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S225B",
       "isShown": true,
       "images": [{
@@ -1881,13 +1882,13 @@
 
 {
   "id": "S230U",
-  "type": "square",
+  "type": "square",  
   "length_top": 300,
   "width_top": 100,
-  "length_bottom": 320,
+  "length_bottom": 320,  
   "width_bottom": 120,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1906,7 +1907,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S230UB",
       "isShown": true,
       "images": [{
@@ -1920,13 +1921,13 @@
 
 {
   "id": "S230",
-  "type": "square",
+  "type": "square",  
   "length_top": 300,
   "width_top": 150,
-  "length_bottom": 320,
+  "length_bottom": 320,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1945,7 +1946,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S230B",
       "isShown": true,
       "images": [{
@@ -1959,13 +1960,13 @@
 
 {
   "id": "S235",
-  "type": "square",
+  "type": "square",  
   "length_top": 350,
   "width_top": 150,
-  "length_bottom": 370,
+  "length_bottom": 370,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -1984,7 +1985,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S235B",
       "isShown": true,
       "images": [{
@@ -1998,13 +1999,13 @@
 
 {
   "id": "S255",
-  "type": "square",
+  "type": "square",  
   "length_top": 550,
   "width_top": 150,
-  "length_bottom": 570,
+  "length_bottom": 570,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -2023,7 +2024,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S255B",
       "isShown": true,
       "images": [{
@@ -2038,13 +2039,13 @@
 
 {
   "id": "S275",
-  "type": "square",
+  "type": "square",  
   "length_top": 750,
   "width_top": 150,
-  "length_bottom": 770,
+  "length_bottom": 770,  
   "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
+  "height": 17,    
+  "diameter_top": null,  
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
@@ -2063,7 +2064,7 @@
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
-      "description_en": "",
+      "description_en": "", 
       "vendor_code": "S275B",
       "isShown": true,
       "images": [{
