@@ -22,8 +22,7 @@
       <p>Сообщение: </p>
       <p>
         <div ng-repeat="item in ngCart.getCart().items">
-          <input type="text" value="<h1>{{item._id}}</h1>"></input>
-          <input type="text" value="<h2>{{item._quantity}}</h2>"></input>
+          <input type="text" value="<h1>{{item._id}}</h1><h2>{{item._quantity}}</h2>" name="message_{{$index}}"></input>
         </div>
       </p>
 
