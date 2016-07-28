@@ -19,7 +19,7 @@
         </div>
         <div class="col-md-6 item_description">
           <div class="showing-materials" ng-repeat="item in currentArray.materials">
-            <a href="/#/{{currentArray.id}}/{{item.name}}">
+            <a href="/#/{{aboutItem}}/{{item.name}}">
               <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'oak'">{{globals.materials[0]}}</p>
               <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'beech'">{{globals.materials[1]}}</p>
               <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'birch'">{{globals.materials[2]}}</p>

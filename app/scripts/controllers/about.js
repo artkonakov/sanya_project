@@ -34,6 +34,7 @@ angular.module('kolobashkinApp')
         };
       };
 
+
       $scope.getArray($scope.items, $scope.aboutItem);
 
       $scope.getArrayMaterial = function(array, value) {
@@ -45,13 +46,14 @@ angular.module('kolobashkinApp')
             console.log($scope.currentArrayMaterial);
             return $scope.currentArrayMaterial;
           }
-          else {
-            $location.path('/');
-          }
+
+          // $location.path('/');
         };
       };
 
       $scope.getArrayMaterial($scope.currentArray, $scope.currentMaterial);
+
+
 
     });
 

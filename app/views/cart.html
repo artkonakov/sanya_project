@@ -2,5 +2,31 @@
   <div class="col-md-12">
     <h1> Корзина </h1>
     <ngcart-cart></ngcart-cart>
+
+    <form action="post.php" method="POST">
+
+      <p>Имя: </p>
+      <p>
+        <input type="text" name="name"> </p>
+
+      <p>E-mail: </p>
+      <p>
+        <input type="text" name="email">
+      </p>
+
+      <p>Контактный телефон: </p>
+      <p>
+        <input type="text" name="tel">
+      </p>
+
+      <p>Сообщение: </p>
+      <p>
+        <textarea name="message"  type="">
+          {{emailmsg}}
+        </textarea>
+      </p>
+
+      <input type="submit" value="Отправить"> </form>
+
   </div>
 </div>
