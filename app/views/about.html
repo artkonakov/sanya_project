@@ -7,18 +7,18 @@
 
     </div>
 
-    <div ng-repeat="item in items | filter: { id : aboutItem} | limitTo: 1">
+    <div>
       <div class="col-md-12">
-        <div class="col-md-6 image_gallery" ng-repeat="material in item.materials | filter: { name: currentMaterial} | limitTo :1">
+        <div class="col-md-6 image_gallery">
           <ul>
-            <li ng-repeat="image in material.images">
+            <li ng-repeat="image in currentArrayMaterial.images">
               <a href="{{image.link}}" data-lightbox="kolobashkin_images"><img ng-src="{{image.link}}"></a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 item_description">
-          <div ng-repeat="material in item.materials">
-            <a href="/#/{{item.id}}/{{item.materials[$index].name}}">{{item.materials[$index].name}}</a>
+          <div ng-repeat="material in currentArray.materials">
+            <a href="/#/{{item.id}}/{{material.name}}">{{material.name}}</a>
           </div>
           <!--
           <a href="/#/{{item.id}}/{{item.materials[0].name}}">
@@ -81,11 +81,11 @@
             </div>
           </div>
 
-          <h4 ng-show="{{item.materials[index].weight}}">{{globals.text_mass}}</h4>
+          <h4 ng-show="{{item.materials[$index].weight}}">{{globals.text_mass}}</h4>
           <div class="product-sizes">
             <div ng-show="item.length_top">
               <p>{{globals.text_weight}}</p>
-              <p>{{item.materials[index].weight}}&#8202;g</p>
+              <p>{{item.materials[$index].weight}}&#8202;g</p>
               <hr>
             </div>
           </div>
@@ -93,7 +93,7 @@
           <h3><strong>{{globals.text_cover}}</strong> {{item.materials[index].cover}}</h3>
           <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
           <h2>{{globals.text_product_2}}</h2>
-          <ngcart-addtocart id="{{item.materials[index].vendor_code}}" name="{{item.materials[index].vendor_code}}" price="{{item.materials[index].price}}" quantity="1" quantity-max="30">Добавить</ngcart-addtocart>
+          <ngcart-addtocart id="{{item.materials[$index].vendor_code}}" name="{{item.materials[$index].vendor_code}}" price="{{item.materials[eindex].price}}" quantity="1" quantity-max="30">Добавить</ngcart-addtocart>
 
         </div>
       </div>
