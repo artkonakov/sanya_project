@@ -17,8 +17,8 @@
           </ul>
         </div>
         <div class="col-md-6 item_description">
-          <div ng-repeat="material in currentArray.materials">
-            <a href="/#/{{item.id}}/{{material.name}}">{{material.name}}</a>
+          <div ng-repeat="item in currentArray.materials">
+            <a href="/#/{{currentArray.id}}/{{item.name}}">{{item.name}}</a>
           </div>
           <!--
           <a href="/#/{{item.id}}/{{item.materials[0].name}}">
@@ -36,64 +36,64 @@
         -->
 
           <small>{{globals.text_vendor_code}}</small>
-          <h1>{{item.materials[index].vendor_code}}</h1>
-          <h1><currency ng-if="(globals.currency == '$')">$</currency>{{item.materials[index].price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>
+          <h1>{{currentArrayMaterial.vendor_code}}</h1>
+          <h1><currency ng-if="(globals.currency == '$')">$</currency>{{currentArrayMaterial.price}} <currency ng-if="(globals.currency == 'Rub')">&#8381;</currency><h1>
           <h4>{{globals.text_sizes}}</h4>
           <div class="product-sizes">
-            <div ng-show="item.diameter_top">
+            <div ng-show="currentArray.diameter_top">
               <p>{{globals.text_diameter_top}}</p>
-              <p>{{item.diameter_top}}&#8202;mm</p>
+              <p>{{currentArray.diameter_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.diameter_bottom">
+            <div ng-show="currentArray.diameter_bottom">
               <p>{{globals.text_diameter_bottom}}</p>
-              <p>{{item.diameter_bottom}}&#8202;mm</p>
+              <p>{{currentArray.diameter_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.length_bottom">
+            <div ng-show="currentArray.length_bottom">
               <p>{{globals.text_length_bottom}}</p>
-              <p>{{item.length_bottom}}&#8202;mm</p>
+              <p>{{currentArray.length_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.width_bottom">
+            <div ng-show="currentArray.width_bottom">
               <p>{{globals.text_width_bottom}}</p>
-              <p>{{item.width_bottom}}&#8202;mm</p>
+              <p>{{currentArray.width_bottom}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.height">
+            <div ng-show="currentArray.height">
               <p>{{globals.text_height}}</p>
-              <p>{{item.height}}&#8202;mm</p>
+              <p>{{currentArray.height}}&#8202;mm</p>
               <hr>
             </div>
           </div>
 
-          <h4 ng-show="item.length_top && item.width_top">{{globals.text_surface}}</h4>
+          <h4 ng-show="currentArray.length_top && currentArray.width_top">{{globals.text_surface}}</h4>
           <div class="product-sizes">
-            <div ng-show="item.length_top">
+            <div ng-show="currentArray.length_top">
               <p>{{globals.text_lenght_top}}</p>
-              <p>{{item.length_top}}&#8202;mm</p>
+              <p>{{currentArray.length_top}}&#8202;mm</p>
               <hr>
             </div>
-            <div ng-show="item.width_top">
+            <div ng-show="currentArray.width_top">
               <p>{{globals.text_width_top}}</p>
-              <p>{{item.width_top}}&#8202;mm</p>
+              <p>{{currentArray.width_top}}&#8202;mm</p>
               <hr>
             </div>
           </div>
 
-          <h4 ng-show="{{item.materials[$index].weight}}">{{globals.text_mass}}</h4>
+          <h4 ng-show="currentArrayMaterial.weight">{{globals.text_mass}}</h4>
           <div class="product-sizes">
-            <div ng-show="item.length_top">
+            <div ng-show="currentArrayMaterial.weight">
               <p>{{globals.text_weight}}</p>
-              <p>{{item.materials[$index].weight}}&#8202;g</p>
+              <p>{{currentArrayMaterial.weight}}&#8202;g</p>
               <hr>
             </div>
           </div>
 
-          <h3><strong>{{globals.text_cover}}</strong> {{item.materials[index].cover}}</h3>
+          <h3><strong>{{globals.text_cover}}</strong> {{currentArrayMaterial.cover}}</h3>
           <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
           <h2>{{globals.text_product_2}}</h2>
-          <ngcart-addtocart id="{{item.materials[$index].vendor_code}}" name="{{item.materials[$index].vendor_code}}" price="{{item.materials[eindex].price}}" quantity="1" quantity-max="30">Добавить</ngcart-addtocart>
+          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30">Добавить</ngcart-addtocart>
 
         </div>
       </div>

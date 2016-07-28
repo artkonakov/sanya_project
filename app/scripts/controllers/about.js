@@ -25,36 +25,30 @@ angular.module('kolobashkinApp')
       $scope.getArray = function(array, value) {
 
         for (var i = 0; i < array.length; i++) {
-          console.log(array.length);
-          console.log(value);
-          console.log(array[10].id);
+
           if (array[i].id == value) {
             $scope.currentArray = array[i];
             console.log($scope.currentArray);
             return $scope.currentArray;
           }
-          return console.log('Ошибка!');
         };
-
       };
 
       $scope.getArray($scope.items, $scope.aboutItem);
 
-      $scope.getMaterial = function() {
+      $scope.getArrayMaterial = function(array, value) {
 
-        for (var i = 0; i < $scope.currentArray.materials.length; i++) {
-          if ($scope.currentArray.materials[i].name == $scope.currentMaterial) {
+        for (var i = 0; i < array.materials.length; i++) {
 
-            $scope.currentArrayMaterial = $scope.currentArray.materials[i];
+          if (array.materials[i].name == value) {
+            $scope.currentArrayMaterial = array.materials[i];
             console.log($scope.currentArrayMaterial);
             return $scope.currentArrayMaterial;
           }
-          return console.log('Ошибка!');
         };
-
       };
 
-      $scope.getMaterial();
+      $scope.getArrayMaterial($scope.currentArray, $scope.currentMaterial);
 
     });
 
