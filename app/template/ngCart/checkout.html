@@ -1,6 +1,34 @@
 
 <div ng-if="service=='http' || service == 'log'">
     <button class="btn btn-primary" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>
+
+    <p>{{ngCart.getCart()}}</p>
+    <form action="post.php" method="POST">
+
+      <p>Имя: </p>
+      <p>
+        <input type="text" name="name"> </p>
+
+      <p>E-mail: </p>
+      <p>
+        <input type="text" name="email">
+      </p>
+
+      <p>Контактный телефон: </p>
+      <p>
+        <input type="text" name="tel">
+      </p>
+
+      <p>Сообщение: </p>
+      <p>
+        <div ng-repeat="item in ngCart.getCart().items">
+          <input type="text" value="<h1>{{item._id}}</h1>"></input>
+          <input type="text" value="<h2>{{item._quantity}}</h2>"></input>
+        </div>
+      </p>
+
+      <input type="submit" value="Отправить"> </form>
+
 </div>
 
 
