@@ -1,7 +1,8 @@
 <div class="row">
   <div class="container product-wrapper">
     <div class="col-md-12">
-      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a> <ngcart-summary></ngcart-summary>
+      <div class="back-btn"><a href="/#/"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a>
+        <ngcart-summary></ngcart-summary>
         <hr>
       </div>
 
@@ -17,8 +18,13 @@
           </ul>
         </div>
         <div class="col-md-6 item_description">
-          <div ng-repeat="item in currentArray.materials">
-            <a href="/#/{{currentArray.id}}/{{item.name}}">{{item.name}}</a>
+          <div class="showing-materials" ng-repeat="item in currentArray.materials">
+            <a href="/#/{{currentArray.id}}/{{item.name}}">
+              <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'oak'">{{globals.materials[0]}}</p>
+              <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'beech'">{{globals.materials[1]}}</p>
+              <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'birch'">{{globals.materials[2]}}</p>
+              <p class="product-mat" ng-class="{active : currentMaterial == item.name}" ng-show="item.name == 'pine'">{{globals.materials[3]}}</p>
+            </a>
           </div>
           <!--
           <a href="/#/{{item.id}}/{{item.materials[0].name}}">

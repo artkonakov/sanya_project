@@ -238,3 +238,6 @@ img {
 .item_description a:hover {
   text-decoration: none;
 }
+.showing-materials {
+  display: inline-block;
+}

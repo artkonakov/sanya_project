@@ -8,7 +8,7 @@
  * Controller of the kolobashkinApp
  */
 angular.module('kolobashkinApp')
-  .controller("AboutCtrl", ['$scope', 'getItems', '$routeParams', function($scope, getItems, $routeParams) {
+  .controller("AboutCtrl", ['$scope', 'getItems', '$routeParams', '$location', function($scope, getItems, $routeParams, $location) {
 
     $scope.aboutItem = $routeParams.item;
     $scope.currentMaterial = $routeParams.material;
@@ -44,6 +44,9 @@ angular.module('kolobashkinApp')
             $scope.currentArrayMaterial = array.materials[i];
             console.log($scope.currentArrayMaterial);
             return $scope.currentArrayMaterial;
+          }
+          else {
+            $location.path('/');
           }
         };
       };

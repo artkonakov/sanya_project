@@ -26,7 +26,8 @@ angular
         'showImageNumberLabel': false
       });
   })
-  .config(function($routeProvider) {
+  .config(function($locationProvider, $routeProvider) {
+    $locationProvider.html5Mode(false);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
