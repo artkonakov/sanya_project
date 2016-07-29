@@ -20,6 +20,7 @@ angular.module('kolobashkinApp')
 
     });
 
-    
+    $scope.mainFilter = '';
+    $scope.mainSort = 'sortCount';
 
   }]);

@@ -241,3 +241,17 @@ img {
 .showing-materials {
   display: inline-block;
 }
+.item-id {
+position: absolute;
+top: 50px;
+right: 15px;
+background: #fff;
+}
+.item-id p{
+margin:0;
+padding:0;
+padding: 10px 15px;
+color: #ed4d38;
+font-weight: bold;
+line-height: 1;
+}
