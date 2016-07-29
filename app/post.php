@@ -22,13 +22,17 @@ $email=$_POST['email'];
 
 $tel=$_POST['tel'];
 
+$style=$_POST['style'];
+
 $count=$_POST['count'];
 
 for ($i=0; $i<=$count; $i++)
   {
     $msg_value[$i]=$_POST[$i];
-    $msg = implode("", $msg_value);
+    $msg_all = implode("", $msg_value);
   }
+
+  $msg=$style.$msg_all;
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
   $headers .= "From: Письмо от Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
