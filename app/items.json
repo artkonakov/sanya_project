@@ -255,7 +255,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 60,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/R360B@3x.jpg",
@@ -494,7 +494,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 110,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/R370B@3x.jpg",
@@ -700,7 +700,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 160,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/R380B@3x.jpg",
@@ -922,7 +922,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 210,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/R3120B@3x.jpg",
@@ -1203,7 +1203,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 270,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "oak",
     "image": "http://new.kolobashkin.ru/images/items/S16D@3x.jpg",
@@ -1261,7 +1261,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 280,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/S112B@3x.jpg",
@@ -1300,7 +1300,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 290,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/S115B@3x.jpg",
@@ -1340,7 +1340,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 300,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "oak",
     "image": "http://new.kolobashkin.ru/images/items/S118D@3x.jpg",
@@ -1395,7 +1395,7 @@
   "promo": "",
   "promo_en": "",
   "sortCount": 310,
-  "isShown": true,
+  "isShown": false,
   "default_settings": {
     "material": "beech",
     "image": "http://new.kolobashkin.ru/images/items/S125B@3x.jpg",
