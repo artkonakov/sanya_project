@@ -46,7 +46,7 @@
   "height": 85,
   "diameter_top": 55,
   "diameter_bottom": 60,
-  "promo": "",
+  "promo": "Супер-цена!",
   "promo_en": "",
   "sortCount": 10,
   "isShown": true,
@@ -1054,9 +1054,9 @@
       "vendor_code": "P130D",
       "isShown": true,
       "images": [{
-        "link": "http://new.kolobashkin.ru/images/items/R130D@3x.jpg"
+        "link": "http://new.kolobashkin.ru/images/items/P130D@3x.jpg"
       }, {
-        "link": "http://new.kolobashkin.ru/images/items/R130D_2@3x.jpg"
+        "link": "http://new.kolobashkin.ru/images/items/P130D_2@3x.jpg"
       }]
     },
     {
@@ -1072,7 +1072,7 @@
       "images": [{
         "link": "http://new.kolobashkin.ru/images/items/P130B@3x.jpg"
       }, {
-        "link": "http://new.kolobashkin.ru/images/items/R130B_2@3x.jpg"
+        "link": "http://new.kolobashkin.ru/images/items/P130B_2@3x.jpg"
       }]
     }
   ]
