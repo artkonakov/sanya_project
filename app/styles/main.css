@@ -21,7 +21,7 @@ img {
 }
 .item-description {
   position: absolute;
-  bottom: 40px;
+  bottom: 38px;
   left: 30px;
   color: #242424;
 }
@@ -56,7 +56,7 @@ img {
 .item-sizes {
   position: absolute;
   top: 20px;
-  right: 30px;
+  left: 30px;
 }
 .item-sizes p {
   font-size: 0.8em;
@@ -65,29 +65,36 @@ img {
 }
 .item-materials {
   position: absolute;
-  top: 14px;
+  top: 45px;
   left: 30px;
 }
 .texture {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
-  border-radius: 24px;
+  border-radius: 16px;
 }
 .item-new {
   position: absolute;
-  top: 160px;
-  left: 8px;
+  bottom: 44px;
+  width: 100%;
+
 }
 .item-new p {
   text-transform: uppercase;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
   font-size: 0.8em;
   letter-spacing: 0.05em;
   font-weight: normal;
   line-height: 1;
+  text-align: center;
+  padding-right: 20px;
 }
+.item-new span {
+  background: #ed4d38;
+  color: #fff;
+  padding: 5px 10px;
+}
+
 .product-mat {
   display: inline-block;
   letter-spacing: 0.05em;
@@ -243,15 +250,17 @@ img {
 }
 .item-id {
 position: absolute;
-top: 50px;
+top: 10px;
 right: 15px;
 background: #fff;
 }
 .item-id p{
+  display: inline-block;
 margin:0;
 padding:0;
 padding: 10px 15px;
-color: #ed4d38;
+color: #333;
+font-size: 1.2em;
 font-weight: bold;
 line-height: 1;
 }
