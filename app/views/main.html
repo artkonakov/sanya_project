@@ -2,21 +2,34 @@
 
   <div class="btn-group" data-toggle="radio">
   <label class="btn btn-primary">
-    <input type="radio" value="round" ng-model="mainFilter"> Radio 1
+    <input type="radio" value="round" ng-model="mainFilter"> Круглые
   </label>
   <label class="btn btn-primary">
-    <input type="radio" value="plinth" ng-model="mainFilter"> Radio 2
+    <input type="radio" value="plinth" ng-model="mainFilter"> Пьедесталы
   </label>
   <label class="btn btn-primary">
-    <input type="radio" value="square" ng-model="mainFilter"> Radio 3
+    <input type="radio" value="square" ng-model="mainFilter"> Прямоугольные
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" value="" ng-model="mainFilter"> Очистить
   </label>
 </div>
 
+<div class="btn-group" data-toggle="radio">
+<label class="btn btn-primary">
+  <input type="radio" value="default_settings.price" ng-model="mainSort"> Цена по возрастанию
+</label>
+<label class="btn btn-primary">
+  <input type="radio" value="-default_settings.price" ng-model="mainSort"> Цена по убыванию
+</label>
+<label class="btn btn-primary">
+  <input type="radio" value="sortCount" ng-model="mainSort"> По умолчанию
+</label>
+</div>
 
-  {{mainFilter}}
   <div ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter}">
 
-    <div class="col-md-3">
+    <div class="col-md-3" ng-show="item.isShown">
       <a href="/#/{{item.id}}/{{item.default_settings.material}}">
         <div class="wrapper">
         <img ng-src="{{item.default_settings.image}}">
@@ -37,10 +50,10 @@
           <div class="item-materials">
             <p>
               <span ng-repeat="material in item.materials">
-              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="material.name == 'oak'"></img>
-              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="material.name == 'beech'"></img>
-              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="material.name == 'birch'"></img>
-              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="material.name == 'pine'"></img>
+              <img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="material.name == 'oak' && material.isShown" ></img>
+              <img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="material.name == 'beech' && material.isShown" ></img>
+              <img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="material.name == 'birch' && material.isShown" ></img>
+              <img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="material.name == 'pine' && material.isShown" ></img>
             </span>
             </p>
           </div>
