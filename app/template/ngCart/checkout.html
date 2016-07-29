@@ -24,7 +24,7 @@
 
     <p>Сообщение: </p>
     <p>
-      <input type="hidden" name="style" value="  h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
+      <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
       <div ng-repeat="item in ngCart.getCart().items">
         <input type="hidden" value="<p><h1>{{$index+1}}</h1><h1>{{item._id}}</h1><h1>{{item._quantity}} шт.</h1><h1>{{item.getPrice()}} руб.</h1><h1>{{item.getTotal()}} руб.</h1></p>" name="{{$index}}"></input>
       </div>
