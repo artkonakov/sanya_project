@@ -24,6 +24,8 @@ $tel=$_POST['tel'];
 
 $style=$_POST['style'];
 
+$top=$_POST['top'];
+
 $summary=$_POST['summary'];
 
 
@@ -62,13 +64,15 @@ for ($i=0; $i<=$count; $i++)
    {
 
 
-  $msg="<font size=+1><b>Данные:</b><br></font>
+  $msg="<font size=+1><b>Данные</b><br><br></font>
 
   Имя: $name<br>
 
   E-mail: $email<br>
 
-  Телефон: $tel<br>
+  Телефон: $tel<br><br>
+
+  <font size=+1><b>Заказ</b><br><br></font>
 
   Сообщение: $msg";
 
