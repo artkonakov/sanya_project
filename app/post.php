@@ -24,6 +24,9 @@ $tel=$_POST['tel'];
 
 $style=$_POST['style'];
 
+$summary=$_POST['summary'];
+
+
 $count=$_POST['count'];
 
 for ($i=0; $i<=$count; $i++)
@@ -32,7 +35,7 @@ for ($i=0; $i<=$count; $i++)
     $msg_all = implode("", $msg_value);
   }
 
-  $msg=$style.$msg_all;
+  $msg=$style.$msg_all.$summary;
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
   $headers .= "From: Письмо от Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
