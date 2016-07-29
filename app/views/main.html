@@ -36,9 +36,7 @@
           <div class="item-description">
             <p>{{item.default_settings.price}} &#8381;</p>
           </div>
-          <div class="item-action">
-            <a href="/#/{{item.id}}/{{item.default_settings.material}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
-          </div>
+
           <div class="item-sizes">
             <p>
               <span ng-show="item.diameter_top">&Oslash;&#8202;{{item.diameter_top}} x</span>
@@ -62,6 +60,9 @@
           </div>
           <div class="item-id">
             <p>{{item.id}}</p>
+          </div>
+          <div class="item-action">
+            <a href="/#/{{item.id}}/{{item.default_settings.material}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
           </div>
         </div>
       </a>

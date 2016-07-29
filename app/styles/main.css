@@ -59,6 +59,7 @@ img {
   left: 30px;
 }
 .item-sizes p {
+  color: #333;
   font-size: 0.8em;
   font-weight: normal;
   letter-spacing: 0.05em;
