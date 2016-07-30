@@ -7,6 +7,7 @@
     <button class="btn filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">По умолчанию</button>
     <button class="btn filters-btn" ng-class="{active: (mainSort == 'default_settings.price')}" ng-click="mainSort = 'default_settings.price'">Сначала дешевле</button>
     <button class="btn filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">Сначала дороже</button>
+    <input type="text" class="form-control" placeholder="Поиск по артикулу"ng-model="search"></input>
 
 
 <!--
@@ -37,7 +38,7 @@
 </label>
 </div>
 -->
-  <div ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter}">
+  <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search}">
 
     <div class="col-md-3" ng-show="item.isShown">
       <a href="/#/{{item.id}}/{{item.default_settings.material}}">
