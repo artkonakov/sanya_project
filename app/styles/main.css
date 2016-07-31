@@ -36,6 +36,7 @@ margin-left: 0px;
 
 .top-header a{
   color: #fff;
+  text-decoration: none;
 }
 .top-header a:hover{
   color: #ed4d38;
@@ -46,6 +47,7 @@ margin-left: 0px;
   background: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-decoration: none;
 
 }
 .nav-header li {
@@ -56,14 +58,23 @@ margin-left: 0px;
   list-style: none;
   display: inline;
   margin-left: 40px;
+  text-decoration: none;
 }
 .nav-header a {
   color: #1f0f05;
+  text-decoration: none;
 }
 .nav-header a:hover {
   text-decoration: none;
   color: #ed4d38;
 }
+.nav-header a.active {
+  color: #ed4d38;
+}
+.nav-header a.active:hover {
+  color: #1f0f05;
+}
+
 
 .main-section {
   padding-top: 30px;

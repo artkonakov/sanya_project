@@ -20,19 +20,22 @@ angular
     'ngCart'
   ])
 
-  .run(function(){
+.run(function() {
 
     lightbox.option({
-        'showImageNumberLabel': false
-      });
+      'showImageNumberLabel': false
+    });
   })
   .config(function($locationProvider, $routeProvider) {
-    $locationProvider.html5Mode(false);
+    $locationProvider.html5Mode(false).hashPrefix('!');
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        templateUrl: 'views/main.html'
+      })
+      .when('/catalog', {
+        templateUrl: 'views/catalog.html',
+        controller: 'CatalogCtrl',
+        controllerAs: 'catalog'
       })
       .when('/:item/:material', {
         templateUrl: 'views/about.html',
@@ -44,9 +47,25 @@ angular
         controller: 'CartCtrl',
         controllerAs: 'cart'
       })
+      .when('/shops', {
+        templateUrl: 'views/shops.html',
+      })
+      .when('/payment', {
+        templateUrl: 'views/payment.html',
+      })
+      .when('/news', {
+        templateUrl: 'views/news.html',
+      })
+      .when('/contacts', {
+        templateUrl: 'views/contacts.html',
+      })
+      .when('/delivery', {
+        templateUrl: 'views/delivery.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
+
   })
 
 
@@ -56,6 +75,7 @@ angular
     getUrl: function(url) {
       return $http.get(url);
     }
+
   };
 
 

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <base href="">
+  <base href="/">
   <meta name="fragment" content="!">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
@@ -38,9 +38,9 @@
           <p><a href="mailto: info@kolobashkin.ru">info@kolobashkin.ru<a></p>
         </div>
         <div class="col-md-6 header-right">
-            <p><a href="">Доставка<a></p>
-            <p><a href="">Корзина<a></p>
-            <p><a href="">EN</a></p>
+            <p><a href="#!/delivery">Доставка<a></p>
+            <p><a href="#!/cart">Корзина<a></p>
+            <p><a href="#!/">EN</a></p>
         </div>
       </div>
     </div>
@@ -50,14 +50,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <a class="" ng-href="/#/"><img src="/images/logo-kolobashkin.ru.png"></a>
+          <a class="" ng-href="#!/"><img src="/images/logo-kolobashkin.ru.png"></a>
         </div>
         <div class="col-md-9">
-          <li><a ng-href="#/cart">Каталог</a></li>
-          <li><a ng-href="#/shops">Магазины</a></li>
-          <li><a ng-href="#/news">Новости</a></li>
-          <li><a ng-href="#/cart">Контакты</a></li>
-          <li><a ng-href="#/cart">Оплатить</a></li>
+          <li><a ng-class="{active : $location.path() == '/catalog'}" href="#!/catalog">Каталог</a></li>
+          <li><a ng-class="{active : $location.path() == 'shops'}" href="#!/shops">Магазины</a></li>
+          <li><a ng-class="{active : $location.path() == news}" href="#!/news">Новости</a></li>
+          <li><a ng-class="{active : $location.path() == contacts}" href="#!/contacts">Контакты</a></li>
+          <li><a ng-class="{active : $location.path() == payment}" href="#!/payment">Оплатить</a></li>
         </div>
       </div>
     </div>
@@ -102,6 +102,7 @@
 
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/controllers/catalog.js"></script>
   <script src="scripts/controllers/about.js"></script>
   <script src="scripts/controllers/cart.js"></script>
 
