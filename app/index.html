@@ -8,6 +8,9 @@
   <meta name="fragment" content="!">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
+  <style>
+    @import "http://webfonts.ru/import/clearsans.css";
+  </style>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
@@ -25,45 +28,57 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <div class="header">
-    <div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <a class="navbar-brand" href="#/">kolobashkin</a>
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Россия, Санкт-Петербург</p>
+          <p><a href="tel:+79995280010">+7 999 528-00-10<a></p>
+          <p><a href="mailto: info@kolobashkin.ru">info@kolobashkin.ru<a></p>
         </div>
-
-        <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">Home</a></li>
-            <li><a ng-href="#/about">About</a></li>
-            <li><a ng-href="#/cart">Корзина</a></li>
-          </ul>
+        <div class="col-md-6 header-right">
+            <p><a href="">Доставка<a></p>
+            <p><a href="">Корзина<a></p>
+            <p>EN</p>
         </div>
       </div>
-      <ngcart-summary></ngcart-summary>
     </div>
   </div>
 
-  <div class="container">
-    <div ng-view="" class="view-slide-in"></div>
+  <div class="nav-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a class="" ng-href="/#/"><img src="/images/logo-kolobashkin.ru.png"></a>
+        </div>
+        <div class="col-md-9">
+          <li><a ng-href="#/cart">Каталог</a></li>
+          <li><a ng-href="#/shops">Магазины</a></li>
+          <li><a ng-href="#/news">Новости</a></li>
+          <li><a ng-href="#/cart">Контакты</a></li>
+          <li><a ng-href="#/cart">Оплатить</a></li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main-section">
+    <div class="container">
+      <div ng-view="" class="view-slide-in"></div>
+    </div>
   </div>
 
   <div class="footer">
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Подвал</h2>
+      </div>
+    </div>
   </div>
-
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+</div>
 
 
   <!-- build:js(.) scripts/vendor.js -->
