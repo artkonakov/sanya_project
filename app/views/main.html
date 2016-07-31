@@ -1,23 +1,27 @@
 <div class="filters-block">
   <div class="row">
-    <div class="col-md-12">
-      <button class="btn filters-btn" ng-class="{active: (mainFilter == '')}" ng-click="mainFilter = ''">Все</button>
-      <button class="btn filters-btn" ng-class="{active: (mainFilter == 'plinth')}" ng-click="mainFilter = 'plinth'">Постаменты</button>
-      <button class="btn filters-btn" ng-class="{active: (mainFilter == 'round')}" ng-click="mainFilter = 'round'">Круглые</button>
-      <button class="btn filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Прямоугольные</button>
-
-      <button class="btn filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">По умолчанию</button>
-      <button class="btn filters-btn" ng-class="{active: (mainSort == 'default_settings.price')}" ng-click="mainSort = 'default_settings.price'">Сначала дешевле</button>
-      <button class="btn filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">Сначала дороже</button>
-      <input type="text" class="form" placeholder="Поиск по артикулу" ng-model="search"></input>
+    <div class="col-md-5">
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == '')}" ng-click="mainFilter = ''">Все</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'plinth')}" ng-click="mainFilter = 'plinth'">Постаменты</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'round')}" ng-click="mainFilter = 'round'">Круглые</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Прямоугольные</a></p>
     </div>
+    <div class="col-md-5">
+      <p><a class="filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">По умолчанию</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainSort == 'default_settings.price')}" ng-click="mainSort = 'default_settings.price'">Сначала дешевле</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">Сначала дороже</a></p>
+    </div>
+
+  <div class="col-md-2">
+    <input type="text" class="form-control search-form" placeholder="Поиск по артикулу" ng-model="search"></input>
   </div>
 </div>
+</div>
+
 
 <div class="catalog-block">
   <div class="row">
     <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search}">
-
       <div class="col-md-3" ng-show="item.isShown">
         <a href="/#/{{item.id}}/{{item.default_settings.material}}">
           <div class="wrapper">

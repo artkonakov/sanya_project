@@ -77,6 +77,12 @@ margin-left: 0px;
   padding-top: 0;
   padding-bottom: 30px;
 }
+.filters-block p{
+display: inline-block;
+margin: 0;
+padding: 0;
+line-height: 2.5;
+}
 
 .catalog-block {
 
@@ -351,11 +357,33 @@ font-size: 1.2em;
 font-weight: bold;
 line-height: 1;
 }
-.filters-btn active{
-
-  font-size: 20px;
-
+.filters-btn.active{
+  background: #ed4d38;
+  color: #fff;
+  text-decoration: none;
 }
+.filters-btn{
+  color: #1f0f05;
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.filters-btn:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #ed4d38;
+}
+.filters-btn.active:hover{
+  color: #fff;
+}
+.search-form {
+margin: 0;
+}
+.search-form:focus {
+border: 1px solid #ed4d38;
+box-shadow: none;
+}
+
 .buy-block h1 .buy-button{
   display: inline-block;
 }
