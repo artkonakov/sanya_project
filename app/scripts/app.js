@@ -11,6 +11,7 @@
  */
 angular
   .module('kolobashkinApp', [
+    'angular-loading-bar',
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -73,6 +74,8 @@ angular
   return {
     //Функция для запроса к серверу через контроллер
     getUrl: function(url) {
+    
+
       return $http.get(url);
     }
 

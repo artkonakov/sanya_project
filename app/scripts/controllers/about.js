@@ -16,7 +16,6 @@ angular.module('kolobashkinApp')
 
 
 
-
     //Делаем запрос к серверу через фабрику
     getItems.getUrl('/items.json').success(function(response) {
 
