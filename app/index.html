@@ -40,25 +40,37 @@
         </div>
         <div class="col-md-6 header-right">
             <p><a href="#!/delivery">Доставка<a></p>
-            <p><a href="#!/cart">Корзина<a></p>
+            <p><a href="#!/cart"> <span> Корзина </span><a> </p>
             <p><a href="#!/">EN</a></p>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="nav-logo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 logo">
+          <a class="" ng-href="#!/"><img src="/images/logo-3.svg"></a>
+        </div>
+        <div class="col-md-6">
+          <h1>Подставки для моделей и миниатюр</h1>
+        </div>
+        <div class="col-md-2 nav-cart">
+          <ngcart-summary></ng-cart-summary>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="nav-header">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <a class="" ng-href="#!/"><img src="/images/logo-kolobashkin.ru.png"></a>
-        </div>
-        <div class="col-md-9">
-          <li><a ng-class="{active : $location.path() == '/catalog'}" href="#!/catalog">Каталог</a></li>
-          <li><a ng-class="{active : $location.path() == 'shops'}" href="#!/shops">Магазины</a></li>
-          <li><a ng-class="{active : $location.path() == news}" href="#!/news">Новости</a></li>
-          <li><a ng-class="{active : $location.path() == contacts}" href="#!/contacts">Контакты</a></li>
-          <li><a ng-class="{active : $location.path() == payment}" href="#!/payment">Оплатить</a></li>
+        <div class="col-md-12">
+          <a  href="#!/catalog"><li>Каталог</li></a>
+          <a  href="#!/shops"><li>Магазины</li></a>
+          <a  href="#!/news"><li>Новости</li></a>
+          <a  href="#!/contacts"><li>Контакты</li></a>
+          <a  href="#!/payment"><li>Оплатить</li></a>
         </div>
       </div>
     </div>
