@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="back-btn">
-        <a href="/#!/catalog"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> {{globals.text_back}}</a>
+        <a href="/#!/catalog"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Каталог </a>
       </div>
     </div>
   </div>
@@ -31,34 +31,34 @@
       <div class="buy-block">
         <h1><currency ng-if="(globals.currency == '$')">$</currency>{{currentArrayMaterial.price}} <currency ng-if="(globals.currency == 'Rub')"><span style="font-family: Arial;">&#8381;</span></currency></h1>
         <div class="buy-button">
-          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30"></ngcart-addtocart>
+          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30"  data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
         </div>
       </div>
       <h4>{{globals.text_sizes}}</h4>
       <div class="product-sizes">
         <div ng-show="currentArray.diameter_top">
           <p>{{globals.text_diameter_top}}</p>
-          <p>{{currentArray.diameter_top}}&#8202;mm</p>
+          <p>{{currentArray.diameter_top}}&#8202;мм</p>
           <hr>
         </div>
         <div ng-show="currentArray.diameter_bottom">
           <p>{{globals.text_diameter_bottom}}</p>
-          <p>{{currentArray.diameter_bottom}}&#8202;mm</p>
+          <p>{{currentArray.diameter_bottom}}&#8202;мм</p>
           <hr>
         </div>
         <div ng-show="currentArray.length_bottom">
           <p>{{globals.text_length_bottom}}</p>
-          <p>{{currentArray.length_bottom}}&#8202;mm</p>
+          <p>{{currentArray.length_bottom}}&#8202;мм</p>
           <hr>
         </div>
         <div ng-show="currentArray.width_bottom">
           <p>{{globals.text_width_bottom}}</p>
-          <p>{{currentArray.width_bottom}}&#8202;mm</p>
+          <p>{{currentArray.width_bottom}}&#8202;мм</p>
           <hr>
         </div>
         <div ng-show="currentArray.height">
           <p>{{globals.text_height}}</p>
-          <p>{{currentArray.height}}&#8202;mm</p>
+          <p>{{currentArray.height}}&#8202;мм</p>
           <hr>
         </div>
       </div>
@@ -67,12 +67,12 @@
       <div class="product-sizes">
         <div ng-show="currentArray.length_top">
           <p>{{globals.text_lenght_top}}</p>
-          <p>{{currentArray.length_top}}&#8202;mm</p>
+          <p>{{currentArray.length_top}}&#8202;мм</p>
           <hr>
         </div>
         <div ng-show="currentArray.width_top">
           <p>{{globals.text_width_top}}</p>
-          <p>{{currentArray.width_top}}&#8202;mm</p>
+          <p>{{currentArray.width_top}}&#8202;мм</p>
           <hr>
         </div>
       </div>
@@ -81,7 +81,7 @@
       <div class="product-sizes">
         <div ng-show="currentArrayMaterial.weight">
           <p>{{globals.text_weight}}</p>
-          <p>{{currentArrayMaterial.weight}}&#8202;g</p>
+          <p>{{currentArrayMaterial.weight}}&#8202;г</p>
           <hr>
         </div>
       </div>
