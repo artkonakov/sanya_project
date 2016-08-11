@@ -47,30 +47,46 @@
     </div>
   </div>
 
-  <div class="nav-logo">
+  <div class="nav-logo ">
     <div class="container">
       <div class="row">
         <div class="col-md-4 logo">
-          <a class="" ng-href="#!/"><img src="/images/logo-4.svg"></a>
+          <a class="" ng-href="#!/"><img src="/images/logo.svg"></a>
         </div>
-        <div class="col-md-6">
-          <h1>Подставки для моделей и миниатюр</h1>
+        <div class="col-md-6 nav-header">
+          <ul>
+            <a href="#!/catalog">
+              <li>Каталог</li>
+            </a>
+            <a href="#!/shops">
+              <li>Магазины</li>
+            </a>
+          </ul>
+          <ul>
+            <a href="#!/news">
+              <li>Новости</li>
+            </a>
+            <a href="#!/contacts">
+              <li>Контакты</li>
+            </a>
+            <a href="#!/payment">
+              <li>Оплатить</li>
+            </a>
+          </ul>
         </div>
         <div class="col-md-2 nav-cart">
-          <ngcart-summary></ng-cart-summary>
+           <ngcart-summary></ng-cart-summary>
         </div>
+
       </div>
     </div>
   </div>
   <div class="nav-header">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <a  href="#!/catalog"><li>Каталог</li></a>
-          <a  href="#!/shops"><li>Магазины</li></a>
-          <a  href="#!/news"><li>Новости</li></a>
-          <a  href="#!/contacts"><li>Контакты</li></a>
-          <a  href="#!/payment"><li>Оплатить</li></a>
+        <div class="col-md-12 nav-cart">
+
+
         </div>
       </div>
     </div>
@@ -79,7 +95,7 @@
 
   <div class="main-section">
     <div class="container">
-      <div ng-view="" class="view-slide-in"></div>
+      <div ng-view="" class="repeat-animation"></div>
     </div>
   </div>
 
@@ -88,10 +104,10 @@
       <div class="row">
         <div class="col-md-12">
           <p>Подвал</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
   <!-- build:js(.) scripts/vendor.js -->

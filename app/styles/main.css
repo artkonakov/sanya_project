@@ -1,11 +1,11 @@
 body {
   background: #f6f6f6;
   font-family: 'Clear Sans';
-  color: #1f0f05;
+  color: #402512;
 }
 
 .top-header {
-  background: #1f0f05;
+  background: #704424;
 }
 .top-header p{
   color: #fff;
@@ -38,10 +38,11 @@ margin-left: 0px;
   float: right;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 16px;
 }
 
 .nav-cart img{
-  width: 48px;
+  width: 40px;
   text-decoration: none;
 }
 
@@ -57,7 +58,7 @@ margin-left: 0px;
   top: -4px;
   right: -10px;
   padding: 2px 6px;
-  background:  #ed4d38;
+  background:  #EB4A38;
   border-radius: 100px;
   color: #fff;
   text-decoration: none;
@@ -65,7 +66,7 @@ margin-left: 0px;
 .cart-total {
   display: inline-block;
   margin-left: 12px;
-  color: #1f0f05;
+  color: #704424;
   text-decoration: none;
   font-weight: bold;
 }
@@ -82,22 +83,24 @@ margin-left: 0px;
 }
 
 .nav-logo {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-decoration: none;
+background: #fff;
 }
 .nav-logo a{
   text-decoration: none;
 }
 .nav-logo .logo img{
-  height: 48px;
+  height: auto;
   width: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
+  margin-top: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
 .nav-logo h1 {
-  font-size: 20px;
-  text-align: center;
+  font-size: 16px;
+  text-align: left;
   line-height: 1.5;
   color: #8b7667;
   font-style: italic;
@@ -107,34 +110,46 @@ margin-left: 0px;
 .nav-header {
 
   text-decoration: none;
-  background: #1f0f05;
 
+
+
+}
+.nav-header ul {
+  margin: 0;
+  padding: 0;
 }
 .nav-header li {
   font-size: 20px;
-  line-height: 2.4;
-  color: #fff;
+  line-height: 2;
+
   font-weight: bold;
   list-style: none;
   display: inline-block;
   margin: 0;
   padding: 0;
-  padding-right: 20px;
-  padding-left: 20px;
   text-decoration: none;
+
 }
 .nav-header li:first-child{
   margin-left: 0;
 }
 .nav-header li:hover {
-  background: #ed4d38;
+  background: none;
 }
 .nav-header a {
-  color: #fff;
+  color: #0277bd;
   text-decoration: none;
+  margin-left: 40px;
+  border-bottom: 1px solid rgba(002, 119, 189, 0.4);
+
+}
+.nav-header a:first-child {
+  margin-left: 0px;
 }
 .nav-header a:hover {
   text-decoration: none;
+  color: #072658;
+  border-bottom: 1px solid rgba(007, 38, 88, 0.4);
 
 }
 .nav-header a.active {
@@ -150,7 +165,7 @@ margin-left: 0px;
   padding-bottom: 30px;
 }
 .footer {
-  background: #1f0f05;
+  background: #402614;
 }
 
 .filters-block {
