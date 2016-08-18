@@ -22,6 +22,8 @@ $email=$_POST['email'];
 
 $tel=$_POST['tel'];
 
+$tel=$_POST['adress'];
+
 $style=$_POST['style'];
 
 $top=$_POST['top'];

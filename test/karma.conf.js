@@ -33,6 +33,7 @@ module.exports = function(config) {
       'bower_components/angular-stamplay/angular-stamplay.js',
       'bower_components/lightbox2/dist/js/lightbox.js',
       'bower_components/angular-loading-bar/build/loading-bar.js',
+      'bower_components/angular-gettext/dist/angular-gettext.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

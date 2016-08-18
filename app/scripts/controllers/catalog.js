@@ -19,10 +19,7 @@ angular.module('kolobashkinApp')
       $scope.globals = response;
 
     });
-    $scope.menuClass = function(page) {
-      var current = $location.path().substring(1);
-      return page === current ? "active" : "";
-    };
+
     $scope.mainFilter = '';
     $scope.mainSort = 'sortCount';
 

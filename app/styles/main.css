@@ -3,6 +3,9 @@ body {
   font-family: 'Clear Sans';
   color: #212121;
 }
+h1 {
+margin-bottom: 40px;
+}
 
 .top-header {
   background: #0277bd;
@@ -78,7 +81,7 @@ margin-left: 0px;
   text-decoration: none;
 }
 .top-header a:hover{
-  color: #E00B0B;
+  color: #becee8;
   text-decoration: none;
 }
 
@@ -166,8 +169,10 @@ background: #fff;
   padding-bottom: 30px;
 }
 .footer {
-  background:  #808080;
-  height: 300px;
+  background:  ;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 
 .filters-block {
@@ -185,8 +190,12 @@ line-height: 2.5;
 
 }
 
-
-
+.news-block h1{
+  margin-bottom: 40px;
+}
+.news div{
+  margin-bottom: 20px;
+}
 .wrapper {
   margin-bottom: 30px;
   color: #242424;
@@ -263,8 +272,9 @@ img {
 }
 .item-new {
   position: absolute;
-  bottom: 44px;
-  width: 100%;
+  bottom: 280px;
+  left: 15px;
+  width: auto;
 
 }
 .item-new p {
@@ -274,6 +284,8 @@ img {
   font-weight: normal;
   line-height: 1;
   text-align: center;
+  padding: 0;
+  margin: 0;
   padding-right: 20px;
 }
 .item-new span {
@@ -544,4 +556,21 @@ box-shadow: none;
 .repeat-animation.ng-move.ng-move-active {
 
   opacity: 1;
+}
+
+.main-section {
+  min-height:80vh;
+}
+.order-info {
+  background: #fff1c1;
+  padding: 30px;
+}
+.tel-opt {
+  margin-top: 30px;
+}
+.shop-block a{
+  white-space: nowrap;
+}
+.margin-helper {
+  margin-bottom: 20px;
 }

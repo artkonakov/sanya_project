@@ -1,23 +1,23 @@
-<div class="row">
+<div class="row" ng-if="service=='http' && ngCart.getTotalItems() !== 0">
   <div class="col-md-6">
-    <div ng-if="service=='http' || service == 'log'">
+    <div >
       <!-- <button class="btn btn-primary" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>-->
-      <form action="post.php" method="POST">
+      <form action="post.php" name="userForm" method="POST" novalidate>
         <div class="form-group">
           <label for="exampleInputName1">Имя:</label>
-          <input type="text" class="form-control" name="name">
+          <input type="text" class="form-control" name="name" ng-model="main.user" required>
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Электронная почта:</label>
-          <input type="email" class="form-control" name="email">
+          <input type="email" class="form-control" name="email" ng-model="main.email" ng-minlength="5" required>
         </div>
         <div class="form-group">
           <label for="exampleInputTel1">Телефон:</label>
-          <input type="tel" class="form-control" name="tel">
+          <input type="tel" class="form-control" name="tel" ng-model="main.tel" required>
         </div>
         <div class="form-group">
           <label for="exampleInputAdress1">Адрес:</label>
-          <input type="text" class="form-control" name="tel">
+          <textarea type="textarea" class="form-control" name="adress" ng-model="main.adress" required></textarea>
         </div>
         <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
         <div ng-repeat="item in ngCart.getCart().items">
@@ -28,16 +28,17 @@
         <input type="hidden" value="<p><h1>Итого:</h1><h1></h1><h1>{{ngCart.getTotalItems()}} шт.</h1><h1></h1><h1>{{ngCart.totalCost()}} руб.</h1></p>" name="summary"></input>
 
 
-        <button type="submit" class="form-control" class="btn btn-primary" value="Отправить">Отправить</button>
+        <button type="submit" class="btn btn-primary"  ng-disabled="userForm.$invalid" value="Отправить">Отправить</button>
 
       </form>
 
     </div>
 
   </div>
-  <div class="order-info">
-    <div class="col-md-6">
 
+    <div class="col-md-6 order-info">
+        <p>Заполните данные для заказа. После этого с Вами свяжется наш менеджер для подтверждения.</p>
+        <p>Оплата заказа после подтверждения.</p>
     </div>
-  </div>
+
 </div>

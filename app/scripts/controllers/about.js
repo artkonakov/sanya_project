@@ -14,7 +14,7 @@ angular.module('kolobashkinApp')
     $scope.currentMaterial = $routeParams.material;
 
     $scope.URL = $location.path();
-    console.log($scope.URL);
+    
 
 
     //Делаем запрос к серверу через фабрику
@@ -28,7 +28,7 @@ angular.module('kolobashkinApp')
 
           if (array[i].id === value) {
             $scope.currentArray = array[i];
-            console.log($scope.currentArray);
+
             return $scope.currentArray;
           }
         };
@@ -43,7 +43,7 @@ angular.module('kolobashkinApp')
 
           if (array.materials[i].name === value) {
             $scope.currentArrayMaterial = array.materials[i];
-            console.log($scope.currentArrayMaterial);
+
             return $scope.currentArrayMaterial;
           }
 

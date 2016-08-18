@@ -18,7 +18,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ngCart'
+    'ngCart',
+    'gettext'
   ])
 
 .run(function() {
@@ -63,6 +64,14 @@ angular
       .when('/delivery', {
         templateUrl: 'views/delivery.html',
       })
+      .when('/boxes', {
+        templateUrl: 'views/boxes.html',
+      })
+      .when('/complited', {
+        templateUrl: 'views/complited.html',
+        controller: 'OrderCtrl',
+        controllerAs: 'order'
+      })
       .otherwise({
         redirectTo: '/'
       });
@@ -74,7 +83,7 @@ angular
   return {
     //Функция для запроса к серверу через контроллер
     getUrl: function(url) {
-    
+
 
       return $http.get(url);
     }
