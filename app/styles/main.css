@@ -593,3 +593,6 @@ box-shadow: none;
   background: #fff;
   margin-top: 30px;
 }
+.left-2-promo {
+  background: url(../images/left-2-promo.jpg) no-repeat 0 0;
+}
