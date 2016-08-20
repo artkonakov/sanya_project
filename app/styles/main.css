@@ -672,7 +672,7 @@ box-shadow: none;
   color: #000;
   margin-left: 10px;
   font-size: 48px;
-  background: #c5cae9;
+
   z-index: auto;
 }
 .main-promo img{
@@ -681,6 +681,27 @@ box-shadow: none;
   right: 30px;
   width: auto;
   height: 170px;
+  z-index: auto;
+}
+.middle-1-promo {
+  background: #fff;
+  position: relative;
+  z-index: auto;
+  overflow: hidden;
+}
+.middle-1-promo h4 {
+  color: #000;
+  margin-left: 10px;
+  font-size: 24px;
+
+  z-index: auto;
+}
+.middle-1-promo img{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: 100px;
   z-index: auto;
 }
 .main-block a:hover{
