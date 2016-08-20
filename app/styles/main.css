@@ -614,3 +614,38 @@ box-shadow: none;
   width: auto;
   height: 115px;
 }
+.left-3-promo {
+  background: #b2ebf2;
+  position: relative;
+}
+.left-3-promo h4 {
+  color: #000;
+  margin-left: 10px;
+  font-size: 36px;
+}
+.left-3-promo img{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: 115px;
+}
+.right-2-promo {
+  background: #ffff8d;
+  position: relative;
+}
+.right-2-promo h4 {
+  color: #000;
+  margin-left: 10px;
+  font-size: 36px;
+}
+.right-2-promo img{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: 115px;
+}
+.main-block a:hover{
+  text-decoration: none;
+}
