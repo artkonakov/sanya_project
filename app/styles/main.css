@@ -631,11 +631,11 @@ box-shadow: none;
   height: 115px;
 }
 .right-2-promo {
-  background: #ffff8d;
+  background: #7c4dff;
   position: relative;
 }
 .right-2-promo h4 {
-  color: #000;
+  color: #fff;
   margin-left: 10px;
   font-size: 36px;
 }
@@ -644,7 +644,44 @@ box-shadow: none;
   bottom: 10px;
   right: 10px;
   width: auto;
-  height: 115px;
+  height: 150px;
+}
+.right-3-promo {
+  background: #25262b;
+  position: relative;
+}
+.right-3-promo h4 {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 36px;
+}
+.right-3-promo img{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: 250px;
+}
+.main-promo {
+  background: #c5cae9;
+  position: relative;
+  z-index: auto;
+  overflow: hidden;
+}
+.main-promo h4 {
+  color: #000;
+  margin-left: 10px;
+  font-size: 48px;
+  background: #c5cae9;
+  z-index: auto;
+}
+.main-promo img{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: auto;
+  height: 170px;
+  z-index: auto;
 }
 .main-block a:hover{
   text-decoration: none;
