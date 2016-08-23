@@ -5,19 +5,19 @@
       <form action="post.php" name="userForm" method="POST" novalidate>
         <div class="form-group">
           <label for="exampleInputName1">Имя:</label>
-          <input type="text" class="form-control" name="name" ng-model="main.user" required>
+          <input type="text" class="form-control" placeholder="Иванов Иван Иванович" name="name" minlength="10" ng-model="main.user" ng-class="{ 'has-error' : userForm.user.$invalid && !userForm.user.$pristine }" required>
         </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Электронная почта:</label>
-          <input type="email" class="form-control" name="email" ng-model="main.email" ng-minlength="5" required>
+          <input type="email" placeholder="example@mail.ru" class="form-control" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }" name="email" ng-model="main.email" ng-minlength="5" required>
         </div>
         <div class="form-group">
           <label for="exampleInputTel1">Телефон:</label>
-          <input type="tel" class="form-control" name="tel" ng-model="main.tel" required>
+          <input type="tel" minlength="11" maxlength="12" placeholder="89123456789" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
         </div>
         <div class="form-group">
           <label for="exampleInputAdress1">Адрес:</label>
-          <textarea type="textarea" class="form-control" name="adress" ng-model="main.adress" required></textarea>
+          <textarea type="textarea" placeholder="912345, Санкт-Петербург, Невский проспект 120, корпус 3" minlength="10" maxlength="300" class="form-control" name="adress" ng-model="main.adress" ng-class="{ 'has-error' : userForm.adress.$invalid && !userForm.adress.$pristine }" required></textarea>
         </div>
         <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
         <div ng-repeat="item in ngCart.getCart().items">

@@ -585,7 +585,8 @@ box-shadow: none;
 .promo-1 {
   height: 300px;
   border: 1px solid #ddd;
-  background: #fff;
+  ackground: url(../images/bg-6.png) repeat;
+  background-size: 144px 192px;
 }
 .promo-2 {
   height: 135px;
@@ -599,7 +600,8 @@ box-shadow: none;
   margin-top: 30px;
 }
 .left-2-promo {
-  background: #000;
+  background: url(../images/bg-2.png) repeat;
+  background-size: 144px 192px;
   position: relative;
 }
 .left-2-promo h4 {
@@ -615,11 +617,12 @@ box-shadow: none;
   height: 115px;
 }
 .left-3-promo {
-  background: #b2ebf2;
+  background: url(../images/bg-5.png) repeat;
+  background-size: 144px 192px;
   position: relative;
 }
 .left-3-promo h4 {
-  color: #000;
+  color: #fff;
   margin-left: 10px;
   font-size: 36px;
 }
@@ -631,7 +634,8 @@ box-shadow: none;
   height: 115px;
 }
 .right-2-promo {
-  background: #7c4dff;
+  background: url(../images/bg-4.png) repeat;
+  background-size: 144px 192px;
   position: relative;
 }
 .right-2-promo h4 {
@@ -663,13 +667,14 @@ box-shadow: none;
   height: 250px;
 }
 .main-promo {
-  background: #c5cae9;
+  background: url(../images/bg-3.png) repeat;
+  background-size: 144px 192px;
   position: relative;
   z-index: auto;
   overflow: hidden;
 }
 .main-promo h4 {
-  color: #000;
+  color: #fff;
   margin-left: 10px;
   font-size: 48px;
 
@@ -684,7 +689,7 @@ box-shadow: none;
   z-index: auto;
 }
 .middle-1-promo {
-  background: #fff;
+  background:#fff;
   position: relative;
   z-index: auto;
   overflow: hidden;
@@ -706,4 +711,8 @@ box-shadow: none;
 }
 .main-block a:hover{
   text-decoration: none;
+}
+.has-error {
+  border-color: #E00B0B;
+
 }
