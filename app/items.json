@@ -1420,101 +1420,6 @@
     }
   ]
 },
-
-{
-  "id": "S130",
-  "type": "square",
-  "length_top": 305,
-  "width_top": 155,
-  "length_bottom": 320,
-  "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
-  "diameter_bottom": null,
-  "promo": "",
-  "promo_en": "",
-  "sortCount": 320,
-  "isShown": true,
-  "default_settings": {
-    "material": "oak",
-    "image": "http://new.kolobashkin.ru/images/items/S130D@3x.jpg",
-    "price": 1000
-  },
-  "materials": [
-    {
-      "name": "oak",
-      "price": 1000,
-      "weight": 750,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S130D",
-      "isShown": true,
-      "images": [{
-        "link": "http://new.kolobashkin.ru/images/items/S130D@3x.jpg"
-      }, {
-        "link": "http://new.kolobashkin.ru/images/items/S130D_2@3x.jpg"
-      }]
-    },
-    {
-      "name": "beech",
-      "price": 700,
-      "weight": 630,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S130B",
-      "isShown": true,
-      "images": [{
-        "link": "http://new.kolobashkin.ru/images/items/S130B@3x.jpg"
-      }, {
-        "link": "http://new.kolobashkin.ru/images/items/S130B_2@3x.jpg"
-      }]
-    }
-  ]
-},
-
-{
-  "id": "S135",
-  "type": "square",
-  "length_top": 355,
-  "width_top": 155,
-  "length_bottom": 370,
-  "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
-  "diameter_bottom": null,
-  "promo": "",
-  "promo_en": "",
-  "sortCount": 330,
-  "isShown": true,
-  "default_settings": {
-    "material": "beech",
-    "image": "http://new.kolobashkin.ru/images/items/S135B@3x.jpg",
-    "price": 800
-  },
-  "materials": [
-    {
-      "name": "beech",
-      "price": 800,
-      "weight": 660,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S135B",
-      "isShown": true,
-      "images": [{
-        "link": "http://new.kolobashkin.ru/images/items/S135B@3x.jpg"
-      }, {
-        "link": "http://new.kolobashkin.ru/images/items/S135B_2@3x.jpg"
-      }]
-    }
-  ]
-},
-
 {
   "id": "S24",
   "type": "square",
@@ -1918,7 +1823,99 @@
     }
   ]
 },
+{
+  "id": "S130",
+  "type": "square",
+  "length_top": 305,
+  "width_top": 155,
+  "length_bottom": 320,
+  "width_bottom": 170,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 421,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "http://new.kolobashkin.ru/images/items/S130B@3x.jpg",
+    "price": 700
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 1000,
+      "weight": 750,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S130D",
+      "isShown": false,
+      "images": [{
+        "link": "http://new.kolobashkin.ru/images/items/S130D@3x.jpg"
+      }, {
+        "link": "http://new.kolobashkin.ru/images/items/S130D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 700,
+      "weight": 630,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S130B",
+      "isShown": true,
+      "images": [{
+        "link": "http://new.kolobashkin.ru/images/items/S130B@3x.jpg"
+      }, {
+        "link": "http://new.kolobashkin.ru/images/items/S130B_2@3x.jpg"
+      }]
+    }
+  ]
+},
 
+{
+  "id": "S135",
+  "type": "square",
+  "length_top": 355,
+  "width_top": 155,
+  "length_bottom": 370,
+  "width_bottom": 170,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 422,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "http://new.kolobashkin.ru/images/items/S135B@3x.jpg",
+    "price": 800
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 800,
+      "weight": 660,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S135B",
+      "isShown": true,
+      "images": [{
+        "link": "http://new.kolobashkin.ru/images/items/S135B@3x.jpg"
+      }, {
+        "link": "http://new.kolobashkin.ru/images/items/S135B_2@3x.jpg"
+      }]
+    }
+  ]
+},
 {
   "id": "S230",
   "type": "square",
