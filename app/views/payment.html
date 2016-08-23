@@ -4,4 +4,110 @@
       <h1>Оплатить</h1>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <form method="POST" name="paymentForm" action="https://money.yandex.ru/eshop.xml">
+
+        <input type="hidden" name="shopId" value="61812">
+        <input type="hidden" name="scid" value="56687">
+
+        <!— Идентификатор клиента:<br>
+        <input type="hidden" name="customerNumber" size="64">
+        <br>
+        <br> —> Сумма (руб.):
+        <br>
+        <div class="form-group">
+            <label>Сумма:</label>
+        <input class="form-control" type="text" name="sum" size="20" placeholder="2340" ng-model="main.sum" ng-class="{ 'has-error' : userForm.sum.$invalid && !userForm.sum.$pristine }" required>
+        </div>
+        <br>
+        <br> Телефон:
+
+        <br>
+        <input type="text" name="cps_phone" size="20">
+        <br>
+        <br> Ф.И.О.:
+
+        <br>
+        <input type="text" name="custName" size="43">
+        <br>
+        <br> Адрес доставки:
+        <br>
+        <input type="text" name="custAddr" size="43">
+        <br>
+        <br> E-mail:
+        <br>
+        <input type="text" name="custEmail" size="43">
+        <br>
+        <br> Содержание заказа:
+        <br>
+        <textarea rows="10" name="orderDetails" cols="60"></textarea>
+        <br>
+        <br> Способ оплаты:
+        <br>
+        <br>
+        <input name="paymentType" value="AC" type="radio" checked="checked"> С банковской карты
+        <br>
+        <input name="paymentType" value="PC" type="radio"> Со счета в Яндекс.Деньгах (яндекс кошелек)
+        <br>
+        <input name="paymentType" value="GP" type="radio"> Оплата по коду через терминал
+        <br>
+        <input name="paymentType" value="WM" type="radio"> Оплата cо счета WebMoney
+        <br>
+        <input name="paymentType" value="AB" type="radio"> Оплата через Альфа-Клик
+        <br>
+        <input name="paymentType" value="PB" type="radio"> Оплата через Промсвязьбанк
+        <br>
+        <input name="paymentType" value="MA" type="radio"> Оплата через MasterPass
+        <br>
+        <input name="paymentType" value="QW" type="radio"> Оплата через Qiwi
+        <br>
+        <input name="paymentType" value="QP" type="radio"> Куппи.ру
+        <br>
+        <input name="paymentType" value="KV" type="radio"> КупиВкредит
+        <br>
+        <br>
+        <input type="submit" value="Оплатить">
+        <br>
+
+        <!--
+Ниже перечислены доступные формы оплаты.
+Перечисленные методы оплаты могут быть доступны в боевой среде после подписания Договора.
+Какие именно методы доступны для вашего Договора, вы можете уточнить у своего персонального менеджера.
+
+AB - Альфа-Клик
+AC - банковская карта
+GP - наличные через терминал
+MA - MasterPass
+MC - мобильная коммерция
+PB -интернет-банк Промсвязьбанка
+PC - кошелек Яндекс.Денег
+SB - Сбербанк Онлайн
+WM - кошелек WebMoney
+WQ - Qiwi
+QP - Куппи.ру
+KV - КупиВкредит
+
+<input name="paymentType" value="GP" type="radio">Оплата по коду через терминал<br>
+<input name="paymentType" value="WM" type="radio">Оплата cо счета WebMoney<br>
+<input name="paymentType" value="AB" type="radio">Оплата через Альфа-Клик<br>
+<input name="paymentType" value="PB" type="radio">Оплата через Промсвязьбанк<br>
+<input name="paymentType" value="MA" type="radio">Оплата через MasterPass<br>
+<input name="paymentType" value="QW" type="radio">Оплата через Qiwi<br>
+<input name="paymentType" value="QP" type="radio">Куппи.ру<br>
+<input name="paymentType" value="KV" type="radio">КупиВкредит<br>
+    </div>
+  </div>
 </div>
+Перечисление всех методов оплаты https://tech.yandex.ru/money/doc/payment-solution/ref..
+-->
+
+        <!--
+EPS и PNG файлы яндекс.кошелька
+https://money.yandex.ru/partners/doc.xml?id=522991
+
+EPS и PNG других платежных методов
+https://money.yandex.ru/doc.xml?id=526421
+-->
+
+      </form>
