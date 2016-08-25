@@ -11,20 +11,18 @@
         <input type="hidden" name="shopId" value="61812">
         <input type="hidden" name="scid" value="56687">
 
-        <!— Идентификатор клиента:<br>
+
         <input type="hidden" name="customerNumber" size="64">
-        <br>
-        <br> —> Сумма (руб.):
-        <br>
+
         <div class="form-group">
-            <label>Сумма:</label>
+        <label>Сумма:</label>
         <input class="form-control" type="text" name="sum" size="20" placeholder="2340" ng-model="main.sum" ng-class="{ 'has-error' : userForm.sum.$invalid && !userForm.sum.$pristine }" required>
         </div>
-        <br>
-        <br> Телефон:
-
-        <br>
-        <input type="text" name="cps_phone" size="20">
+        <div class="form-group">
+          <label for="exampleInputTel1">Телефон:</label>
+          <input type="tel" name="cps_phone" minlength="11" maxlength="12" placeholder="89123456789" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
+        </div>
+  
         <br>
         <br> Ф.И.О.:
 

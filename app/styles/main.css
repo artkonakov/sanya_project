@@ -585,7 +585,7 @@ box-shadow: none;
 .promo-1 {
   height: 300px;
   border: 1px solid #ddd;
-  ackground: url(../images/bg-6.png) repeat;
+  background: #fff;
   background-size: 144px 192px;
 }
 .promo-2 {
@@ -600,14 +600,15 @@ box-shadow: none;
   margin-top: 30px;
 }
 .left-2-promo {
-  background: url(../images/bg-2.png) repeat;
+  background: #eeeeee;
   background-size: 144px 192px;
   position: relative;
 }
 .left-2-promo h4 {
-  color: #fff;
-  margin-left: 10px;
-  font-size: 36px;
+  color: #212121;
+  margin-left: 20px;
+  font-size: 24px;
+  margin-top: 35px;
 }
 .left-2-promo img{
   position: absolute;
@@ -617,14 +618,15 @@ box-shadow: none;
   height: 115px;
 }
 .left-3-promo {
-  background: url(../images/bg-5.png) repeat;
+  background: #eeeeee;
   background-size: 144px 192px;
   position: relative;
 }
 .left-3-promo h4 {
-  color: #fff;
-  margin-left: 10px;
-  font-size: 36px;
+  color: #212121;
+  margin-left: 20px;
+  margin-top: 35px;
+  font-size: 24px;
 }
 .left-3-promo img{
   position: absolute;
@@ -634,30 +636,33 @@ box-shadow: none;
   height: 115px;
 }
 .right-2-promo {
-  background: url(../images/bg-4.png) repeat;
+  background: #eeeeee;
   background-size: 144px 192px;
   position: relative;
 }
 .right-2-promo h4 {
-  color: #fff;
-  margin-left: 10px;
-  font-size: 36px;
+    color: #212121;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
 }
 .right-2-promo img{
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
   width: auto;
   height: 150px;
 }
 .right-3-promo {
-  background: #25262b;
+  background: #CEDCF2;
   position: relative;
 }
 .right-3-promo h4 {
-  color: #fff;
-  margin-left: 10px;
-  font-size: 36px;
+    color: #212121;
+  margin-left: 20px;
+  margin-top: 80px;
+  font-size: 24px;
 }
 .right-3-promo img{
   position: absolute;
@@ -667,36 +672,39 @@ box-shadow: none;
   height: 250px;
 }
 .main-promo {
-  background: url(../images/bg-3.png) repeat;
+  background: #FFD833;
   background-size: 144px 192px;
   position: relative;
   z-index: auto;
   overflow: hidden;
-}
+  }
 .main-promo h4 {
-  color: #fff;
-  margin-left: 10px;
-  font-size: 48px;
-
-  z-index: auto;
+  color: #212121;
+  margin-top: 30px;
+  font-size: 24px;
+  text-align: center;
+;
 }
 .main-promo img{
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+
   width: auto;
   height: 170px;
-  z-index: auto;
+
 }
 .middle-1-promo {
-  background:#fff;
+  background:#eeeeee;
   position: relative;
   z-index: auto;
   overflow: hidden;
 }
 .middle-1-promo h4 {
-  color: #000;
-  margin-left: 10px;
+  color: #212121;
+  margin-left: 20px;
+  margin-top: 24px;
   font-size: 24px;
 
   z-index: auto;
@@ -712,7 +720,83 @@ box-shadow: none;
 .main-block a:hover{
   text-decoration: none;
 }
+
+.middle-2-promo {
+  background:#507299;
+  position: relative;
+  z-index: auto;
+  overflow: hidden;
+}
+.middle-2-promo h4 {
+  color: #fff;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+
+  z-index: auto;
+}
+.middle-2-promo img{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: auto;
+  margin-top: 25px;
+  height: 40px;
+  z-index: auto;
+}
+
+.bottom-promo {
+  background:#eeeeee;
+  position: relative;
+  z-index: auto;
+  overflow: hidden;
+}
+.bottom-promo h4 {
+  color: #212121;
+
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+
+  z-index: auto;
+}
+.bottom-promo img{
+  position: relative;;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: auto;
+  height: 40px;
+  z-index: auto;
+}
+.bottom-promo a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+
 .has-error {
   border-color: #E00B0B;
+
+}
+.hover-block {
+  opacity: 1;
+transition-duration: 0.3;
+}
+.hover-block :hover {
+  opacity: 0.9;
+transition-duration: 0.3;
+}
+.hover-block img:hover {
+  opacity: 1;
+
+}
+.hover-block h4:hover {
+  opacity: 1;
 
 }
