@@ -15,32 +15,79 @@
         <input type="hidden" name="customerNumber" size="64">
 
         <div class="form-group">
-        <label>Сумма:</label>
-        <input class="form-control" type="text" name="sum" size="20" placeholder="2340" ng-model="main.sum" ng-class="{ 'has-error' : userForm.sum.$invalid && !userForm.sum.$pristine }" required>
+          <label>Сумма:</label>
+          <input class="form-control" type="number" name="sum" size="20" placeholder="Сумма в рублях" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }" ng-model="main.sum" required>
         </div>
         <div class="form-group">
-          <label for="exampleInputTel1">Телефон:</label>
-          <input type="tel" name="cps_phone" minlength="11" maxlength="12" placeholder="89123456789" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
+          <label for="cps_phone">Телефон:</label>
+          <input type="tel" name="cps_phone" placeholder="Номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.cps_phone.$invalid && !paymentForm.cps_phone.$pristine }" ng-model="main.cps_phone" required>
         </div>
-  
-        <br>
-        <br> Ф.И.О.:
 
-        <br>
-        <input type="text" name="custName" size="43">
-        <br>
-        <br> Адрес доставки:
-        <br>
-        <input type="text" name="custAddr" size="43">
-        <br>
-        <br> E-mail:
-        <br>
-        <input type="text" name="custEmail" size="43">
-        <br>
-        <br> Содержание заказа:
-        <br>
-        <textarea rows="10" name="orderDetails" cols="60"></textarea>
-        <br>
+        <div class="form-group">
+          <label for="custName">Имя:</label>
+          <input type="text" name="custName" maxlength="80" placeholder="Ваше имя" class="form-control" ng-class="{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }" ng-model="main.custName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="custAddr">Адрес доставки:</label>
+          <input type="text" name="custAddr" maxlength="300" placeholder="Адрес доставки" class="form-control" ng-class="{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }" ng-model="main.custAddr" required>
+        </div>
+
+        <div class="form-group">
+          <label for="custEmail">E-mail:</label>
+          <input type="email" name="custEmail" maxlength="300" placeholder="Электронная почта" class="form-control" ng-class="{ 'has-error' : paymentForm.custEmail.$invalid && !paymentForm.custEmail.$pristine }" ng-model="main.custEmail" required>
+        </div>
+
+        <div class="form-group">
+          <label for="orderDetails">Содержание заказа:</label>
+          <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
+        </div>
+
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" checked="checked" value="AC">
+              С банковской карты
+            </label>
+
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" value="PC">
+              Со счета в Яндекс.Деньгах (яндекс кошелек)
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" value="WM">
+              Оплата cо счета WebMoney
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" value="AB">
+              Оплата через Альфа-Клик
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" value="QW">
+              Оплата через Qiwi
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="paymentType" value="KV">
+              КупиВкредит
+            </label>
+          </div>
+
+
+
+           <button type="submit" ng-disabled="paymentForm.$invalid" class="btn btn-primary">Оплатить</button>
+    </form>
+
+<!--
         <br> Способ оплаты:
         <br>
         <br>
@@ -67,7 +114,7 @@
         <br>
         <input type="submit" value="Оплатить">
         <br>
-
+-->
         <!--
 Ниже перечислены доступные формы оплаты.
 Перечисленные методы оплаты могут быть доступны в боевой среде после подписания Договора.
@@ -107,5 +154,3 @@ https://money.yandex.ru/partners/doc.xml?id=522991
 EPS и PNG других платежных методов
 https://money.yandex.ru/doc.xml?id=526421
 -->
-
-      </form>

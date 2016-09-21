@@ -10,6 +10,7 @@
 angular.module('kolobashkinApp')
   .controller("CatalogCtrl", ['$scope', 'getItems', '$location', function($scope, getItems, $location) {
 
+
     //Делаем запрос к серверу через фабрику
     getItems.getUrl('/items.json').success(function(response) {
       $scope.items = response;

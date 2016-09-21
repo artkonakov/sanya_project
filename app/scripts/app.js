@@ -27,9 +27,11 @@ angular
     lightbox.option({
       'showImageNumberLabel': false
     });
-  })
-  .config(function($locationProvider, $routeProvider) {
+})
+
+  .config(['$compileProvider','$locationProvider', '$routeProvider', function($compileProvider, $locationProvider, $routeProvider) {
     $locationProvider.html5Mode(false).hashPrefix('!');
+    $compileProvider.debugInfoEnabled(true);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html'
@@ -76,7 +78,7 @@ angular
         redirectTo: '/'
       });
 
-  })
+  }])
 
 
 .factory('getItems', ['$http', function($http) {
