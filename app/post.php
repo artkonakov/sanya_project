@@ -22,7 +22,7 @@ $email=$_POST['email'];
 
 $tel=$_POST['tel'];
 
-$tel=$_POST['adress'];
+$address=$_POST['address'];
 
 $style=$_POST['style'];
 
@@ -74,6 +74,8 @@ for ($i=0; $i<=$count; $i++)
 
   Телефон: $tel<br><br>
 
+  Адрес: $address<br><br>
+
   <font size=+1><b>Заказ</b><br><br></font>
 
   $msg";
@@ -81,7 +83,7 @@ for ($i=0; $i<=$count; $i++)
 
    // Отправляем письмо админу
 
-  mail("$adminemail", "$date $time Сообщение от $name, телефон: $tel", "$msg", $headers);
+  mail("$adminemail", "$date $time Сообщение от $name, телефон: $tel, адрес: $address", "$msg", $headers);
 
 
 
