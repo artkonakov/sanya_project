@@ -8,7 +8,7 @@ $date=date("d.m.y"); // число.месяц.год
 
 $time=date("H:i"); // часы:минуты:секунды
 
-$backurl="http://new.kolobashkin.ru/#/cart";  // На какую страничку переходит после отправки письма
+$backurl="http://new.kolobashkin.ru/#/completed";  // На какую страничку переходит после отправки письма
 
 //---------------------------------------------------------------------- //
 
@@ -103,7 +103,7 @@ for ($i=0; $i<=$count; $i++)
   // Выводим сообщение пользователю
 
   print "<script language='Javascript'><!--
-  function reload() {location = \"$backurl\"}; setTimeout('reload()', 12000);
+  function reload() {location = \"$backurl\"}; setTimeout('reload()', 7000);
   --></script>
 
   $msg
