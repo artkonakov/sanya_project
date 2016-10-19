@@ -746,7 +746,7 @@ img {
 .right-3-promo img {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 20px;
   width: auto;
   height: 250px;
 }
@@ -968,9 +968,9 @@ img {
 }
 @media (min-width: 1024px) {
   .right-3-promo h4{
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .right-3-promo img {
-    right: 10px;
+    right: 20px;
   }
 }
