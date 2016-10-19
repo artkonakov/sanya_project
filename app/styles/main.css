@@ -926,3 +926,21 @@ img {
     margin-top: 30px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-header li{
+    font-size: 14px;
+  }
+  .top-header p{
+    margin-left: 15px;
+  }
+  .header-right p{
+    margin-right: 15px;
+  }
+
+.nav-logo .logo img{
+  height: 28px;
+}
+.nav-header a{
+  margin-left: 25px;
+}
+}

@@ -28,7 +28,7 @@
   <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top visible-xs">
     <div class="container-fluid ">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header ">
@@ -83,12 +83,12 @@
   <div class="hidden-xs top-header">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-8">
           <p translate>Россия, Санкт-Петербург</p>
           <p><a href="tel:+79995280010">+7 999 528-00-10</a></p>
           <p><a href="mailto: info@kolobashkin.ru">info@kolobashkin.ru</a></p>
         </div>
-        <div class="col-md-6 header-right">
+        <div class="col-md-6 col-sm-4 header-right">
           <p><a href="#!/delivery">Доставка</a></p>
           <p>
             <a href="#!/cart"> <span> Корзина </span></a>
@@ -103,10 +103,10 @@
   <div class="hidden-xs nav-logo">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 logo">
+        <div class="col-md-3 col-sm-3 logo">
           <a class="" ng-href="#!/"><img src="/images/logo.svg"></a>
         </div>
-        <div class="col-md-7 nav-header">
+        <div class="col-md-7 col-sm-7 nav-header">
           <ul>
             <a href="#!/catalog">
               <li>Каталог</li>
@@ -130,7 +130,7 @@
 
           </ul>
         </div>
-        <div class="col-md-2 nav-cart">
+        <div class="col-md-2 col-sm-2 nav-cart">
           <ngcart-summary>
             </ng-cart-summary>
         </div>
@@ -206,7 +206,36 @@
   <script type="text/javascript" src="scripts/plugins.js"></script>
 
   <!-- endbuild -->
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter31582468 = new Ya.Metrika({
+                      id:31582468,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true,
+                      trackHash:true
+                  });
+              } catch(e) { }
+          });
 
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+  </script>
+
+  <!-- /Yandex.Metrika counter -->
 
 </body>
 
