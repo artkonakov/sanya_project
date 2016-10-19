@@ -1,4 +1,6 @@
-# robotstxt.org
-
 User-agent: *
-Disallow:
+Disallow: /tmp/
+Disallow: */core/*
+
+Host: kolobashkin.ru
+Sitemap: http://kolobashkin.ru/sitemap.xml
