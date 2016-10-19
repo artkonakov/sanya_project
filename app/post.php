@@ -1,14 +1,14 @@
 <?
 // ----------------------------конфигурация-------------------------- //
 
-//$adminemail="info@kolobashkin.ru";  // e-mail админа
-$adminemail=$_POST['adminemail']; // e-mail для теста
+$adminemail="info@kolobashkin.ru";  // e-mail админа
+//$adminemail=$_POST['adminemail']; // e-mail для теста
 
 $date=date("d.m.y"); // число.месяц.год
 
 $time=date("H:i"); // часы:минуты:секунды
 
-$backurl="http://new.kolobashkin.ru/#/completed";  // На какую страничку переходит после отправки письма
+$backurl="http://kolobashkin.ru/#!/completed";  // На какую страничку переходит после отправки письма
 
 //---------------------------------------------------------------------- //
 
@@ -81,8 +81,7 @@ for ($i=0; $i<=$count; $i++)
 
    // Отправляем письмо админу
 
-  mail("$adminemail", "$date $time Сообщение
-  от $name, телефон: $tel", "$msg", $headers);
+  mail("$adminemail", "$date $time Сообщение от $name, телефон: $tel", "$msg", $headers);
 
 
 
@@ -108,7 +107,7 @@ for ($i=0; $i<=$count; $i++)
 
   $msg
 
-  <p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";
+  <p>Ваш заказ успешно отправлен нашему менеджеру!</p>";
   exit;
 
   }
