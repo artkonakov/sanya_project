@@ -22,7 +22,7 @@
 <div class="catalog-block">
   <div class="row">
     <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search}">
-      <div class="col-md-3" ng-show="item.isShown">
+      <div class="col-md-3 col-sm-6 " ng-show="item.isShown">
 
         <div class="wrapper">
           <a href="/#!/{{item.id}}/{{item.default_settings.material}}">

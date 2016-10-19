@@ -31,7 +31,7 @@ angular
 
   .config(['$compileProvider','$locationProvider', '$routeProvider', function($compileProvider, $locationProvider, $routeProvider) {
     $locationProvider.html5Mode(false).hashPrefix('!');
-    $compileProvider.debugInfoEnabled(true);
+    $compileProvider.debugInfoEnabled(false);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html'
@@ -69,8 +69,8 @@ angular
       .when('/boxes', {
         templateUrl: 'views/boxes.html',
       })
-      .when('/complited', {
-        templateUrl: 'views/complited.html',
+      .when('/completed', {
+        templateUrl: 'views/completed.html',
         controller: 'OrderCtrl',
         controllerAs: 'order'
       })
