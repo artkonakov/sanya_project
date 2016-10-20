@@ -139,19 +139,21 @@ body a:hover {
 
 .nav-header ul {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 0;
+  padding-left: -15px;
 }
 
 .nav-header li {
-  font-size: 16px;
-  line-height: 2;
+  font-size: 15px;
+  line-height: 1.6;
   font-weight: bold;
   list-style: none;
   display: inline-block;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  border-bottom: 1px solid rgba(002, 119, 189, 0.4);
 }
 
 .nav-header li:first-child {
@@ -165,8 +167,9 @@ body a:hover {
 .nav-header a {
   color: #0277bd;
   text-decoration: none;
-  margin-left: 40px;
-  border-bottom: 1px solid rgba(002, 119, 189, 0.4);
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 .nav-header a:first-child {
@@ -928,9 +931,7 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .nav-header li {
-    font-size: 14px;
-  }
+
   .top-header p {
     margin-left: 15px;
   }
@@ -940,9 +941,7 @@ img {
   .nav-logo .logo img {
     height: 28px;
   }
-  .nav-header a {
-    margin-left: 25px;
-  }
+
   .item-new {
     bottom: 260px;
   }
