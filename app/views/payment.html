@@ -18,13 +18,9 @@
           <label>Сумма:</label>
           <input class="form-control" type="number" name="sum" size="20" placeholder="Сумма в рублях" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }" ng-model="main.sum" required>
         </div>
-        <div class="form-group">
-          <label for="cps_phone">Телефон:</label>
-          <input type="tel" name="cps_phone" placeholder="Номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.cps_phone.$invalid && !paymentForm.cps_phone.$pristine }" ng-model="main.cps_phone" required>
-        </div>
 
         <div class="form-group">
-          <label for="custName">Имя:</label>
+          <label for="custName">ФИО:</label>
           <input type="text" name="custName" maxlength="80" placeholder="Ваше имя" class="form-control" ng-class="{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }" ng-model="main.custName" required>
         </div>
 
@@ -39,8 +35,8 @@
         </div>
 
         <div class="form-group">
-          <label for="orderDetails">Содержание заказа:</label>
-          <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
+          <label for="orderDetails">Содержание заказа и контактный номер телефона:</label>
+          <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа и контактный номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
         </div>
 
 
@@ -112,6 +108,15 @@
     </form>
 
 <!--
+
+
+        <div class="form-group">
+          <label for="cps_phone">Телефон:</label>
+          <input type="tel" name="cps_phone" placeholder="Номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.cps_phone.$invalid && !paymentForm.cps_phone.$pristine }" ng-model="main.cps_phone" required>
+        </div>
+
+
+
         <br> Способ оплаты:
         <br>
         <br>
