@@ -74,6 +74,9 @@ angular
         controller: 'OrderCtrl',
         controllerAs: 'order'
       })
+      .when('/gallery', {
+        templateUrl: 'views/gallery.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
