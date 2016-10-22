@@ -35,7 +35,7 @@
   ]
 },
 {
-  "id": "S384",
+  "id": "R384",
   "type": "round",
   "length_top": null,
   "width_top": null,
@@ -50,7 +50,7 @@
   "isShown": true,
   "default_settings": {
     "material": "beech",
-    "image": "/images/items/S384B@3x.jpg",
+    "image": "/images/items/R384B@3x.jpg",
     "price": 350
   },
   "materials": [
@@ -62,16 +62,16 @@
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
       "description_en": "",
-      "vendor_code": "S384B",
+      "vendor_code": "R384B",
       "isShown": true,
       "images": [{
-        "link": "/images/items/S384B@3x.jpg"
+        "link": "/images/items/R384B@3x.jpg"
       }]
     }
   ]
 },
 {
-  "id": "S3100",
+  "id": "R3100",
   "type": "round",
   "length_top": null,
   "width_top": null,
@@ -86,7 +86,7 @@
   "isShown": true,
   "default_settings": {
     "material": "beech",
-    "image": "/images/items/S3100B@3x.jpg",
+    "image": "/images/items/R3100B@3x.jpg",
     "price": 420
   },
   "materials": [
@@ -98,10 +98,10 @@
       "cover_en": "Decorative impregnating oil, natural wax",
       "description": "",
       "description_en": "",
-      "vendor_code": "S3100B",
+      "vendor_code": "R3100B",
       "isShown": true,
       "images": [{
-        "link": "/images/items/S3100B@3x.jpg"
+        "link": "/images/items/R3100B@3x.jpg"
       }]
     }
   ]
