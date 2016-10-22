@@ -987,7 +987,8 @@ img {
   font-size: 11px;
 }
 .main-news {
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 
 }
 .main-news h1{
