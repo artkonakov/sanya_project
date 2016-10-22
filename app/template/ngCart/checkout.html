@@ -17,7 +17,11 @@
         </div>
         <div class="form-group">
           <label for="exampleInputaddress1">Адрес:</label>
-          <textarea type="textarea" rows="3" placeholder="191234, Санкт-Петербург, Невский проспект 120, корпус 3" maxlength="300" class="form-control" name="address" ng-model="main.address" ng-class="{ 'has-error' : userForm.address.$invalid && !userForm.address.$pristine }" required></textarea>
+          <textarea type="textarea" rows="3" placeholder="191234, Санкт-Петербург, Невский проспект 120, корпус 3, кв.41" maxlength="300" class="form-control" name="address" ng-model="main.address" ng-class="{ 'has-error' : userForm.address.$invalid && !userForm.address.$pristine }" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="examplePromo">Промокод:</label>
+          <textarea type="textarea" rows="1" placeholder="" maxlength="10" class="form-control" name="promo" ng-model="main.promo"></textarea>
         </div>
         <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
         <div ng-repeat="item in ngCart.getCart().items">

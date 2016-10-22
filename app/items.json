@@ -10,7 +10,7 @@
   "diameter_bottom": 60,
   "promo": "",
   "promo_en": "",
-  "sortCount": 0,
+  "sortCount": 36,
   "isShown": true,
   "default_settings": {
     "material": "oak",
@@ -48,7 +48,7 @@
   "diameter_bottom": 60,
   "promo": "Супер-цена!",
   "promo_en": "",
-  "sortCount": 10,
+  "sortCount": 37,
   "isShown": true,
   "default_settings": {
     "material": "oak",
@@ -86,7 +86,7 @@
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
-  "sortCount": 20,
+  "sortCount": 38,
   "isShown": true,
   "default_settings": {
     "material": "oak",
@@ -124,7 +124,7 @@
   "diameter_bottom": null,
   "promo": "",
   "promo_en": "",
-  "sortCount": 30,
+  "sortCount": 39,
   "isShown": true,
   "default_settings": {
     "material": "oak",
