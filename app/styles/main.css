@@ -975,3 +975,27 @@ img {
     right: 20px;
   }
 }
+.mob-contacts {
+  margin-top: -30px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-top: 6px;
+
+}
+.mob-contacts ul {
+  margin: 0;
+  font-size: 11px;
+}
+.main-news {
+  margin-top: 30px;
+
+}
+.main-news h1{
+font-size: 16px;
+font-weight: normal;
+margin-bottom: 0px;
+}
+.main-kolobashka img{
+  width: 64px;
+  height: 64px;
+}
