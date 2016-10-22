@@ -13,49 +13,49 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/catalog</loc>
+  <loc>http://kolobashkin.ru/#!</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/buy</loc>
+  <loc>http://kolobashkin.ru/#!/catalog</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/contact</loc>
+  <loc>http://kolobashkin.ru/#!/boxes</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/post</loc>
+  <loc>http://kolobashkin.ru/#!/shops</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/delivery</loc>
+  <loc>http://kolobashkin.ru/#!/news</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/payment</loc>
+  <loc>http://kolobashkin.ru/#!/contacts</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/S231</loc>
+  <loc>http://kolobashkin.ru/#!/gallery</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolobashkin.ru/kolpak</loc>
+  <loc>http://kolobashkin.ru/#!/delivery</loc>
   <lastmod>2016-06-21T08:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
