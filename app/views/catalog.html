@@ -26,16 +26,7 @@
 
         <div class="wrapper">
           <a href="/#!/{{item.id}}/{{item.default_settings.material}}">
-
-             <span ng-repeat="material in item.materials">
-
-
-            <img ng-class="{active : currentMaterial == oak}" ng-src="{{item.default_settings.image}}" title="Подставка из дуба {{item.id}}D" ng-show="material.name == 'oak'">
-
-            <img ng-class="{active : currentMaterial == beech}" ng-src="{{item.default_settings.image}}" title="Подставка из бука {{item.id}}B" ng-show="material.name == 'beech'">
-            
-            </span>
-
+<img ng-src="{{item.default_settings.image}}" >
           </a>
 
 
