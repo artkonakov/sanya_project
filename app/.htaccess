@@ -9,3 +9,4 @@ Redirect 301 /buy /#!/shops
 Redirect 301 /kolpak /#!/boxes
 Redirect 301 /contact /#!/contacts
 Redirect 301 /delivery /#!/delivery
+Redirect 301 /post /#!/post
