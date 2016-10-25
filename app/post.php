@@ -44,7 +44,7 @@ for ($i=0; $i<=$count; $i++)
   $msg=$style.$msg_all.$summary;
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-  $headers .= "From: Письмо от Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
+  $headers .= "From: Заказ на Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
   $headers .= "Reply-To: info@kolobashkin.ru\r\n";
 
 

@@ -24,7 +24,9 @@ $tel=$_POST['tel'];
  
 $msg=$_POST['message']; 
  
-  
+$headers  = "Content-type: text/html; charset=utf-8 \r\n";
+$headers .= "From: Письмо от Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
+$headers .= "Reply-To: info@kolobashkin.ru\r\n";
  
 // Проверяем валидность e-mail 
  
