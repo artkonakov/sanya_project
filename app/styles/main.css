@@ -138,7 +138,7 @@ body a:hover {
 }
 
 .nav-header ul {
-  margin: 0;
+  margin-left: 30px;
   margin-top: 15px;
   padding: 0;
   padding-left: -15px;
@@ -175,7 +175,7 @@ body a:hover {
 }
 
 .nav-header a:first-child {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 .nav-header li:hover {
@@ -933,7 +933,9 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+  .nav-header ul {
+    margin-top: 0px;
+  }
   .top-header p {
     margin-left: 15px;
   }

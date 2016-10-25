@@ -5,18 +5,22 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-6 col-sm-6">
 
-    <form action="send.php" method="POST"> 
- 
-    <p><strong>Имя: </strong></p><p> <input type="text" name="name" placeholder="Иванов Иван Иванович" size="40"> </p> 
- 
-    <p><strong>E-mail: </strong></p><p> <input type="text" name="email" placeholder="example@mail.ru" size="40"></p> 
+    <form action="send.php" method="POST">
+      <div class="form-group">
+        <label>Имя:</label>
+        <input class="form-control" type="text" name="name" placeholder="Иванов Иван Иванович" size="40" required>
+      </div>
 
-    <p><strong>Контактный телефон: </strong></p><p> <input type="text" name="tel" placeholder="89213456789" size="40"></p> 
- 
-    <p><strong>Сообщение: </strong></p><p> <textarea rows="10" cols="40" name="message"></textarea></p> 
- 
+    <p><strong>Имя: </strong></p><p> <input type="text" name="name" placeholder="Иванов Иван Иванович" size="40"> </p>
+
+    <p><strong>E-mail: </strong></p><p> <input type="text" name="email" placeholder="example@mail.ru" size="40"></p>
+
+    <p><strong>Контактный телефон: </strong></p><p> <input type="text" name="tel" placeholder="89213456789" size="40"></p>
+
+    <p><strong>Сообщение: </strong></p><p> <textarea rows="10" cols="40" name="message"></textarea></p>
+
     <input type="submit" value="Отправить" class="btn btn-primary"  > </form>
 
     </div>
