@@ -462,13 +462,12 @@ img {
 }
 
 .product-wrapper h2 a {
-  color: #ed4d38;
-  text-decoration: none;
+
+
 }
 
 .product-wrapper h2 a:hover {
-  color: #1f0f05;
-  text-decoration: none;
+
 }
 
 .product-wrapper img {
@@ -504,7 +503,7 @@ img {
 }
 
 .item_description a {
-  color: #333;
+
 }
 
 .item_description a:hover {
