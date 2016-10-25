@@ -77,6 +77,9 @@ angular
       .when('/gallery', {
         templateUrl: 'views/gallery.html',
       })
+      .when('/post', {
+        templateUrl: 'views/post.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
