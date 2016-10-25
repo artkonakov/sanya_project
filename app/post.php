@@ -26,7 +26,7 @@ $address=$_POST['address'];
 
 $promo=$_POST['promo'];
 
-$promo=$_POST['comment'];
+$comment=$_POST['comment'];
 
 $style=$_POST['style'];
 
