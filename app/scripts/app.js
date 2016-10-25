@@ -80,6 +80,9 @@ angular
       .when('/post', {
         templateUrl: 'views/post.html',
       })
+      .when('/successful', {
+        templateUrl: 'views/successful.html',
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -68,7 +68,7 @@ for ($i=0; $i<=$count; $i++)
    {
 
 
-  $msg="<font size=+1><b>Данные</b><br><br></font>
+  $msg="<font size=+1><b>Данные:</b><br><br></font>
 
   Имя: $name<br>
 

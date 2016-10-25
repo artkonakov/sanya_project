@@ -8,7 +8,7 @@ $date=date("d.m.y"); // число.месяц.год
  
 $time=date("H:i"); // часы:минуты:секунды 
  
-$backurl="http://kolobashkin.ru/";  // На какую страничку переходит после отправки письма 
+$backurl="http://kolobashkin.ru/#!/successful";  // На какую страничку переходит после отправки письма 
  
 //---------------------------------------------------------------------- // 
  
@@ -45,22 +45,27 @@ href='javascript:history.back(1)'><B>назад</B></a>. Вы
  else 
  
  { 
- 
- 
-$msg="Имя: $name
- 
-E-mail: $email 
 
-Телефон: $tel
 
-Сообщение: $msg"; 
+
+  $msg="<font size=+1><b>Данные:</b><br><br></font>
+
+  Имя: $name<br>
+
+  E-mail: $email<br>
+
+  Телефон: $tel<br><br>
+
+  <font size=+1><b>Сообщение:</b><br><br></font>
+
+  $msg";
  
   
  
  // Отправляем письмо админу  
  
 mail("$adminemail", "$date $time Сообщение 
-от $name, телефон: $tel", "$msg"); 
+от $name, телефон: $tel", "$msg", $headers); 
  
   
  
@@ -77,17 +82,11 @@ fwrite($f,"\n ---------------");
 fclose($f); 
  
   
+
+header('Location: http://kolobashkin.ru/#!/successful');
+exit;
  
-// Выводим сообщение пользователю 
  
-print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 3000); 
-//--></script> 
- 
-$msg 
- 
-<p>Сообщение отправлено! Наш менеджер с вами свяжется</p>";  
-exit; 
  
  } 
  
