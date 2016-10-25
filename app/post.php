@@ -26,6 +26,8 @@ $address=$_POST['address'];
 
 $promo=$_POST['promo'];
 
+$promo=$_POST['comment'];
+
 $style=$_POST['style'];
 
 $top=$_POST['top'];
@@ -77,6 +79,8 @@ for ($i=0; $i<=$count; $i++)
   Телефон: $tel<br><br>
 
   Адрес: $address<br><br>
+
+  Комментарий: $comment<br><br>
 
   Промокод: $promo<br><br>
 
