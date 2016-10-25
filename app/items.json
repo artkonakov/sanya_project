@@ -73,60 +73,6 @@
   ]
 },
 {
-  "id": "S26",
-  "type": "square",
-  "length_top": 60,
-  "width_top": 60,
-  "length_bottom": 80,
-  "width_bottom": 80,
-  "height": 17,
-  "diameter_top": null,
-  "diameter_bottom": null,
-  "promo": "",
-  "promo_en": "",
-  "sortCount": 350,
-  "isShown": true,
-  "default_settings": {
-    "material": "oak",
-    "image": "/images/items/S26D@3x.jpg",
-    "price": 210
-  },
-  "materials": [
-    {
-      "name": "oak",
-      "price": 210,
-      "weight": 70,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S26D",
-      "isShown": true,
-      "images": [{
-        "link": "/images/items/S26D@3x.jpg"
-      }, {
-        "link": "/images/items/S26D_2@3x.jpg"
-      }]
-    },
-    {
-      "name": "beech",
-      "price": 140,
-      "weight": 80,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S26B",
-      "isShown": true,
-      "images": [{
-        "link": "/images/items/S26B@3x.jpg"
-      }, {
-        "link": "/images/items/S26B_2@3x.jpg"
-      }]
-    }
-  ]
-},
-{
   "id": "P535",
   "type": "plinth",
   "length_top": null,
