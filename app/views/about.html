@@ -31,7 +31,7 @@
       <div class="buy-block">
         <h1><currency ng-if="(globals.currency == '$')">$</currency>{{currentArrayMaterial.price}} <currency ng-if="(globals.currency == 'Rub')"><span style="font-family: Arial;">&#8381;</span></currency></h1>
         <div class="buy-button">
-          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30"  data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
+          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30" data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
         </div>
       </div>
       <h4>{{globals.text_sizes}}</h4>
@@ -86,10 +86,10 @@
         </div>
       </div>
 
-      <h3><strong>{{globals.text_cover}}</strong> {{currentArrayMaterial.cover}}</h3>
-      <h2 ng-bind-html="currentArrayMaterial.description"></h2>
-      <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
-      <h2>{{globals.text_product_2}}</h2>
+        <h3><strong>{{globals.text_cover}}</strong> {{currentArrayMaterial.cover}}</h3>
+        <h2 ng-bind-html="currentArrayMaterial.description"></h2>
+        <h2>{{globals.text_product_1}}<a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></h2>
+        <h2>{{globals.text_product_2}}</h2>
 
     </div>
 
