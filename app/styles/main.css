@@ -938,7 +938,9 @@ img {
   }
   .top-header p {
     margin-left: 15px;
+    font-size: 11px;
   }
+
   .header-right p {
     margin-right: 15px;
   }
@@ -978,10 +980,11 @@ img {
   }
 }
 .mob-contacts {
-  margin-top: -30px;
+  margin-top: 0px;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
-  padding-top: 6px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 2px;
 
 }
 .mob-contacts ul {
