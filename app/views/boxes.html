@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 col-sm-8">
       <h4 class="margin-helper">Мы производим и доставляем колпаки из оргстекла под наши подставки. Колпаки доступны для определенных моделей. Они отличаются по толщине (2 мм или 3 мм) и размеру. На данный момент колпаки доступны для следующих моделей: </h4>
       <div class="table-responsive">
         <table class="table table-hover table-striped">
@@ -38,7 +38,7 @@
             </tr>
             <tr>
               <td><a href="/#!/S218/beech" target="_blank">S218B</a></td>
-               <td>100 мм</td>
+              <td>100 мм</td>
               <td>2 мм</td>
               <td>1050 руб.</td>
             </tr>
@@ -83,19 +83,35 @@
 
         </table>
       </div>
-            <h5 lass="margin-helper">(!) Стоимость указана за подставку с колпаком.</h5>
-            <h5 lass="margin-helper">Колпаки изготавливаются под заказ, есть возможность их изготовить произвольных размеров.</h5>
+      <h5 lass="margin-helper">(!) Стоимость указана за подставку с колпаком.</h5>
+      <h5 lass="margin-helper">Колпаки изготавливаются под заказ, есть возможность их изготовить произвольных размеров.</h5>
+      <div class="row">
+        <div class="col-md-8">
+        <form  class="forma-zayavki" action="send.php" method="POST">
+          <div class="form-group">
+            <label>Имя:</label>
+            <input type="text" name="name" placeholder="Иванов Иван Иванович" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text" name="email" placeholder="example@mail.ru" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Контактный телефон:</label>
+            <input type="text" name="tel" placeholder="89213456789" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Сообщение:</label>
+            <textarea rows="10" class="form-control" name="message" placeholder="Напишите необходимые параметры для изготовления колпака: длина, ширина, высота, толщина (2мм или 3мм)" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+      </div>
+    </div>
 
-   <form action="send.php" method="POST"> 
-    <br>
-    <p><strong>Имя: </strong></p><p> <input type="text" name="name" placeholder="Иванов Иван Иванович" class="form-control"> </p> 
-    <p><strong>E-mail: </strong></p><p> <input type="text" name="email" placeholder="example@mail.ru" class="form-control"></p>
-    <p><strong>Контактный телефон: </strong></p><p> <input type="text" name="tel" placeholder="89213456789" class="form-control"></p> 
-    <p><strong>Сообщение: </strong></p><p> <textarea rows="10" class="form-control" name="message" placeholder="Напишите необходимые параметры для изготовления колпака: длина, ширина, высота, толщина (2мм или 3мм)"></textarea></p> 
-    <input type="submit" value="Отправить" class="btn btn-primary" > </form><br>
+    </div>
 
-</div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-4">
       <a href="/#!/S218/beech"><img src="images/9.jpg" title="Колпак под модель S218B"></a>
       <p><small>Колпак под модель S218B</small></p>
       <a href="/#!/S230/beech"><img src="images/2.jpg" title="Колпак под модель S230B"></a>
