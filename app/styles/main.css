@@ -168,14 +168,14 @@ body a:hover {
 .nav-header a {
   color: #0277bd;
 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
 
 }
 
 .nav-header a:first-child {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .nav-header li:hover {
