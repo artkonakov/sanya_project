@@ -26,7 +26,8 @@
 
         <div class="wrapper">
           <a href="/#!/{{item.id}}/{{item.default_settings.material}}">
-          <img ng-src="{{item.default_settings.image}}" >
+          <img ng-src="{{item.default_settings.image}}" title="Подставка из бука {{item.id}}B" ng-if="item.default_settings.material=='beech'">
+          <img ng-src="{{item.default_settings.image}}" title="Подставка из дуба {{item.id}}D" ng-if="item.default_settings.material=='oak'">
           </a>
 
 
