@@ -30,7 +30,7 @@ angular
 })
 
   .config(['$compileProvider','$locationProvider', '$routeProvider', function($compileProvider, $locationProvider, $routeProvider) {
-    $locationProvider.html5Mode(false).hashPrefix('!');
+    $locationProvider.html5Mode(true);
     $compileProvider.debugInfoEnabled(false);
     $routeProvider
       .when('/', {

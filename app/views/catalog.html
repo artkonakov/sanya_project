@@ -25,7 +25,7 @@
       <div class="col-md-3 col-sm-6 " ng-show="item.isShown">
 
         <div class="wrapper">
-          <a href="/#!/{{item.id}}/{{item.default_settings.material}}">
+          <a href="/{{item.id}}/{{item.default_settings.material}}">
           <img ng-src="{{item.default_settings.image}}" title="Подставка из бука {{item.id}}B" ng-if="item.default_settings.material=='beech'">
           <img ng-src="{{item.default_settings.image}}" title="Подставка из дуба {{item.id}}D" ng-if="item.default_settings.material=='oak'">
           </a>
@@ -46,10 +46,10 @@
           <div class="item-materials">
             <p>
               <span ng-repeat="material in item.materials">
-              <a href="/#!/{{item.id}}/oak"><img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="material.name == 'oak' && material.isShown" ></a>
-              <a href="/#!/{{item.id}}/beech"><img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="material.name == 'beech' && material.isShown" ></a>
-              <a href="/#!/{{item.id}}/birch"><img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="material.name == 'birch' && material.isShown" ></a>
-              <a href="/#!/{{item.id}}/pine"><img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="material.name == 'pine' && material.isShown" ></a>
+              <a href="/{{item.id}}/oak"><img src="/images/oak-texture.png" class="texture" title="Дуб" ng-show="material.name == 'oak' && material.isShown" ></a>
+              <a href="/{{item.id}}/beech"><img src="/images/beech-texture.png" class="texture" title="Бук" ng-show="material.name == 'beech' && material.isShown" ></a>
+              <a href="/{{item.id}}/birch"><img src="/images/birch-texture.png" class="texture" title="Береза" ng-show="material.name == 'birch' && material.isShown" ></a>
+              <a href="/{{item.id}}/pine"><img src="/images/pine-texture.png" class="texture" title="Сосна" ng-show="material.name == 'pine' && material.isShown" ></a>
             </span>
             </p>
           </div>
@@ -61,7 +61,7 @@
             <p>{{item.id}}</p>
           </div>
           <div class="item-action">
-            <a href="/#!/{{item.id}}/{{item.default_settings.material}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+            <a href="/{{item.id}}/{{item.default_settings.material}}"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
           </div>
 
         </div>
