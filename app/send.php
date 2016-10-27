@@ -8,7 +8,7 @@ $date=date("d.m.y"); // число.месяц.год
  
 $time=date("H:i"); // часы:минуты:секунды 
  
-$backurl="http://kolobashkin.ru/#!/successful";  // На какую страничку переходит после отправки письма 
+$backurl="http://kolobashkin.ru/successful";  // На какую страничку переходит после отправки письма 
  
 //---------------------------------------------------------------------- // 
  
@@ -83,7 +83,7 @@ fclose($f);
  
   
 
-header('Location: http://kolobashkin.ru/#!/successful');
+header('Location: http://kolobashkin.ru/successful');
 exit;
  
  
