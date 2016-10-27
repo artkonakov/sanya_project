@@ -14,7 +14,6 @@ Redirect 301 /#!/boxes /boxes
 Redirect 301 /#!/contacts /contacts
 Redirect 301 /#!/delivery /delivery
 Redirect 301 /#!/post /post
-Redirect 301 /S231 /
 Redirect 301 /buy /shops
 Redirect 301 /kolpak /boxes
 Redirect 301 /contact /contacts
