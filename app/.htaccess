@@ -23,3 +23,5 @@ Redirect 301 /#!/S231/beech /S231/beech
 Redirect 301 /buy /shops
 Redirect 301 /kolpak /boxes
 Redirect 301 /contact /contacts
+
+RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
