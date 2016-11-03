@@ -1,75 +1,203 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://kolobashkin.ru/</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/catalog</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/boxes</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/shops</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/news</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/contacts</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/gallery</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/payment</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/post</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/delivery</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://kolobashkin.ru/cart</loc>
-  <lastmod>2016-10-25T08:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://kolobashkin.ru</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/contacts</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S231/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R160/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R170/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R470/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R570/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S26/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/post</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R3100/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R580/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P370/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S212/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S218/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/payment</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S26/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P535/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R384/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P560/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P560C/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S135/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S130/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P460C/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R160/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R460/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R260/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R560/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R460/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R560/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R270/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R180/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R180/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R480/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R1120/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R1120/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R2120/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R2120/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R5120/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P130/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P130/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P248/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S24/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S24/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S210/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S212/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S215/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/catalog</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/boxes</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/shops</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/news</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S230/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S275/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S235/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/gallery</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S220/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S26k/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S230U/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/delivery</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S255/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/cart</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P460/oak</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R170/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R280/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/R4120/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P370/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/S225/beech</loc>
+	</url>
+	<url>
+		<loc>http://kolobashkin.ru/P248/beech</loc>
+	</url>
 </urlset>
