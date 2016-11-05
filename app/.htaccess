@@ -1,3 +1,6 @@
+# Handle Prerender.io
+RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
+
 RewriteEngine On  
 
 
@@ -32,9 +35,6 @@ Redirect 301 /contact /contacts
       RewriteCond %{REQUEST_URI} ^.*/$
       RewriteCond %{REQUEST_URI} !^/$
       RewriteRule ^(.*)/$ $1 [R,QSA,L]      
-
-  # Handle Prerender.io
-    RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
 
     RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
     RewriteCond %{HTTP_USER_AGENT} Yandex(Bot|Images|Video|Media) [NC,OR]
