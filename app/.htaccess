@@ -1,8 +1,30 @@
-# Handle Prerender.io
-RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
+RewriteEngine On
+# If requested resource exists as a file or directory
+  # (REQUEST_FILENAME is only relative in virtualhost context, so not usable)
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+    # Go to it as is
+    RewriteRule ^ - [L]
 
-RewriteEngine On  
+  # If non existent
+    # If path ends with / and is not just a single /, redirect to without the trailing /
+      RewriteCond %{REQUEST_URI} ^.*/$
+      RewriteCond %{REQUEST_URI} !^/$
+      RewriteRule ^(.*)/$ $1 [R,QSA,L]      
 
+  # Handle Prerender.io
+    RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
+
+    RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} Yandex(Bot|Images|Video|Media) [NC,OR]
+    RewriteCond %{QUERY_STRING} _escaped_fragment_
+
+    # Proxy the request
+    RewriteRule ^(.*)$ http://service.prerender.io/http://%{HTTP_HOST}$1 [P,L]
+
+  # If non existent
+    # Accept everything on index.html
+    RewriteRule ^ /index.html
 
 ErrorDocument 404 /
 Redirect 301 /#!/catalog /catalog
@@ -20,29 +42,3 @@ Redirect 301 /#!/S231/beech /S231/beech
 Redirect 301 /buy /shops
 Redirect 301 /kolpak /boxes
 Redirect 301 /contact /contacts
-
-
-
-# If requested resource exists as a file or directory
-  # (REQUEST_FILENAME is only relative in virtualhost context, so not usable)
-    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
-    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
-    # Go to it as is
-    RewriteRule ^ - [L]
-
-  # If non existent
-    # If path ends with / and is not just a single /, redirect to without the trailing /
-      RewriteCond %{REQUEST_URI} ^.*/$
-      RewriteCond %{REQUEST_URI} !^/$
-      RewriteRule ^(.*)/$ $1 [R,QSA,L]      
-
-    RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
-    RewriteCond %{HTTP_USER_AGENT} Yandex(Bot|Images|Video|Media) [NC,OR]
-    RewriteCond %{QUERY_STRING} _escaped_fragment_
-
-    # Proxy the request
-    RewriteRule ^(.*)$ http://service.prerender.io/http://%{HTTP_HOST}$1 [P,L]
-
-  # If non existent
-    # Accept everything on index.html
-    RewriteRule ^ /index.html
