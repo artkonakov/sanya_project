@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="http://kolobashkin.ru">
+  <style type="text/css">
+    @charset "UTF-8";
+    [ng\:cloak],
+    [ng-cloak],
+    [data-ng-cloak],
+    [x-ng-cloak],
+    .ng-cloak,
+    .x-ng-cloak,
+    .ng-hide:not(.ng-hide-animate) {
+      display: none !important;
+    }
+
+    ng\:form {
+      display: block;
+    }
+
+    .ng-animate-shim {
+      visibility: hidden;
+    }
+
+    .ng-anchor {
+      position: absolute;
+    }
+  </style>
+  <meta charset="utf-8">
+  <title>Колобашкин.ру — Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок</title>
+  <base href="/">
+
+  <meta name="description" content="Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге">
+  <meta name="author" content="Колобашкин.ру">
+  <meta name="keywords" content="Колобашки,Подставки,Сайт для моделистов,Миниатюры,Диорамы,Военная техника,Корабли,Подводная лодка,Санкт-Петербург,Спб">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta property="business:contact_data:locality" content="Санкт-Петербург">
+  <meta property="business:contact_data:country_name" content="Россия">
+  <meta property="business:contact_data:email" content="info@kolobashkin.ru">
+  <meta property="business:contact_data:phone_number" content="+79995280010">
+  <meta property="business:contact_data:website" content="http://kolobashkin.ru/">
+  <meta property="og:title" content="Колобашкин.ру — Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://kolobashkin.ru/images/share.jpg">
+  <meta property="og:description" content="Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге">
+  <style>
+    @import "http://webfonts.ru/import/clearsans.css";
+  </style>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="stylesheet" href="styles/vendor.1c6ae93f.css">
+  <link rel="stylesheet" href="styles/main.fe57fbcb.css">
+  <meta name="fragment" content="!"> </head>
+
+<body ng-app="kolobashkinApp">
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" ng-href="/" href="/"> <img src="/images/logo.svg"> </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/cart"> Корзина </a></li>
+          <li><a href="/catalog"> Каталог </a></li>
+          <li><a href="/boxes"> Колпаки </a></li>
+          <li> <a href="/shops"> Магазины </a></li>
+          <li> <a href="/news"> Новости </a></li>
+          <li><a href="/contacts"> Контакты </a></li>
+          <li> <a href="/payment"> Оплатить </a></li>
+          <li><a href="/delivery">Доставка</a></li>
+          <li><a href="/gallery"> Галерея </a></li>
+          <li><a href="/post">Написать нам</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="hidden-xs top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-9">
+          <p class="">Россия, Санкт-Петербург</p>
+          <p><a href="tel:+79995280010">+7 999 528-00-10</a></p>
+          <p><a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></p>
+          <p><a href="http://vk.com/kolobashkin_ru">группа вКонтакте</a></p>
+        </div>
+        <div class="col-md-3 col-sm-3 header-right">
+          <p><a href="/delivery">Доставка</a></p>
+          <p>
+            <a href="/cart"> <span> Корзина </span></a>
+          </p>
+          <!-- <p><a href="/">EN</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hidden-xs nav-logo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-3 logo">
+          <a class="" ng-href="/" href="/"><img src="/images/logo.svg"></a>
+        </div>
+        <div class="col-md-8 col-sm-7 nav-header">
+          <ul class="list-inline">
+            <a href="/catalog">
+              <li>Каталог</li>
+            </a>
+            <a href="/boxes">
+              <li>Колпаки</li>
+            </a>
+            <a href="/shops">
+              <li>Магазины</li>
+            </a>
+            <a href="/news">
+              <li>Новости</li>
+            </a>
+            <a href="/contacts">
+              <li>Контакты</li>
+            </a>
+            <a href="/payment">
+              <li>Оплатить</li>
+            </a>
+            <a href="/gallery">
+              <li>Галерея</li>
+            </a>
+            <a href="/post">
+              <li>Написать нам</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 nav-cart">
+          <ngcart-summary>
+            <div class="cart-wrapper">
+              <a href="/cart">
+                <div class="cart-icon">
+                  <img src="images/shopping-cart.svg">
+                  <p> 0 </p>
+                </div>
+
+
+                <div class="cart-total">
+                  <p>0
+                    <span style="font-family: Arial;">₽<span>
+      </span></span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </ngcart-summary>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 nav-cart"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mob-contacts visible-xs">
+      <div class="col-md-12">
+        <ul class="list-inline">
+          <li>Россия, Санкт-Петербург</li>
+          <li><a href="tel:+79995280010">+7 999 528-00-10</a> | <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main-section">
+    <div class="container">
+      <!---->
+      <div ng-view="" autoscroll="true">
+        <div class="main-block">
+          <div class="row">
+            <div class="col-md-8 col-sm-6">
+              <a class="hover-block" href="/catalog">
+                <div class="promo-1 main-promo"> <img src="/images/promo-main.png">
+                  <h4>Финальных штрих для ваших моделей</h4></div>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a class="hover-block" href="/R460/oak">
+                <div class="promo-2 left-2-promo">
+                  <h4>Дарим<br>солидность</h4><img src="/images/poromo-left-1.png"></div>
+              </a>
+              <a class="hover-block" href="/P130/beech">
+                <div class="promo-3 left-3-promo">
+                  <h4>Подставки<br>от 120 руб.</h4><img src="/images/promo-left-2.png"></div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 main-margin">
+              <a class="hover-block" href="/S225/beech">
+                <div class="promo-1 right-2-promo">
+                  <h4>Подходят для любых<br>миниатюр</h4><img src="/images/promo-left-3.png"></div>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6 main-margin">
+              <a class="hover-block" href="/boxes">
+                <div class="promo-2 middle-1-promo">
+                  <h4>Прозрачные<br>колпаки<br>от 360 руб.</h4><img src="/images/promo-box.png"></div>
+              </a>
+              <a class="hover-block" href="/S275/beech">
+                <div class="promo-3 middle-2-promo"> <img src="/images/promo-mid-3.png">
+                  <h4>Для моделей любых размеров</h4></div>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-12 main-margin">
+              <a class="hover-block" href="/P460/oak">
+                <div class="promo-1 right-3-promo">
+                  <h4>Шикарным<br>моделям —<br>шикарные<br>подставки</h4><img src="/images/promo-right-4.png"></div>
+              </a>
+            </div>
+          </div>
+          <div class="row main-news">
+            <div class="">
+              <div class="col-md-6 col-xs-12">
+                <p><b>Компания «Колобашкин» рада приветствовать вас на страницах сайта!</b></p>
+                <h1>Мы — молодая, развивающаяся компания из Санкт-Петербурга, но уже успели завоевать признание у именитых скульпторов и художников. Ассортимент компании состоит из подставок для диорам, миниатюр, бюстов, моделей танков, кораблей и самолётов. Мы работаем по всей России. Желаем вам приятных покупок! </h1>
+                <p class="pull-right">С уважением, коллектив «<b>Колобашкин.ru</b>»</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <p>Обновления</p>
+                <!-- Новость -->
+                <div class="media">
+                  <div class="media-body"> <small>22 октября 2016</small>
+                    <h4 class="media-heading">Встречайте: новые варианты покрытия</h4>
+                    <p>Теперь вы можете заказать колобашки с индивидуальным покрытием: махагон, венге, морёный дуб.</p>
+                    <div class="main-kolobashka"><img src="/images/colors.jpg"></div>
+                    <p>
+                      <font size="-2">Доступные модели для индивидуального покрытия: R160B, R260B, R460B, R560B, R170B, R270B, R470B, R180B, R580B, P130B, P248B, S26B, S212B, S215B, S218B, S225B, S230B, S235B, S24B, S255B, S275B, S230UB, P460D, P460CD, P560D, P560CD,
+                        S231B, P535B, S384B, S3100B.</font>
+                    </p>
+                  </div>
+                </div>
+                <!-- Конец Новости -->
+                <!-- Новость -->
+                <div class="media">
+                  <div class="media-body"> <small>22 октября 2016</small>
+                    <h4 class="media-heading">Мы расширили ассортимент!</h4>
+                    <p>Новые модели: <a href="/P535/beech">P535B</a>, <a href="/R384/beech">R384B</a>, <a href="/R3100/beech">R3100B</a></p>
+                  </div>
+                </div>
+                <!-- Конец Новости -->
+                <!-- показать предыдущие -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 main-margin">
+              <a class="hover-block" href="/delivery">
+                <div class="promo-2 bottom-promo"> <img src="/images/package.svg">
+                  <h4>Доставка по всей России</h4></div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 main-margin">
+              <a class="hover-block" href="/shops">
+                <div class="promo-2 bottom-promo"> <img src="/images/restaurant.svg">
+                  <h4>Офлайн продажа</h4></div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 main-margin">
+              <a class="hover-block" href="/payment">
+                <div class="promo-2 bottom-promo"> <img src="/images/credit-card.svg">
+                  <h4>Оплата на сайте</h4></div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 main-margin">
+              <a class="hover-block" href="/contacts">
+                <div class="promo-2 bottom-promo"> <img src="/images/business.svg">
+                  <h4>Оптовые поставки</h4></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="list-inline">
+            <li><a href="/cart">Корзина</a></li>
+            <li><a href="/delivery">Доставка</a></li>
+            <li><a href="/catalog">Каталог</a></li>
+            <li><a href="/contacts">Контакты</a></li>
+            <li><a href="/boxes">Колпаки</a></li>
+            <li><a href="/shops">Магазины</a></li>
+            <li><a href="/gallery">Галерея</a></li>
+            <li><a href="/post">Написать нам</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+  <div id="lightbox" class="lightbox" style="display: none;">
+    <div class="lb-outerContainer">
+      <div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+        <div class="lb-nav">
+          <a class="lb-prev" href=""></a>
+          <a class="lb-next" href=""></a>
+        </div>
+        <div class="lb-loader">
+          <a class="lb-cancel"></a>
+        </div>
+      </div>
+    </div>
+    <div class="lb-dataContainer">
+      <div class="lb-data">
+        <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+        <div class="lb-closeContainer">
+          <a class="lb-close"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Yandex.Metrika counter -->
+  <!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

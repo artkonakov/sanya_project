@@ -1,28 +1,9 @@
-<IfModule mod_rewrite.c>
-    Options +FollowSymlinks
-    RewriteEngine On
+RewriteCond %{QUERY_STRING} ^_escaped_fragment_=(.*)$
+RewriteRule ^$ /snapshots/index.html? [L,NC]
 
-    # Handle Prerender.io
-    RequestHeader set X-Prerender-Token "4vy1ybKV1pLXgQk6uBc6"
-    RewriteCond %{HTTP_USER_AGENT} baiduspider|YandexBot/3.0|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|bingbot|Baiduspider|Yahoo|YahooSeeker|quora\ link\ preview|showyoubot|outbrain|pinterest|applebot [NC,OR]
-    RewriteCond %{QUERY_STRING} _escaped_fragment_
-    # Proxy the request
-    RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent|\.ttf|\.woff))(.*) http://service.prerender.io/http://%{HTTP_HOST}/$2 [P,L]
+RewriteCond %{QUERY_STRING} ^_escaped_fragment_=(.*)$
+RewriteRule ^(.*)$ /snapshots/$1.html? [L,NC]
 
-    # (REQUEST_FILENAME is only relative in virtualhost context, so not usable)
-    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
-    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
-    # Go to it as is
-    RewriteRule ^ - [L]
-
-    # If path ends with / and is not just a single /, redirect to without the trailing /
-    RewriteCond %{REQUEST_URI} ^.*/$
-    RewriteCond %{REQUEST_URI} !^/$
-    RewriteRule ^(.*)/$ $1 [R,QSA,L]
-
-    # Accept everything on index.php
-    RewriteRule ^ index.html [L]
-</IfModule>
 
 ErrorDocument 404 /
 Redirect 301 /#!/catalog /catalog
