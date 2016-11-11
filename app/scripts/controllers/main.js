@@ -21,6 +21,7 @@ angular.module('kolobashkinApp')
     });
 
     $scope.mainFilter = '';
+    $scope.mainSale = '';
     $scope.mainSort = 'sortCount';
 
   }]);

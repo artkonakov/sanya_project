@@ -382,7 +382,7 @@ img {
 }
 
 .item-sale span {
-  background: #527497;
+  background: #86bc41;
   color: #fff;
   padding: 5px 10px;
 }
@@ -407,7 +407,7 @@ img {
 }
 
 .item-fresh span {
-  background: #86bc41;
+  background: #527497;
   color: #fff;
   padding: 5px 10px;
 }
@@ -609,6 +609,31 @@ color:#337ab7;
   font-weight: bold;
   line-height: 1;
 }
+
+
+.sale-btn.active {
+  background: #86bc41;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sale-btn {
+  color: #1f0f05;
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.sale-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ed4d38;
+}
+
+.sale-btn.active:hover {
+  color: #fff;
+}
+
 
 .filters-btn.active {
   background: #ed4d38;
