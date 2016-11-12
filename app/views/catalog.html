@@ -4,7 +4,8 @@
       <p><a class="filters-btn" ng-class="{active: (mainFilter == '')}" ng-click="mainFilter = ''">Все</a></p>
       <p><a class="filters-btn" ng-class="{active: (mainFilter == 'plinth')}" ng-click="mainFilter = 'plinth'">Постаменты</a></p>
       <p><a class="filters-btn" ng-class="{active: (mainFilter == 'round')}" ng-click="mainFilter = 'round'">Круглые</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Прямоугольные {{location}}</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Прямоугольные</a></p>
+      <p><a class="sale-btn" ng-class="{active: (mainSale == '')}" ng-click="mainSale = ''">Распродажа</a></p>
     </div>
     <div class="col-md-5">
       <p><a class="filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">По умолчанию</a></p>
@@ -21,7 +22,7 @@
 
 <div class="catalog-block">
   <div class="row">
-    <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search}">
+    <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search} | filter: {sale: mainSale}">
       <div class="col-md-3 col-sm-6 " ng-show="item.isShown">
 
         <div class="wrapper">
@@ -53,10 +54,20 @@
             </span>
             </p>
           </div>
-          <div class="item-new" ng-show="item.promo">
-            <p ng-show="item.promo"> <span>{{item.promo}}</span></p>
 
+          <div class="item-new" ng-show="item.promo">
+          <p ng-show="item.promo"> <span>{{item.promo}}</span></p>
+          </div> 
+          <div class="item-exclusive" ng-show="item.exclusive">
+          <p ng-show="item.exclusive"> <span>{{item.exclusive}}</span></p>
           </div>
+          <div class="item-sale" ng-show="item.sale">
+          <p ng-show="item.sale"> <span>{{item.sale}}</span></p>
+          </div>
+          <div class="item-fresh" ng-show="item.fresh">
+          <p ng-show="item.fresh"> <span>{{item.fresh}}</span></p>
+          </div> 
+
           <div class="item-id">
             <p>{{item.id}}</p>
           </div>

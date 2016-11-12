@@ -17,6 +17,7 @@ Redirect 301 /#!/R384/beech /R384/beech
 Redirect 301 /#!/R3100/beech /R3100/beech
 Redirect 301 /#!/S26k/beech /S26k/beech
 Redirect 301 /#!/S231/beech /S231/beech
+Redirect 301 /!/boxes /boxes
 
 Redirect 301 /buy /shops
 Redirect 301 /kolpak /boxes

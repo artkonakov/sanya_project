@@ -336,6 +336,83 @@ img {
   padding: 5px 10px;
 }
 
+.item-exclusive {
+  position: absolute;
+  bottom: 280px;
+  left: 15px;
+  width: auto;
+}
+
+.item-exclusive p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.item-exclusive span {
+  background: #fdd654;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+
+.item-sale {
+  position: absolute;
+  bottom: 280px;
+  left: 15px;
+  width: auto;
+}
+
+.item-sale p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.item-sale span {
+  background: #86bc41;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.item-fresh {
+  position: absolute;
+  bottom: 280px;
+  left: 15px;
+  width: auto;
+}
+
+.item-fresh p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.item-fresh span {
+  background: #527497;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+
 .product-mat {
   display: inline-block;
   letter-spacing: 0.05em;
@@ -532,6 +609,31 @@ color:#337ab7;
   font-weight: bold;
   line-height: 1;
 }
+
+
+.sale-btn.active {
+  background: #86bc41;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sale-btn {
+  color: #1f0f05;
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.sale-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ed4d38;
+}
+
+.sale-btn.active:hover {
+  color: #fff;
+}
+
 
 .filters-btn.active {
   background: #ed4d38;
