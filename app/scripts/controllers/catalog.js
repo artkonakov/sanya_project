@@ -23,12 +23,12 @@ angular.module('kolobashkinApp')
 
     $scope.mainFilter = '';
     $scope.mainSort = 'sortCount';
-    $scope.mainSale = '';
+    $scope.mainSale = undefined;
     $scope.useSale = function () {
-      if ($scope.mainSale === '' ) {
-        $scope.mainSale = "Распродажа";
-      } else {
+      if ($scope.mainSale === undefined ) {
         $scope.mainSale = '';
+      } else {
+        $scope.mainSale = undefined;
       };
     }
   }]);
