@@ -57,6 +57,7 @@
   "materials": [
     {
       "name": "beech",
+      "oldPrice": 440,
       "price": 250,
       "weight": 120,
       "cover": "Масло, натуральный воск",
@@ -801,6 +802,7 @@
   "materials": [
     {
       "name": "oak",
+      "oldPrice": 380,      
       "price": 300,
       "weight": 80,
       "cover": "Масло, натуральный воск",
@@ -970,6 +972,7 @@
   "materials": [
     {
       "name": "beech",
+      "oldPrice": 250,
       "price": 200,
       "weight": 50,
       "cover": "Масло, натуральный воск",
