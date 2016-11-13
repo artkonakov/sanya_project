@@ -1,44 +1,90 @@
-<!doctype html> <html ng-app="kolobashkinApp"> <head> <meta charset="utf-8"> <title>{{ metatags.title }}</title> <meta name="description" content="{{ metatags.description }}"> <meta name="robots" content="{{ metatags.robots }}"> <meta name="keywords" content="{{ metatags.keywords }}"> <meta property="og:url" content="{{ metatags.fb_url }}"> <meta property="og:title" content="{{ metatags.fb_title }}"> <meta property="og:image" content="{{ metatags.fb_image }}"> <meta property="og:description" content="{{ metatags.fb_description }}"> <meta property="og:site_name" content="{{ metatags.fb_site_name }}"> <meta property="og:type" content="{{ metatags.fb_type }}"> <base href="/">  <meta name="viewport" content="width=device-width"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <link rel="shortcut icon" href="images/favicon.ico"> <meta property="business:contact_data:locality" content="Санкт-Петербург"> <meta property="business:contact_data:country_name" content="Россия"> <meta property="business:contact_data:email" content="info@kolobashkin.ru"> <meta property="business:contact_data:phone_number" content="+79995280010"> <meta property="business:contact_data:website" content="http://kolobashkin.ru/"> <style>@import "http://webfonts.ru/import/clearsans.css";</style> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.1c6ae93f.css"> <link rel="stylesheet" href="styles/main.063d3d0e.css"> </head> <body> <!--[if lte IE 8]>
+<!DOCTYPE html><html ng-app="kolobashkinApp"><head><base href="http://kolobashkin.ru"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style> <meta charset="utf-8"> <title>Колобашкин.ру — Оплатить</title> <meta name="description" content="Страница оплаты, здесь вы можете оплатить за колобашки, мы принимаем как банковские карты, так и платежи через терминалы, написать нам, задать вопрос новости о наших подставках, колобашки под миниатюры, диорамы, военная техника, корабли, подводные лодки от производителя в Санкт-Петербурге"> <meta name="robots" content=""> <meta name="keywords" content="Колобашкин, оплата, новости, акрил, оргстекло, магазины, offline, маркет, подставки, миниатюры, 1:35, 54мм, колпаки, боксы"> <meta property="og:url" content="http://kolobashkin.ru"> <meta property="og:title" content="Колобашкин.ру — Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок"> <meta property="og:image" content="http://kolobashkin.ru/images/share.jpg"> <meta property="og:description" content="Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге"> <meta property="og:site_name" content="Kolobashkin.ru"> <meta property="og:type" content="Facebook type"> <base href="/">  <meta name="viewport" content="width=device-width"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <link rel="shortcut icon" href="images/favicon.ico"> <meta property="business:contact_data:locality" content="Санкт-Петербург"> <meta property="business:contact_data:country_name" content="Россия"> <meta property="business:contact_data:email" content="info@kolobashkin.ru"> <meta property="business:contact_data:phone_number" content="+79995280010"> <meta property="business:contact_data:website" content="http://kolobashkin.ru/"> <style>@import "http://webfonts.ru/import/clearsans.css";</style> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.1c6ae93f.css"> <link rel="stylesheet" href="styles/main.063d3d0e.css"> </head> <body> <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <nav class="navbar navbar-default navbar-fixed-top visible-xs"> <div class="container-fluid"> <!-- Brand and toggle get grouped for better mobile display --> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" ng-href="/"> <img src="/images/logo.svg"> </a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li><a href="/cart"> Корзина </a></li> <li><a href="/catalog"> Каталог </a></li> <li><a href="/boxes"> Колпаки </a></li> <li> <a href="/shops"> Магазины </a></li> <li> <a href="/news"> Новости </a></li> <li><a href="/contacts"> Контакты </a></li> <li> <a href="/payment"> Оплатить </a></li> <li><a href="/delivery">Доставка</a></li> <li><a href="/gallery"> Галерея </a></li> <li><a href="/post">Написать нам</a></li> </ul> </div> <!-- /.navbar-collapse --> </div> <!-- /.container-fluid --> </nav> <div class="hidden-xs top-header"> <div class="container"> <div class="row"> <div class="col-md-9 col-sm-9"> <p class="">Россия, Санкт-Петербург</p> <p><a href="tel:+79995280010">+7 999 528-00-10</a></p> <p><a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></p> <p><a href="http://vk.com/kolobashkin_ru">группа вКонтакте</a></p> </div> <div class="col-md-3 col-sm-3 header-right"> <p><a href="/delivery">Доставка</a></p> <p> <a href="/cart"> <span> Корзина </span></a> </p> <!-- <p><a href="/">EN</a></p> --> </div> </div> </div> </div> <div class="hidden-xs nav-logo"> <div class="container"> <div class="row"> <div class="col-md-2 col-sm-3 logo"> <a class="" ng-href="/"><img src="/images/logo.svg"></a> </div> <div class="col-md-8 col-sm-7 nav-header"> <ul class="list-inline"> <a href="/catalog"> <li>Каталог</li> </a> <a href="/boxes"> <li>Колпаки</li> </a> <a href="/shops"> <li>Магазины</li> </a> <a href="/news"> <li>Новости</li> </a> <a href="/contacts"> <li>Контакты</li> </a> <a href="/payment"> <li>Оплатить</li> </a> <a href="/gallery"> <li>Галерея</li> </a> <a href="/post"> <li>Написать нам</li> </a> </ul> </div> <div class="col-md-2 col-sm-2 nav-cart"> <ngcart-summary>  </ngcart-summary></div> </div> </div> </div> <div class="nav-header"> <div class="container"> <div class="row"> <div class="col-md-12 nav-cart"> </div> </div> </div> </div> <div class="container"> <div class="row mob-contacts visible-xs"> <div class="col-md-12"> <ul class="list-inline"> <li>Россия, Санкт-Петербург</li> <li><a href="tel:+79995280010">+7 999 528-00-10</a> | <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></li> </ul> </div> </div> </div> <div class="main-section"> <div class="container"> <div ng-view="" autoscroll="true"></div> </div> </div> <div class="footer"> <div class="container"> <div class="row"> <div class="col-md-12"> <ul class="list-inline"> <li><a href="/cart">Корзина</a></li> <li><a href="/delivery">Доставка</a></li> <li><a href="/catalog">Каталог</a></li> <li><a href="/contacts">Контакты</a></li> <li><a href="/boxes">Колпаки</a></li> <li><a href="/shops">Магазины</a></li> <li><a href="/gallery">Галерея</a></li> <li><a href="/post">Написать нам</a></li> </ul> </div> </div> </div> </div> <script src="scripts/vendor.cec8e00a.js"></script> <script src="scripts/scripts.91989e03.js"></script> <!-- Yandex.Metrika counter --> <script type="text/javascript">(function(d, w, c) {
-      (w[c] = w[c] || []).push(function() {
-        try {
-          w.yaCounter31582468 = new Ya.Metrika({
-            id: 31582468,
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true,
-            trackHash: true
-          });
-        } catch (e) {}
-      });
+    <![endif]--> <nav class="navbar navbar-default navbar-fixed-top visible-xs"> <div class="container-fluid"> <!-- Brand and toggle get grouped for better mobile display --> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" ng-href="/" href="/"> <img src="/images/logo.svg"> </a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li><a href="/cart"> Корзина </a></li> <li><a href="/catalog"> Каталог </a></li> <li><a href="/boxes"> Колпаки </a></li> <li> <a href="/shops"> Магазины </a></li> <li> <a href="/news"> Новости </a></li> <li><a href="/contacts"> Контакты </a></li> <li> <a href="/payment"> Оплатить </a></li> <li><a href="/delivery">Доставка</a></li> <li><a href="/gallery"> Галерея </a></li> <li><a href="/post">Написать нам</a></li> </ul> </div> <!-- /.navbar-collapse --> </div> <!-- /.container-fluid --> </nav> <div class="hidden-xs top-header"> <div class="container"> <div class="row"> <div class="col-md-9 col-sm-9"> <p class="">Россия, Санкт-Петербург</p> <p><a href="tel:+79995280010">+7 999 528-00-10</a></p> <p><a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></p> <p><a href="http://vk.com/kolobashkin_ru">группа вКонтакте</a></p> </div> <div class="col-md-3 col-sm-3 header-right"> <p><a href="/delivery">Доставка</a></p> <p> <a href="/cart"> <span> Корзина </span></a> </p> <!-- <p><a href="/">EN</a></p> --> </div> </div> </div> </div> <div class="hidden-xs nav-logo"> <div class="container"> <div class="row"> <div class="col-md-2 col-sm-3 logo"> <a class="" ng-href="/" href="/"><img src="/images/logo.svg"></a> </div> <div class="col-md-8 col-sm-7 nav-header"> <ul class="list-inline"> <a href="/catalog"> <li>Каталог</li> </a> <a href="/boxes"> <li>Колпаки</li> </a> <a href="/shops"> <li>Магазины</li> </a> <a href="/news"> <li>Новости</li> </a> <a href="/contacts"> <li>Контакты</li> </a> <a href="/payment"> <li>Оплатить</li> </a> <a href="/gallery"> <li>Галерея</li> </a> <a href="/post"> <li>Написать нам</li> </a> </ul> </div> <div class="col-md-2 col-sm-2 nav-cart"> <ngcart-summary><div class="cart-wrapper">
+  <a href="/cart">
+    <div class="cart-icon">
+      <img src="images/shopping-cart.svg">
+      <p> 0 </p>
+    </div>
 
-      var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function() {
-          n.parentNode.insertBefore(s, n);
-        };
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-      if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-      } else {
-        f();
-      }
-    })(document, window, "yandex_metrika_callbacks");</script> <!-- /Yandex.Metrika counter --> <script>(function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <div class="cart-total">
+      <p>0
+        <span style="font-family: Arial;">₽<span>
+      </span></span></p>
+    </div>
+  </a>
+</div>
+</ngcart-summary></div> </div> </div> </div> <div class="nav-header"> <div class="container"> <div class="row"> <div class="col-md-12 nav-cart"> </div> </div> </div> </div> <div class="container"> <div class="row mob-contacts visible-xs"> <div class="col-md-12"> <ul class="list-inline"> <li>Россия, Санкт-Петербург</li> <li><a href="tel:+79995280010">+7 999 528-00-10</a> | <a href="mailto:info@kolobashkin.ru">info@kolobashkin.ru</a></li> </ul> </div> </div> </div> <div class="main-section"> <div class="container"> <!----><div ng-view="" autoscroll="true"><div class="payments-block"> <div class="row"> <div class="col-md-12"> <h1>Оплатить</h1> </div> </div> <div class="row"> <div class="col-md-6"> <form method="POST" name="paymentForm" action="https://money.yandex.ru/eshop.xml" class="ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email"> <input type="hidden" name="shopId" value="61812"> <input type="hidden" name="scid" value="56687"> <input type="hidden" name="customerNumber" size="64"> <div class="form-group"> <label>Сумма:</label> <input class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" type="number" name="sum" size="20" placeholder="Сумма в рублях" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid &amp;&amp; !paymentForm.sum.$pristine }" required=""> </div> <div class="form-group"> <label for="custName">ФИО:</label> <input type="text" name="custName" maxlength="80" placeholder="Ваше имя" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" ng-class="{ 'has-error' : paymentForm.custName.$invalid &amp;&amp; !paymentForm.custName.$pristine }" ng-model="main.custName" required=""> </div> <div class="form-group"> <label for="custAddr">Адрес доставки:</label> <input type="text" name="custAddr" maxlength="300" placeholder="Адрес доставки" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" ng-class="{ 'has-error' : paymentForm.custAddr.$invalid &amp;&amp; !paymentForm.custAddr.$pristine }" ng-model="main.custAddr" required=""> </div> <div class="form-group"> <label for="custEmail">E-mail:</label> <input type="email" name="custEmail" maxlength="300" placeholder="Электронная почта" class="form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required ng-valid-maxlength" ng-class="{ 'has-error' : paymentForm.custEmail.$invalid &amp;&amp; !paymentForm.custEmail.$pristine }" ng-model="main.custEmail" required=""> </div> <div class="form-group"> <label for="orderDetails">Содержание заказа и контактный номер телефона:</label> <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа и контактный номер телефона" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid &amp;&amp; !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required=""></textarea> </div> <div class="radio"> <label> <input type="radio" name="paymentType" checked="" value="AC"> С банковской карты </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="PC"> Со счета в Яндекс.Деньгах (яндекс кошелек) </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="WM"> Оплата cо счета WebMoney </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="AB"> Оплата через Альфа-Клик </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="QW"> Оплата через Qiwi </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="KV"> КупиВкредит </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="GP"> Оплата по коду через терминал </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="MA"> Оплата через MasterPass </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="PB"> Оплата через Промсвязьбанк </label> </div> <div class="radio"> <label> <input type="radio" name="paymentType" value="QP"> Куппи.ру </label> </div> <button type="submit" ng-disabled="paymentForm.$invalid" class="btn btn-primary" disabled="disabled">Оплатить</button> </form> <!--
 
-    ga('create', 'UA-86894756-1', 'auto');
-    ga('send', 'pageview');</script> </body> </html>
+
+        <div class="form-group">
+          <label for="cps_phone">Телефон:</label>
+          <input type="tel" name="cps_phone" placeholder="Номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.cps_phone.$invalid && !paymentForm.cps_phone.$pristine }" ng-model="main.cps_phone" required>
+        </div>
+
+
+
+        <br> Способ оплаты:
+        <br>
+        <br>
+        <input name="paymentType" value="AC" type="radio" checked="checked"> С банковской карты
+        <br>
+        <input name="paymentType" value="PC" type="radio"> Со счета в Яндекс.Деньгах (яндекс кошелек)
+        <br>
+        <input name="paymentType" value="GP" type="radio"> Оплата по коду через терминал
+        <br>
+        <input name="paymentType" value="WM" type="radio"> Оплата cо счета WebMoney
+        <br>
+        <input name="paymentType" value="AB" type="radio"> Оплата через Альфа-Клик
+        <br>
+        <input name="paymentType" value="PB" type="radio"> Оплата через Промсвязьбанк
+        <br>
+        <input name="paymentType" value="MA" type="radio"> Оплата через MasterPass
+        <br>
+        <input name="paymentType" value="QW" type="radio"> Оплата через Qiwi
+        <br>
+        <input name="paymentType" value="QP" type="radio"> Куппи.ру
+        <br>
+        <input name="paymentType" value="KV" type="radio"> КупиВкредит
+        <br>
+        <br>
+        <input type="submit" value="Оплатить">
+        <br>
+--> <!--
+Ниже перечислены доступные формы оплаты.
+Перечисленные методы оплаты могут быть доступны в боевой среде после подписания Договора.
+Какие именно методы доступны для вашего Договора, вы можете уточнить у своего персонального менеджера.
+
+AB - Альфа-Клик
+AC - банковская карта
+GP - наличные через терминал
+MA - MasterPass
+MC - мобильная коммерция
+PB -интернет-банк Промсвязьбанка
+PC - кошелек Яндекс.Денег
+SB - Сбербанк Онлайн
+WM - кошелек WebMoney
+WQ - Qiwi
+QP - Куппи.ру
+KV - КупиВкредит
+
+<input name="paymentType" value="GP" type="radio">Оплата по коду через терминал<br>
+<input name="paymentType" value="WM" type="radio">Оплата cо счета WebMoney<br>
+<input name="paymentType" value="AB" type="radio">Оплата через Альфа-Клик<br>
+<input name="paymentType" value="PB" type="radio">Оплата через Промсвязьбанк<br>
+<input name="paymentType" value="MA" type="radio">Оплата через MasterPass<br>
+<input name="paymentType" value="QW" type="radio">Оплата через Qiwi<br>
+<input name="paymentType" value="QP" type="radio">Куппи.ру<br>
+<input name="paymentType" value="KV" type="radio">КупиВкредит<br>
+    </div>
+  </div>
+</div>
+Перечисление всех методов оплаты https://tech.yandex.ru/money/doc/payment-solution/ref..
+--> <!--
+EPS и PNG файлы яндекс.кошелька
+https://money.yandex.ru/partners/doc.xml?id=522991
+
+EPS и PNG других платежных методов
+https://money.yandex.ru/doc.xml?id=526421
+--></div></div></div></div> </div> </div> <div class="footer"> <div class="container"> <div class="row"> <div class="col-md-12"> <ul class="list-inline"> <li><a href="/cart">Корзина</a></li> <li><a href="/delivery">Доставка</a></li> <li><a href="/catalog">Каталог</a></li> <li><a href="/contacts">Контакты</a></li> <li><a href="/boxes">Колпаки</a></li> <li><a href="/shops">Магазины</a></li> <li><a href="/gallery">Галерея</a></li> <li><a href="/post">Написать нам</a></li> </ul> </div> </div> </div> </div> <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>  <!-- Yandex.Metrika counter -->  <!-- /Yandex.Metrika counter -->   </body></html>
