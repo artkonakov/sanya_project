@@ -1,4 +1,4 @@
-
+RewriteEngine On
 RewriteCond %{QUERY_STRING} ^_escaped_fragment_=(.*)$
 RewriteRule ^$ /snapshots/index.html? [L,NC]
 
