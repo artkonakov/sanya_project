@@ -15,7 +15,8 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S26kB@3x.jpg",
-    "price": 500
+    "price": 500,
+    "salePrice": 400
   },
   "materials": [
     {
