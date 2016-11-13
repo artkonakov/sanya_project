@@ -34,8 +34,7 @@ angular
 .config(['$compileProvider', '$locationProvider', '$routeProvider', 'MetaTagsProvider', function($compileProvider, $locationProvider, $routeProvider, MetaTagsProvider) {
 
   $locationProvider.html5Mode({
-    enabled: true,
-    requireBase: false
+    enabled: true
   });
   $compileProvider.debugInfoEnabled(false);
   $routeProvider
@@ -213,7 +212,7 @@ angular
       fb_description: 'Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге',
       fb_type: 'Facebook type',
       fb_image: 'http://kolobashkin.ru/images/share.jpg'
-    })                    
+    })
     .when('/:item/:material', {
       title: function(item, material) {
         var seomaterial;
