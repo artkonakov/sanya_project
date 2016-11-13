@@ -37,7 +37,8 @@
 
 
           <div class="item-description">
-            <p>{{item.default_settings.price}} <span style="font-family: Arial;">&#8381;</span></p>
+            <p ng-if="item.default_settings.salePrice !== undefined"><Strike>{{item.default_settings.price}}<span style="font-family: Arial;">&#8381;</span></Strike> <font size=+2>{{item.default_settings.salePrice}}</font> <span style="font-family: Arial;">&#8381;</span></p>
+            <p ng-if="item.default_settings.salePrice == undefined">{{item.default_settings.price}} <span style="font-family: Arial;">&#8381;</span></p>
           </div>
 
           <div class="item-sizes">
