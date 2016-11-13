@@ -13,8 +13,12 @@
       <p><a class="filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">Сначала дороже</a></p>
     </div>
 
-    <div class="col-md-2">
+    <div class="col-md-1">
         <p><a class="sale-btn" ng-class="{active: (mainSale !== undefined)}" ng-click="useSale()">Распродажа</a></p>
+    </div>
+
+    <div class="col-md-1">
+        <p><a class="reduction-btn" ng-class="{active: (mainReduction !== undefined)}" ng-click="useReduction()">Уценка</a></p>
     </div>
 
     <div class="col-md-2">
@@ -26,7 +30,7 @@
 
 <div class="catalog-block">
   <div class="row">
-    <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search} | filter: {sale: mainSale}">
+    <div class="repeat-animation" ng-repeat="item in items | orderBy: mainSort | filter: {type: mainFilter} | filter : {id: search} | filter: {sale: mainSale}| filter: {reduction: mainReduction}">
       <div class="col-md-3 col-sm-6 " ng-show="item.isShown">
 
         <div class="wrapper">
@@ -68,8 +72,8 @@
           <div class="item-sale" ng-show="item.sale">
             <p ng-show="item.sale"> <span>{{item.sale}}</span></p>
           </div>
-          <div class="item-fresh" ng-show="item.fresh">
-            <p ng-show="item.fresh"> <span>{{item.fresh}}</span></p>
+          <div class="item-reduction" ng-show="item.reduction">
+            <p ng-show="item.reduction"> <span>{{item.reduction}}</span></p>
           </div>
 
           <div class="item-id">

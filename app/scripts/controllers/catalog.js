@@ -31,4 +31,11 @@ angular.module('kolobashkinApp')
         $scope.mainSale = undefined;
       };
     }
+    $scope.useReduction = function () {
+      if ($scope.mainReduction === undefined ) {
+        $scope.mainReduction = '';
+      } else {
+        $scope.mainReduction = undefined;
+      };
+    }
   }]);

@@ -387,14 +387,14 @@ img {
   padding: 5px 10px;
 }
 
-.item-fresh {
+.item-reduction {
   position: absolute;
   bottom: 280px;
   left: 15px;
   width: auto;
 }
 
-.item-fresh p {
+.item-reduction p {
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 0.05em;
@@ -406,7 +406,7 @@ img {
   padding-right: 20px;
 }
 
-.item-fresh span {
+.item-reduction span {
   background: #527497;
   color: #fff;
   padding: 5px 10px;
@@ -634,6 +634,33 @@ color:#337ab7;
 }
 
 .sale-btn.active:hover {
+  color: #fff;
+}
+
+
+.sale-btn.active {
+  background: #86bc41;
+  color: #fff;
+  text-decoration: none;
+}
+
+.reduction-btn {
+  color: #527497;
+  font-size: 12px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #527497;
+}
+
+.reduction-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background: #6e9ac6;
+}
+
+.reduction-btn.active:hover {
   color: #fff;
 }
 
