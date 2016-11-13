@@ -644,6 +644,13 @@ color:#337ab7;
   text-decoration: none;
 }
 
+.reduction-btn.active {
+  background: #527497;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .reduction-btn {
   color: #527497;
   font-size: 12px;
