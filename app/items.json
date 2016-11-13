@@ -51,8 +51,8 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S231B@3x.jpg",
-    "price": 440,
-    "salePrice": 250
+    "oldPrice": 440,
+    "price": 250
   },
   "materials": [
     {
@@ -796,8 +796,8 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R180D@3x.jpg",
-    "price": 380,
-    "salePrice": 300
+    "oldPrice": 380,
+    "price": 300
   },
   "materials": [
     {
@@ -966,8 +966,8 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R580B@3x.jpg",
-    "price": 250,
-    "salePrice": 200
+    "oldPrice": 250,
+    "price": 200
   },
   "materials": [
     {
