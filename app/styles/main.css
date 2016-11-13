@@ -1114,3 +1114,12 @@ margin-bottom: 0px;
 .forma-zayavki {
   margin-bottom: 30px;
 }
+.salePrice {
+  font-size: 0.8em;
+  color: #787878;
+
+}
+.oldPrice {
+  font-size: 0.8em;
+  color: #787878;
+}

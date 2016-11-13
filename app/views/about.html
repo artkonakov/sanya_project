@@ -29,7 +29,7 @@
       <small>{{globals.text_vendor_code}}</small>
       <h1>{{currentArrayMaterial.vendor_code}}</h1>
       <div class="buy-block">
-        <h1><currency ng-if="(globals.currency == '$')">$</currency><Strike><font size=5>{{currentArrayMaterial.oldPrice}}<span style="font-family: Arial;">&#8381;</span></font></Strike> {{currentArrayMaterial.price}} <currency ng-if="(globals.currency == 'Rub')"><span style="font-family: Arial;">&#8381;</span></currency></h1>
+        <h1><currency ng-if="(globals.currency == '$')">$</currency><Strike ng-show="{{!currentArrayMaterial.oldPrice}}"><font class="oldPrice">{{currentArrayMaterial.oldPrice}}</font></Strike> {{currentArrayMaterial.price}} <currency ng-if="(globals.currency == 'Rub')"><span style="font-family: Arial;">&#8381;</span></currency></h1>
         <div class="buy-button">
           <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30" data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
         </div>
