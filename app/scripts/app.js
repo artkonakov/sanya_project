@@ -32,7 +32,11 @@ angular
 })
 
 .config(['$compileProvider', '$locationProvider', '$routeProvider', 'MetaTagsProvider', function($compileProvider, $locationProvider, $routeProvider, MetaTagsProvider) {
-  $locationProvider.html5Mode(true);
+
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
   $compileProvider.debugInfoEnabled(false);
   $routeProvider
     .when('/', {
@@ -125,66 +129,66 @@ angular
             seomaterial = 'береза';
             break;
           case 'pine':
-              seomaterial = 'сосна';
-              break;
+            seomaterial = 'сосна';
+            break;
           default:
             seomaterial = material;
         }
         return 'Модель: :item. Материал: ' + seomaterial;
       },
-      description: function(item, material){
-      return 'Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге';
-    },
-    robots: 'index, follow',
-    keywords: function(item, material){
-      var keywords = ['Колобашки','Подставки','Сайт для моделистов','Миниатюры','Диорамы','Военная техника','Корабли','Подводная лодка','Санкт-Петербург','Спб'];
-      var seomaterial;
-      switch (material) {
-        case 'beech':
-          seomaterial = 'бук';
-          break;
-        case 'oak':
-          seomaterial = 'дуб';
-          break;
-        case 'birch':
-          seomaterial = 'береза';
-          break;
-        case 'pine':
+      description: function(item, material) {
+        return 'Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге';
+      },
+      robots: 'index, follow',
+      keywords: function(item, material) {
+        var keywords = ['Колобашки', 'Подставки', 'Сайт для моделистов', 'Миниатюры', 'Диорамы', 'Военная техника', 'Корабли', 'Подводная лодка', 'Санкт-Петербург', 'Спб'];
+        var seomaterial;
+        switch (material) {
+          case 'beech':
+            seomaterial = 'бук';
+            break;
+          case 'oak':
+            seomaterial = 'дуб';
+            break;
+          case 'birch':
+            seomaterial = 'береза';
+            break;
+          case 'pine':
             seomaterial = 'сосна';
             break;
-        default:
-          seomaterial = material;
-      };
-      keywords.push(item, seomaterial);
-      return keywords.join(', ');
-    },
-    fb_title: function(item, material) {
-      var seomaterial;
-      switch (material) {
-        case 'beech':
-          seomaterial = 'бук';
-          break;
-        case 'oak':
-          seomaterial = 'дуб';
-          break;
-        case 'birch':
-          seomaterial = 'береза';
-          break;
-        case 'pine':
+          default:
+            seomaterial = material;
+        };
+        keywords.push(item, seomaterial);
+        return keywords.join(', ');
+      },
+      fb_title: function(item, material) {
+        var seomaterial;
+        switch (material) {
+          case 'beech':
+            seomaterial = 'бук';
+            break;
+          case 'oak':
+            seomaterial = 'дуб';
+            break;
+          case 'birch':
+            seomaterial = 'береза';
+            break;
+          case 'pine':
             seomaterial = 'сосна';
             break;
-        default:
-          seomaterial = material;
-      }
-      return 'Модель: :item. Материал: ' + seomaterial;
-    },
-    fb_site_name: 'Kolobashkin.ru',
-    fb_url: function(item, material) {
-      return 'http://kolobashkin.ru/:item/:material'
-    },
-    fb_description: 'Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге',
-    fb_type: 'Facebook type',
-    fb_image: 'http://kolobashkin.ru/images/share.jpg'
+          default:
+            seomaterial = material;
+        }
+        return 'Модель: :item. Материал: ' + seomaterial;
+      },
+      fb_site_name: 'Kolobashkin.ru',
+      fb_url: function(item, material) {
+        return 'http://kolobashkin.ru/:item/:material'
+      },
+      fb_description: 'Подставки для моделей, миниатюр, диорам, военной техники, кораблей, подводных лодок от производителя в Санкт-Петербурге',
+      fb_type: 'Facebook type',
+      fb_image: 'http://kolobashkin.ru/images/share.jpg'
 
     });
 
