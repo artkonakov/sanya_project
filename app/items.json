@@ -52,12 +52,12 @@
     "material": "beech",
     "image": "/images/items/S231B@3x.jpg",
     "price": 440,
-    "salePrice": 350
+    "salePrice": 250
   },
   "materials": [
     {
       "name": "beech",
-      "price": 350,
+      "price": 250,
       "weight": 120,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
