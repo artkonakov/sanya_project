@@ -93,7 +93,7 @@ for ($i=0; $i<=$count; $i++)
 
   mail("$adminemail", "$date $time Сообщение от $name, телефон: $tel, адрес: $address, промокод: $promo", "$msg", $headers);
 
-
+  mail("$email", "$date $time Сообщение от $name, телефон: $tel, адрес: $address, промокод: $promo", "$msg", $headers);
 
   // Сохраняем в базу данных
 

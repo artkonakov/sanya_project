@@ -1,4 +1,112 @@
 [{
+  "id": "P440",
+  "type": "plinth",
+  "length_top": 40,
+  "width_top": 40,
+  "length_bottom": 40,
+  "width_bottom": 40,
+  "height": 50,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 20,
+  "isShown": true,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/P440D@3x.jpg",
+    "price": 300
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 300,
+      "weight": 55,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "P440D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/P440D@3x.jpg"
+      }]
+    }
+  ]
+},
+{
+  "id": "P628",
+  "type": "plinth",
+  "length_top": null,
+  "width_top": null,
+  "length_bottom": null,
+  "width_bottom": null,
+  "height": 13,
+  "diameter_top": 28,
+  "diameter_bottom": 35,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 21,
+  "isShown": true,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/P628D@3x.jpg",
+    "price": 230
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 230,
+      "weight": 6,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "P628D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/P628D@3x.jpg"
+      }]
+    }
+  ]
+},
+{
+  "id": "S212U",
+  "type": "square",
+  "length_top": 120,
+  "width_top": 50,
+  "length_bottom": 140,
+  "width_bottom": 70,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 22,
+  "isShown": true,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S212UD@3x.jpg",
+    "price": 430
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 430,
+      "weight": 107,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S212UD",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S212UD@3x.jpg"
+      }]
+    }
+  ]
+},
+{
   "id": "S26k",
   "type": "square",
   "length_top": 60,
@@ -44,21 +152,19 @@
   "height": 17,
   "diameter_top": null,
   "diameter_bottom": null,
-  "sale": "Распродажа",
+  "promo": "Новинка!",
   "promo_en": "",
   "sortCount": 29,
   "isShown": true,
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S231B@3x.jpg",
-    "oldPrice": 440,
-    "price": 250
+    "price": 440
   },
   "materials": [
     {
       "name": "beech",
-      "oldPrice": 440,
-      "price": 250,
+      "price": 440,
       "weight": 120,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",

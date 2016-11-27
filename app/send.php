@@ -67,7 +67,8 @@ href='javascript:history.back(1)'><B>назад</B></a>. Вы
 mail("$adminemail", "$date $time Сообщение 
 от $name, телефон: $tel", "$msg", $headers); 
  
-  
+mail("$email", "$date $time Сообщение 
+от $name, телефон: $tel", "$msg", $headers); 
  
 // Сохраняем в базу данных 
  
