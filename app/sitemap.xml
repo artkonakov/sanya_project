@@ -1,805 +1,403 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>http://kolobashkin.ru</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/contacts</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S231/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R160/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R170/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R470/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R570/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S26/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/post</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R3100/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R580/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P370/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S212/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S218/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/payment</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S26/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P535/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R384/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P560/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P560C/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S135/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S130/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P460C/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R160/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R460/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R260/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R560/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R460/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R560/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R270/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R180/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R180/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R480/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R1120/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R1120/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R2120/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R2120/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R5120/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P130/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P130/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P248/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S24/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S24/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S210/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S212/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S215/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/catalog</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/boxes</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>1</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/shops</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/news</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S230/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S275/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S235/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/gallery</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S220/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S26k/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S230U/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/delivery</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S255/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/cart</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P460/oak</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R170/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R280/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/R4120/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P370/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/S225/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
-	<url>
-		<loc>http://kolobashkin.ru/P248/beech</loc>
-	     <lastmod>2016-11-10</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-</url>
 <url>
 		<loc>http://kolobashkin.ru/?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
-     <priority>1</priority>
+     <priority>0.5</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/contacts?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S231/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R160/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R170/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R470/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R570/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S26/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/post?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R3100/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R580/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P370/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S212/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S218/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/payment?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S26/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P535/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R384/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P560/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P560C/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S135/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S130/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P460C/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R160/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R460/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R260/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R560/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R460/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R560/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R270/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R180/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R180/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R480/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R1120/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R1120/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R2120/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R2120/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R5120/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P130/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P130/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P248/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S24/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S24/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S210/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S212/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S215/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/catalog?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>1</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/boxes?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
-     <priority>1</priority>
+     <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/shops?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/news?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S230/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S275/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S235/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/gallery?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S220/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S26k/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S230U/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/delivery?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S255/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/cart?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P460/oak?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R170/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R280/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/R4120/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P370/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/S225/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>
 	<url>
 		<loc>http://kolobashkin.ru/P248/beech?_escaped_fragment_=</loc>
-	     <lastmod>2016-11-11</lastmod>
+	     <lastmod>2017-01-01</lastmod>
      <changefreq>weekly</changefreq>
      <priority>0.8</priority>
 </url>

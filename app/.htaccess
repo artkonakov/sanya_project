@@ -1,9 +1,25 @@
-RewriteEngine On
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
-RewriteRule ^ - [L]
-
-RewriteCond %{QUERY_STRING} ^_escaped_fragment_=$
-RewriteRule ^(.*)$ snapshots/stat_$1.html [NC]
-
-ErrorDocument 404 /
+ RewriteEngine On
+ RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+ RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+ RewriteRule ^ - [L]
+ 
+ RewriteCond %{QUERY_STRING} ^_escaped_fragment_=(.*)$
+ RewriteRule ^(.*)$ /snapshots/$1.html [L,NC]
+ 
+ ErrorDocument 404 /
+ Redirect 301 /#!/catalog /catalog
+ Redirect 301 /#!/shops /shops
+ Redirect 301 /#!/boxes /boxes
+ Redirect 301 /#!/contacts /contacts
+ Redirect 301 /#!/delivery /delivery
+ Redirect 301 /#!/post /post
+ Redirect 301 /#!/P535/beech /P535/beech
+ Redirect 301 /#!/R384/beech /R384/beech
+ Redirect 301 /#!/R3100/beech /R3100/beech
+ Redirect 301 /#!/S26k/beech /S26k/beech
+ Redirect 301 /#!/S231/beech /S231/beech
+ Redirect 301 /!/boxes /boxes
+ Redirect 301 /S231#! /
+ Redirect 301 /buy /shops
+ Redirect 301 /kolpak /boxes
+ Redirect 301 /contact /contacts
