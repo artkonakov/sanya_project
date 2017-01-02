@@ -35,7 +35,8 @@ angular
 
   $locationProvider.html5Mode({
     enabled: true
-  });
+  })
+
   $compileProvider.debugInfoEnabled(false);
   $routeProvider
     .when('/', {

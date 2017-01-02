@@ -4,6 +4,6 @@ RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
 RewriteRule ^ - [L]
 
 RewriteCond %{QUERY_STRING} ^_escaped_fragment_=$
-RewriteRule ^(.*)$ snapshots/stat_$1.html? [NC]
+RewriteRule ^(.*)$ snapshots/stat_$1.html [NC]
 
 ErrorDocument 404 /
