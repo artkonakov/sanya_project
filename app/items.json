@@ -2298,19 +2298,18 @@
   "height": 17,
   "diameter_top": null,
   "diameter_bottom": null,
-  "reduction": "Уценка",
   "promo_en": "",
   "sortCount": 450,
   "isShown": true,
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S255B@3x.jpg",
-    "price": 700
+    "price": 1300
   },
   "materials": [
     {
       "name": "beech",
-      "price": 700,
+      "price": 1300,
       "weight": 1030,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -2345,12 +2344,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S275B@3x.jpg",
-    "price": 1400
+    "price": 1700
   },
   "materials": [
     {
       "name": "beech",
-      "price": 1400,
+      "price": 1700,
       "weight": 1400,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
