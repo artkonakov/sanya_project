@@ -1,4 +1,78 @@
 [{
+  "id": "S218p",
+  "type": "square",
+  "length_top": 180,
+  "width_top": 100,
+  "length_bottom": 200,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 18,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S218Bp@3x.jpg",
+    "price": 600
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 600,
+      "weight": 250,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S218Bp",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S218Bp@3x.jpg"
+      }, {
+        "link": "/images/items/S218B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+{
+  "id": "S215p",
+  "type": "square",
+  "length_top": 150,
+  "width_top": 100,
+  "length_bottom": 170,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 19,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S215Bp@3x.jpg",
+    "price": 450
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 450,
+      "weight": 220,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S215Bp",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S215Bp@3x.jpg"
+      }]
+    }
+  ]
+},
+  {
   "id": "P440",
   "type": "plinth",
   "length_top": 40,
@@ -8,7 +82,7 @@
   "height": 50,
   "diameter_top": null,
   "diameter_bottom": null,
-  "promo": "Новинка!",
+  "promo": "",
   "promo_en": "",
   "sortCount": 20,
   "isShown": true,
@@ -44,7 +118,7 @@
   "height": 13,
   "diameter_top": 28,
   "diameter_bottom": 35,
-  "promo": "Новинка!",
+  "promo": "",
   "promo_en": "",
   "sortCount": 21,
   "isShown": true,
@@ -80,7 +154,7 @@
   "height": 17,
   "diameter_top": null,
   "diameter_bottom": null,
-  "promo": "Новинка!",
+  "promo": "",
   "promo_en": "",
   "sortCount": 22,
   "isShown": true,
