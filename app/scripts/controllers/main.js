@@ -11,11 +11,11 @@ angular.module('kolobashkinApp')
   .controller("MainCtrl", ['$scope', 'getItems', function($scope, getItems) {
 
     //Делаем запрос к серверу через фабрику
-    getItems.getUrl('/items.json').success(function(response) {
+    getItems.getUrl('/items.json').then(function(response) {
       $scope.items = response;
 
     });
-    getItems.getUrl('/globals.json').success(function(response) {
+    getItems.getUrl('/globals.json').then(function(response) {
       $scope.globals = response;
 
     });

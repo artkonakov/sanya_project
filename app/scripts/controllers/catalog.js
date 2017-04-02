@@ -12,12 +12,12 @@ angular.module('kolobashkinApp')
 
 
     //Делаем запрос к серверу через фабрику
-    getItems.getUrl('/items.json').success(function(response) {
-      $scope.items = response;
+    getItems.getUrl('/items.json').then(function(response) {
+      $scope.items = response.data;
 
     });
-    getItems.getUrl('/globals.json').success(function(response) {
-      $scope.globals = response;
+    getItems.getUrl('/globals.json').then(function(response) {
+      $scope.globals = response.data;
 
     });
 
