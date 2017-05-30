@@ -1,4 +1,77 @@
-[{
+[
+{
+  "id": "P411",
+  "type": "plinth",
+  "length_top": 150,
+  "width_top": 110,
+  "length_bottom": 170,
+  "width_bottom": 130,
+  "height": 40,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 16,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/P411B@3x.jpg",
+    "price": 850
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 850,
+      "weight": 570,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "P411B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/P411B@3x.jpg"
+      }]
+    }
+  ]
+},
+{
+  "id": "P410",
+  "type": "plinth",
+  "length_top": 120,
+  "width_top": 100,
+  "length_bottom": 140,
+  "width_bottom": 120,
+  "height": 40,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "Новинка!",
+  "promo_en": "",
+  "sortCount": 17,
+  "isShown": true,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/P410B@3x.jpg",
+    "price": 750
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 750,
+      "weight": 440,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "P411B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/P411B@3x.jpg"
+      }]
+    }
+  ]
+},
+{
   "id": "S218p",
   "type": "square",
   "length_top": 180,
